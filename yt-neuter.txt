@@ -1,0 +1,49 @@
+[uBlock Origin]
+! Title: YouTube Neuter
+! Last modified: 4/8/2022
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter
+! Licence: Unlicense
+!
+
+! voice search button
+youtube.com###voice-search-button
+! Community Posts
+##.ytd-rich-section-renderer
+
+# videos
+! buttons
+! join button
+youtube.com###sponsor-button
+! download button
+youtube.com##ytd-download-button-renderer
+! subscribe
+youtube.com###subscribe-button
+! thanks button
+youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
+! clip button
+youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip)))
+
+! chat
+youtube.com###chat
+! fast forward icons
+youtube.com##.ytp-doubletap-ui-legacy
+! fundraiser
+youtube.com###donation-shelf
+! recommendations scroller
+youtube.com###scroll-container
+! autoplay
+youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
+! info card
+youtube.com##.ytp-cards-button-icon-default
+! annotations
+youtube.com##.ytp-ce-element
+
+! Mixes
+youtube.com##.ytd-compact-radio-renderer
+
+! YT Music
+youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
+
+! Buy Product Badge
+youtube.com##.ytp-suggested-action-badge
