@@ -2,7 +2,7 @@
 ! Title: YouTube Neuter
 ! Last modified: 4/8/2022
 ! Expires: 10 days
-! Homepage: https://github.com/mchangrh/yt-neuter
+! Homepage: https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22
 ! Licence: Unlicense
 !
 
