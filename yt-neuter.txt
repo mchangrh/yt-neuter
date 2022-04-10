@@ -9,7 +9,7 @@
 ! voice search button
 youtube.com###voice-search-button
 ! Community Posts
-##.ytd-rich-section-renderer
+youtube.com##.ytd-rich-section-renderer
 
 # videos
 ! buttons
