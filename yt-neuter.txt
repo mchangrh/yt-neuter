@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 4/8/2022
+! Last modified: 2022/05/19
 ! Expires: 10 days
 ! Homepage: https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22
 ! Licence: Unlicense
@@ -38,6 +38,8 @@ youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
 youtube.com##.ytp-cards-button-icon-default
 ! annotations
 youtube.com##.ytp-ce-element
+! clarify / covid-19 box
+youtube.com###clarify-box
 
 ! Mixes
 youtube.com##.ytd-compact-radio-renderer
