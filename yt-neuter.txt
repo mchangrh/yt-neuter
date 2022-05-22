@@ -35,7 +35,7 @@ youtube.com##.yt-related-chip-cloud-renderer
 ! autoplay
 youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
 ! info card
-youtube.com##.ytp-cards-button-icon-default
+youtube.com##.ytp-cards-button-icon
 ! annotations
 youtube.com##.ytp-ce-element
 ! clarify / covid-19 box
