@@ -43,7 +43,8 @@ youtube.com###clarify-box
 
 ! Mixes
 youtube.com##.ytd-compact-radio-renderer
-
+! Movie Suggestions
+youtube.com##ytd-compact-movie-renderer
 ! YT Music
 youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
 
