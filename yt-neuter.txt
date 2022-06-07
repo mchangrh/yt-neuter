@@ -49,7 +49,6 @@ youtube.com###clarify-box
 ! channel member comment badge
 youtube.com##span#sponsor-comment-badge
 
-
 ## sidebar
 ! chat
 youtube.com###chat
