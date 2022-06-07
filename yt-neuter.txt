@@ -5,14 +5,26 @@
 ! Homepage: https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22
 ! Licence: Unlicense
 !
-
+# global
 ! voice search button
 youtube.com###voice-search-button
+
+# homepage
 ! Community Posts
 youtube.com##.ytd-rich-section-renderer
 
 # videos
-## video description
+## overlay / player
+! fast forward icons
+youtube.com##.ytp-doubletap-ui-legacy
+! autoplay
+youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
+! info card
+youtube.com##.ytp-cards-button-icon
+! annotations
+youtube.com##.ytp-ce-element
+
+## interaction row
 ! buttons
 ! join button
 youtube.com###sponsor-button
@@ -27,36 +39,32 @@ youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip))
 ! share
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Share)))
 
-! chat
-youtube.com###chat
-! fast forward icons
-youtube.com##.ytp-doubletap-ui-legacy
-! fundraiser
-youtube.com###donation-shelf
-! recommendations scroller
-youtube.com##.yt-related-chip-cloud-renderer
-! autoplay
-youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
-! info card
-youtube.com##.ytp-cards-button-icon
-! annotations
-youtube.com##.ytp-ce-element
+## video description
+! Buy Product Badge
+youtube.com##.ytp-suggested-action-badge
+! Ticket shelf
+youtube.com###ticket-shelf
 ! clarify / covid-19 box
 youtube.com###clarify-box
 
-## video sidebar
+## sidebar
+! chat
+youtube.com###chat
+! fundraiser
+youtube.com###donation-shelf
+
+## recommendations sidebar
+! recommendations categories
+youtube.com##.yt-related-chip-cloud-renderer
 ! Mixes
 youtube.com##.ytd-compact-radio-renderer
 ! Movie Suggestions
 youtube.com##ytd-compact-movie-renderer
 ! YT Music
 youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
-
-! Buy Product Badge
-youtube.com##.ytp-suggested-action-badge
-
-! Ticket shelf
-youtube.com###ticket-shelf
+! New/ Fundraiser badges
+youtube.com##.badge:has(span:has-text(Fundraiser))
+youtube.com##.badge:has(span:has-text(New))
 
 # channel page
 ! recognized channel member
