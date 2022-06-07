@@ -46,6 +46,9 @@ youtube.com##.ytp-suggested-action-badge
 youtube.com###ticket-shelf
 ! clarify / covid-19 box
 youtube.com###clarify-box
+! channel member comment badge
+youtube.com##span#sponsor-comment-badge
+
 
 ## sidebar
 ! chat
