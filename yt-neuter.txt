@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2022/05/26
+! Last modified: 2022/06/07
 ! Expires: 10 days
 ! Homepage: https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22
 ! Licence: Unlicense
@@ -12,6 +12,7 @@ youtube.com###voice-search-button
 youtube.com##.ytd-rich-section-renderer
 
 # videos
+## video description
 ! buttons
 ! join button
 youtube.com###sponsor-button
@@ -23,6 +24,8 @@ youtube.com###subscribe-button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 ! clip button
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip)))
+! share
+youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Share)))
 
 ! chat
 youtube.com###chat
@@ -41,6 +44,7 @@ youtube.com##.ytp-ce-element
 ! clarify / covid-19 box
 youtube.com###clarify-box
 
+## video sidebar
 ! Mixes
 youtube.com##.ytd-compact-radio-renderer
 ! Movie Suggestions
@@ -53,3 +57,7 @@ youtube.com##.ytp-suggested-action-badge
 
 ! Ticket shelf
 youtube.com###ticket-shelf
+
+# channel page
+! recognized channel member
+youtube.com##.ytd-recognition-shelf-renderer
