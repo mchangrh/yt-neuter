@@ -1,20 +1,21 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2022/06/07
+! Last modified: 2022/06/16
 ! Expires: 10 days
 ! Homepage: https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22
 ! Licence: Unlicense
 !
-# global
+## global
 ! voice search button
 youtube.com###voice-search-button
+! blocks external links in description
+||youtube.com/redirect?event=video_description^$document
 
-# homepage
-! Community Posts
+## homepage
+! community posts
 youtube.com##.ytd-rich-section-renderer
 
-# videos
-## overlay / player
+## in-video overlay / player
 ! fast forward icons
 youtube.com##.ytp-doubletap-ui-legacy
 ! autoplay
@@ -25,27 +26,32 @@ youtube.com##.ytp-cards-button-icon
 youtube.com##.ytp-ce-element
 
 ## interaction row
-! buttons
 ! join button
 youtube.com###sponsor-button
 ! download button
 youtube.com##ytd-download-button-renderer
-! subscribe
-youtube.com###subscribe-button
-! thanks button
-youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 ! clip button
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip)))
 ! share
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Share)))
 
+## profile row
+! subscribe
+youtube.com###subscribe-button
+! thanks button
+youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
+
 ## video description
+! fundraiser tag
+youtube.com##ytd-badge-supported-renderer
 ! Buy Product Badge
 youtube.com##.ytp-suggested-action-badge
 ! Ticket shelf
 youtube.com###ticket-shelf
 ! clarify / covid-19 box
 youtube.com###clarify-box
+
+## comments
 ! channel member comment badge
 youtube.com##span#sponsor-comment-badge
 
@@ -58,16 +64,16 @@ youtube.com###donation-shelf
 ## recommendations sidebar
 ! recommendations categories
 youtube.com##.yt-related-chip-cloud-renderer
-! Mixes
+! mixes
 youtube.com##.ytd-compact-radio-renderer
-! Movie Suggestions
+! movie Suggestions
 youtube.com##ytd-compact-movie-renderer
-! YT Music
+! yt music
 youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
-! New/ Fundraiser badges
+! new/ fundraiser badges
 youtube.com##.badge:has(span:has-text(Fundraiser))
 youtube.com##.badge:has(span:has-text(New))
 
-# channel page
+## channel page
 ! recognized channel member
 youtube.com##.ytd-recognition-shelf-renderer
