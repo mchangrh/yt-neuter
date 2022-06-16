@@ -77,3 +77,5 @@ youtube.com##.badge:has(span:has-text(New))
 ## channel page
 ! recognized channel member
 youtube.com##.ytd-recognition-shelf-renderer
+! channel banner
+youtube.com##.banner-visible-area
