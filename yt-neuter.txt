@@ -14,6 +14,9 @@ youtube.com###voice-search-button
 ## homepage
 ! community posts
 youtube.com##.ytd-rich-section-renderer
+! mixes
+youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix/))
+
 
 ## in-video overlay / player
 ! fast forward icons
