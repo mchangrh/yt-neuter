@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2022/06/24
+! Last modified: 2022/06/27
 ! Expires: 10 days
 ! Homepage: https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22
 ! Licence: Unlicense
