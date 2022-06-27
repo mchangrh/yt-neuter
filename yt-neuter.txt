@@ -92,3 +92,5 @@ youtube.com##.badge:has(span:has-text(New))
 youtube.com##.ytd-recognition-shelf-renderer
 ! channel banner
 youtube.com##.banner-visible-area
+! channel store tab
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
