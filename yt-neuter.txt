@@ -17,6 +17,12 @@ youtube.com##.ytd-rich-section-renderer
 ! mixes
 youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix/))
 
+## sidebar
+! premium
+youtube.com##a.ytd-guide-entry-renderer[href="/premium"]
+! shorts
+youtube.com##ytd-guide-entry-renderer:has(#endpoint>tp-yt-paper-item>yt-formatted-string:has-text(Shorts))
+
 ## in-video overlay / player
 ! fast forward icons
 youtube.com##.ytp-doubletap-ui-legacy
@@ -46,18 +52,20 @@ youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thank
 ## video description
 ! fundraiser tag
 youtube.com##ytd-badge-supported-renderer
-! Buy Product Badge
+! buy product badge
 youtube.com##.ytp-suggested-action-badge
 
 ## under description metadata box
-! Ticket shelf
+! ticket shelf
 youtube.com###ticket-shelf
 ! clarify / covid-19 box
 youtube.com###clarify-box
 ! topic (kids/gaming)
 youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_TOPIC]
 ! box art (game being played)
-www.youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_BOX_ART]
+youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_BOX_ART]
+! show metadata
+youtube.com###collapsible > .ytd-metadata-row-container-renderer
 
 ## comments
 ! channel member comment badge
@@ -78,7 +86,7 @@ youtube.com###donation-shelf
 youtube.com##.yt-related-chip-cloud-renderer
 ! mixes
 youtube.com##.ytd-compact-radio-renderer
-! movie Suggestions
+! movie suggestions
 youtube.com##ytd-compact-movie-renderer
 ! yt music
 youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
@@ -93,3 +101,5 @@ youtube.com##.ytd-recognition-shelf-renderer
 youtube.com##.banner-visible-area
 ! channel store tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
+! about > links
+youtube.com###links-container.ytd-channel-about-metadata-renderer
