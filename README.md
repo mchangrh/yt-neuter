@@ -8,3 +8,6 @@ Filter URLs
 
 ## GitHub
 `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`
+
+## jsDelivr
+`https://cdn.jsdelivr.net/gh/mchangrh/yt-neuter/yt-neuter.txt`
