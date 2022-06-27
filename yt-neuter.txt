@@ -60,6 +60,10 @@ www.youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_R
 ## comments
 ! channel member comment badge
 youtube.com##span#sponsor-comment-badge
+! paid (thanks) comment badge
+youtube.com###paid-comment-chip
+! paid (thanks) comment highlight
+youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
 
 ## sidebar
 ! chat
