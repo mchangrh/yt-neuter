@@ -70,6 +70,8 @@ youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDE
 youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_BOX_ART]
 ! show metadata
 youtube.com###collapsible > .ytd-metadata-row-container-renderer
+! featured music
+youtube.com###structured-description > .ytd-structured-description-content-renderer
 
 ## comments
 ! channel member comment badge
