@@ -11,3 +11,9 @@ youtube.com##ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
 ! remove shorts shelf only
 youtube.com##ytd-rich-shelf-renderer:has(a.yt-simple-endpoint[title="Shorts"])
 ```
+
+## misc related filters
+```adguard
+## block casting
+||www.gstatic.com/*/cast_sender.js
+```
