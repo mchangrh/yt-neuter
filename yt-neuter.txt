@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2022/07/18
+! Last modified: 2022/07/28
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -55,7 +55,7 @@ youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thank
 
 ## video description
 ! fundraiser tag
-youtube.com##ytd-badge-supported-renderer
+youtube.com##ytd-badge-supported-renderer:has(.badge-style-type-ypc)
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
 
