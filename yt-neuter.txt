@@ -15,7 +15,7 @@ youtube.com###voice-search-button
 ! community posts, free movies, shorts
 youtube.com##ytd-rich-shelf-renderer
 ! mixes
-youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix/))
+youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-renderer)
 ! movies free with ads
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-ypc> span:has-text(Free with Ads))
 ! "new to you" #2
@@ -25,9 +25,21 @@ youtube.com##ytd-rich-item-renderer.style-scope:has(> .ytd-feed-nudge-renderer)
 ! premium
 youtube.com##a.ytd-guide-entry-renderer[href="/premium"]
 ! shorts
-youtube.com##ytd-guide-entry-renderer:has(#endpoint>tp-yt-paper-item>yt-formatted-string:has-text(Shorts))
+youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+! explore
+youtube.com##ytd-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
+youtube.com##ytd-mini-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
 ! other sponsored videos #1
 youtube.com##ytd-engagement-panel-section-list-renderer
+! explore section
+youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
+! more from youtube section
+youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
+
+## topbar
+! create button
+youtube.com##ytd-topbar-menu-button-renderer:has(button[aria-label=Create])
 
 ## in-video overlay / player
 ! fast forward icons
@@ -38,6 +50,10 @@ youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
 youtube.com##.ytp-cards-button-icon
 ! annotations
 youtube.com##.ytp-ce-element
+! watermark
+youtube.com##.iv-branding
+! endscreen
+youtube.com##.videowall-endscreen
 
 ## interaction row
 ! join button
@@ -111,3 +127,23 @@ youtube.com##.banner-visible-area
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 ! about > links
 youtube.com###links-container.ytd-channel-about-metadata-renderer
+
+## live chat
+! superchat/member ticker
+youtube.com###ticker
+! superchat button
+youtube.com###product-picker
+! superchats
+youtube.com##yt-live-chat-paid-message-renderer
+! memberships
+youtube.com##yt-live-chat-membership-item-renderer
+! paid badges
+youtube.com##yt-live-chat-paid-sticker-renderer
+! chat member badge
+youtube.com##yt-live-chat-author-badge-renderer[type=member]
+! revert member color
+youtube.com###author-name.member:style(color: var(--yt-live-chat-secondary-text-color) !important)
+! custom emojis
+youtube.com##.emoji[data-emoji-id]
+! emoji-only messages
+youtube.com##yt-live-chat-text-message-renderer:not(:has(#message:min-text-length(1)))
