@@ -99,6 +99,8 @@ youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/
 ! new/ fundraiser badges
 youtube.com##.badge:has(span:has-text(Fundraiser))
 youtube.com##.badge:has(span:has-text(New))
+! nudges (recommendation/ turn on watch history)
+youtube.com##ytd-feed-nudge-renderer
 
 ## channel page
 ! recognized channel member
