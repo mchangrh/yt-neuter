@@ -11,3 +11,12 @@ Filter URLs
 
 ## jsDelivr
 `https://cdn.jsdelivr.net/gh/mchangrh/yt-neuter/yt-neuter.txt`
+
+----- 
+
+Userscripts
+
+Automatically disables YouTube recommended and playlist AutoPlay
+
+
+[Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscript/yt-no-autoplay.user.js)
