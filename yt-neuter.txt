@@ -55,7 +55,7 @@ youtube.com##.ytp-ce-element
 ! watermark
 youtube.com##.iv-branding
 ! endscreen
-youtube.com##.videowall-endscreen
+||youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^
 
 ## interaction row
 ! join button
