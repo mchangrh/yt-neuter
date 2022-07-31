@@ -152,3 +152,9 @@ youtube.com###author-name.member:style(color: var(--yt-live-chat-secondary-text-
 youtube.com##.emoji[data-emoji-id]
 ! emoji-only messages
 youtube.com##yt-live-chat-text-message-renderer:not(:has(#message:min-text-length(1)))
+
+## Search
+! People also watched, Latest from <channel>, For you, Previously watched
+youtube.com##:matches-path(/results) ytd-shelf-renderer
+! People also search for
+youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
