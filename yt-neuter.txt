@@ -20,6 +20,8 @@ youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-rende
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-ypc> span:has-text(Free with Ads))
 ! "new to you" #2
 youtube.com##ytd-rich-item-renderer.style-scope:has(> .ytd-feed-nudge-renderer)
+! recommendation surveys
+youtube.com##ytd-inline-survey-renderer
 
 ## sidebar
 ! premium
@@ -31,7 +33,7 @@ youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
 youtube.com##ytd-mini-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
 ! other sponsored videos #1
-youtube.com##ytd-engagement-panel-section-list-renderer
+youtube.com##ytd-engagement-panel-section-list-renderer:not([target-id="engagement-panel-searchable-transcript"])
 ! explore section
 youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
 ! more from youtube section
@@ -121,7 +123,7 @@ youtube.com##.badge:has(span:has-text(New))
 youtube.com##ytd-feed-nudge-renderer
 ! "Recommended for you" sponsored videos
 ! Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)
-youtube.com##ytd-compact-video-renderer:not(:has(#metadata-line span:nth-of-type(2))):not(:has(.secondary-metadata > ytd-badge-supported-renderer > .badge-style-type-live-now-alternate))
+youtube.com##:matches-path(/watch) ytd-compact-video-renderer:not(:has(#metadata-line span:nth-of-type(2))):not(:has(.secondary-metadata > ytd-badge-supported-renderer > .badge-style-type-live-now-alternate))
 
 ## channel page
 ! recognized channel member
