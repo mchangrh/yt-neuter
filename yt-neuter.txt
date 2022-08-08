@@ -33,7 +33,7 @@ youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
 youtube.com##ytd-mini-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
 ! other sponsored videos #1
-youtube.com##ytd-engagement-panel-section-list-renderer
+youtube.com##ytd-engagement-panel-section-list-renderer:not([target-id="engagement-panel-searchable-transcript"])
 ! explore section
 youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
 ! more from youtube section
