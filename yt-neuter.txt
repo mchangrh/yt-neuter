@@ -125,6 +125,10 @@ youtube.com##ytd-feed-nudge-renderer
 ! Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)
 youtube.com##:matches-path(/watch) ytd-compact-video-renderer:not(:has(#metadata-line span:nth-of-type(2))):not(:has(.secondary-metadata > ytd-badge-supported-renderer > .badge-style-type-live-now-alternate))
 
+## other video page filters
+! "Become a member of this channel"
+youtube.com##tp-yt-paper-dialog:has(ytd-mealbar-promo-renderer)
+
 ## channel page
 ! recognized channel member
 youtube.com##.ytd-recognition-shelf-renderer
