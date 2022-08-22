@@ -58,6 +58,8 @@ youtube.com##.ytp-ce-element
 youtube.com##.iv-branding
 ! endscreen
 ||youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^
+! recommendation pause overlay (seen in /embed/)
+youtube.com##.ytp-pause-overlay
 
 ## interaction row
 ! join button
