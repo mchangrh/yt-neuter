@@ -129,7 +129,7 @@ youtube.com##:matches-path(/watch) ytd-compact-video-renderer:not(:has(#metadata
 
 ## other video page filters
 ! "Become a member of this channel"
-youtube.com##tp-yt-paper-dialog:has(ytd-mealbar-promo-renderer)
+youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 
 ## channel page
 ! recognized channel member
