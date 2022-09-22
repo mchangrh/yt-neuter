@@ -40,6 +40,8 @@ youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explor
 youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
 ! footer
 youtube.com##ytd-guide-renderer #footer
+! choose what to play next popup #12
+youtube.com##yt-tooltip-renderer
 
 ## topbar
 ! create button
