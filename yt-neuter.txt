@@ -84,6 +84,8 @@ youtube.com###subscribe-button
 youtube.com##ytd-badge-supported-renderer:has(.badge-style-type-ypc)
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
+! channel member popup
+youtube.com##tp-yt-paper-dialog.ytd-popup-container
 
 ## under description metadata box
 ! ticket shelf
