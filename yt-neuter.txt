@@ -115,7 +115,7 @@ youtube.com###donation-shelf
 
 ## recommendations sidebar
 ! recommendations categories
-youtube.com###scroll-container.yt-related-chip-cloud-renderer
+youtube.com##yt-chip-cloud-renderer
 ! mixes
 youtube.com##.ytd-compact-radio-renderer
 ! movie suggestions
@@ -134,6 +134,8 @@ youtube.com##:matches-path(/watch) ytd-compact-video-renderer:not(:has(#metadata
 ## other video page filters
 ! "Become a member of this channel"
 youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
+! generic survey
+youtube.com###survey
 
 ## channel page
 ! recognized channel member
