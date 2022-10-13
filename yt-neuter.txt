@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: YouTube Neuter
-! Last modified: 2022/10/01
+! Last modified: 2022/10/12
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -12,8 +12,13 @@ youtube.com###voice-search-button
 ||youtube.com/redirect?event=video_description^$document
 
 ## homepage
-! community posts, free movies, shorts
-youtube.com##ytd-rich-shelf-renderer
+! block shelves #15
+# shorts
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+# game shelf
+youtube.com##ytd-rich-shelf-renderer[has-box-art-thumbnail-style]
+# free movies (targets movies channelID
+youtube.com##ytd-rich-shelf-renderer:has(a[href="/channel/UClgRkhTL3_hImCAmdLfDE4g"])
 ! mixes
 youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-renderer)
 ! movies free with ads
@@ -41,7 +46,7 @@ youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More f
 ! footer
 youtube.com##ytd-guide-renderer #footer
 ! choose what to play next popup #12
-youtube.com##yt-tooltip-renderer
+youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
 
 ## topbar
 ! create button
