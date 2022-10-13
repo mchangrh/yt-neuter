@@ -19,6 +19,8 @@ youtube.com##ytd-rich-shelf-renderer[is-shorts]
 youtube.com##ytd-rich-shelf-renderer[has-box-art-thumbnail-style]
 # free movies (targets movies channelID
 youtube.com##ytd-rich-shelf-renderer:has(a[href="/channel/UClgRkhTL3_hImCAmdLfDE4g"])
+! YouTube Featured banners
+youtube.com##ytd-statement-banner-renderer
 ! mixes
 youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-renderer)
 ! movies free with ads
@@ -47,6 +49,8 @@ youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More f
 youtube.com##ytd-guide-renderer #footer
 ! choose what to play next popup #12
 youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
+! sign in nag
+youtube.com##ytd-guide-signin-promo-renderer
 
 ## topbar
 ! create button
@@ -177,7 +181,9 @@ youtube.com##.emoji[data-emoji-id]
 youtube.com##yt-live-chat-text-message-renderer:not(:has(#message:min-text-length(1)))
 
 ## Search
-! People also watched, Latest from <channel>, For you, Previously watched
+! People also watched, Latest from <channel>, For you, Previously watched, Channels new to you
 youtube.com##:matches-path(/results) ytd-shelf-renderer
 ! People also search for
 youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
+! Featured channels
+youtube.com##:matches-path(/results) ytd-universal-watch-card-renderer
