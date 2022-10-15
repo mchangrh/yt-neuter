@@ -5,6 +5,8 @@
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
 ! hide all shorts in subscriptions tab
 youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+! hide shorts shelves
+youtube.com##.ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
 ```
 
 ## misc related filters
