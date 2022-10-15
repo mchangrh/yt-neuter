@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: YouTube Neuter
-! Last modified: 2022/10/12
+! Last modified: 2022/10/15
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -83,6 +83,8 @@ youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Cl
 ! thanks button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Thanks]))
+! hide disabled buttons (download for non-premium, save for yt kids)
+youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled))
 
 ## profile row
 ! subscribe
