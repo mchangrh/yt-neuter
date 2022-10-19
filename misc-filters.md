@@ -9,6 +9,17 @@ youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-rende
 youtube.com##.ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
 ```
 
+## block youtube video tracking endpoints
+These will break your history and recommendations but allows for spiteful watching of content
+```adguard
+! playback ping
+||www.youtube.com/api/stats/playback
+! watch % and time
+||www.youtube.com/api/stats/watchtime
+! ? generic stats ping
+||www.youtube.com/generate_204
+```
+
 ## misc related filters
 ```adguard
 ## block casting
