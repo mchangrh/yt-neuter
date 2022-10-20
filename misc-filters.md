@@ -3,6 +3,7 @@
 ## homepage
 ! remove all live videos
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
+youtube.com##ytd-compact-video-renderer:has(.badge-style-type-live-now-alternate)
 ! hide all shorts in subscriptions tab
 youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
 ! hide shorts shelves
