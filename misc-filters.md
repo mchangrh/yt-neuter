@@ -17,6 +17,8 @@ These will break your history and recommendations but allows for spiteful watchi
 ||www.youtube.com/api/stats/playback
 ! watch % and time
 ||www.youtube.com/api/stats/watchtime
+! periodic stat pings
+||www.youtube.com/youtubei/v1/log_event
 ! ? generic stats ping
 ||www.youtube.com/generate_204
 ```
