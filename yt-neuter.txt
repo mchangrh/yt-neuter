@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: YouTube Neuter
-! Last modified: 2022/10/21
-! Expires: 10 days
+! Last modified: 2022/10/26
+! Expires: 2 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
@@ -74,6 +74,8 @@ youtube.com##.iv-branding
 ||youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^
 ! recommendation pause overlay (seen in /embed/)
 youtube.com##.ytp-pause-overlay
+! "ambient mode"
+youtube.com###player>#cinematics.ytd-watch-flexy
 
 ## interaction row
 ! join button
