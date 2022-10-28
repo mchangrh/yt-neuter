@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: YouTube Neuter
-! Last modified: 2022/10/26
+! Last modified: 2022/10/28
 ! Expires: 2 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
