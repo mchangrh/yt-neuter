@@ -158,6 +158,8 @@ youtube.com###survey
 youtube.com##.ytd-recognition-shelf-renderer
 ! channel banner
 youtube.com##.banner-visible-area
+! home page links
+youtube.com###channel-header > #links-holder
 ! channel store tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 ! about > links
