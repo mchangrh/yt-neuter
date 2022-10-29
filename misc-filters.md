@@ -4,16 +4,25 @@
 ! remove all live videos
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
 youtube.com##ytd-compact-video-renderer:has(.badge-style-type-live-now-alternate)
+youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="LIVE"])
+
 ! remove upcoming videos
 youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+
+## subscriptions
 ! hide all shorts in subscriptions tab
 youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+
 ! hide shorts shelves
 youtube.com##.ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
+
+## channel page
+! hide featured channel video
+youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
 ```
 
 ## block youtube video tracking endpoints
-These will break your history and recommendations but allows for spiteful watching of content
+!!! These will break your history and recommendations but allows for spiteful watching of content !!!
 ```adguard
 ! playback ping
 ||www.youtube.com/api/stats/playback
@@ -31,9 +40,8 @@ These will break your history and recommendations but allows for spiteful watchi
 ||www.gstatic.com/*/cast_sender.js
 ```
 
-## remove background for youtube buttons
+## Niche filters
 ```adguard
-## remove background for youtube buttons
-## excludes subscribe button
+! remove background for youtube buttons, excludes subscribe button
 youtube.com##button.yt-spec-button-shape-next--tonal:style(background-color: transparent !important)
 ```
