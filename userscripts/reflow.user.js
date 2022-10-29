@@ -7,8 +7,8 @@
 // @match        https://www.youtube.com/*
 // @run-at       document-idle
 // @icon         https://www.youtube.com/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscript/reflow.user.js
-// @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscript/reflow.user.js
+// @updateURL    https://github.com/mchangrh/yt-neuter/raw/main/userscripts/reflow.user.js
+// @downloadURL  https://github.com/mchangrh/yt-neuter/raw/main/userscripts/reflow.user.js
 // @grant        none
 // ==/UserScript==
 

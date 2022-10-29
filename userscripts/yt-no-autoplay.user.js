@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         YouTube No AutoPlay
 // @namespace    yt-neuter
-// @version      1.0
+// @version      1.1
 // @description  Disable YouTube AutoPlay by default
 // @author       michael mchang.name
 // @match        https://www.youtube.com/watch*
 // @icon         https://www.youtube.com/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscript/yt-no-autoplay.user.js
-// @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscript/yt-no-autoplay.user.js
+// @updateURL    https://github.com/mchangrh/yt-neuter/raw/main/userscripts/yt-no-autoplay.user.js
+// @downloadURL  https://github.com/mchangrh/yt-neuter/raw/main/userscripts/yt-no-autoplay.user.js
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
