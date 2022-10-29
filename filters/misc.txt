@@ -1,0 +1,14 @@
+[uBlock Origin]
+! Title: YouTube Neuter - misc
+! Last modified: 2022/10/28
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Licence: Unlicense
+!
+
+## channel page
+! hide featured channel video
+youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
+
+## block casting
+||www.gstatic.com/*/cast_sender.js

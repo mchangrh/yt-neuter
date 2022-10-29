@@ -1,0 +1,16 @@
+[uBlock Origin]
+! Title: YouTube Neuter - notrack
+! Last modified: 2022/10/28
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Licence: Unlicense
+!
+
+! playback ping
+||www.youtube.com/api/stats/playback
+! watch % and time
+||www.youtube.com/api/stats/watchtime
+! periodic stat pings
+||www.youtube.com/youtubei/v1/log_event
+! ? generic stats ping
+||www.youtube.com/generate_204

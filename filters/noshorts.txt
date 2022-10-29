@@ -1,0 +1,21 @@
+[uBlock Origin]
+! Title: YouTube Neuter - noshorts
+! Last modified: 2022/10/28
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Licence: Unlicense
+!
+
+## channel page
+youtube.com##.ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
+
+## homepage
+# shelf #15
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+
+## sidebar
+youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+
+## subscriptions
+youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])

@@ -1,0 +1,10 @@
+[uBlock Origin]
+! Title: YouTube Neuter - funkey
+! Last modified: 2022/10/28
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Licence: Unlicense
+!
+
+! remove background for youtube buttons, excludes subscribe button
+youtube.com##button.yt-spec-button-shape-next--tonal:style(background-color: transparent !important)

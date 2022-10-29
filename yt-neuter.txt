@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[uBlock Origin]
 ! Title: YouTube Neuter
 ! Last modified: 2022/10/28
 ! Expires: 2 days
@@ -13,8 +13,6 @@ youtube.com###voice-search-button
 
 ## homepage
 ! block shelves #15
-# shorts
-youtube.com##ytd-rich-shelf-renderer[is-shorts]
 # game shelf
 youtube.com##ytd-rich-shelf-renderer[has-box-art-thumbnail-style]
 # free movies (targets movies channelID
@@ -36,9 +34,6 @@ youtube.com##ytd-inline-survey-renderer
 ## sidebar
 ! premium
 youtube.com##a.ytd-guide-entry-renderer[href="/premium"]
-! shorts
-youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
-youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 ! explore
 youtube.com##ytd-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
 youtube.com##ytd-mini-guide-entry-renderer:has(#endpoint[href="/feed/explore"])
@@ -154,18 +149,23 @@ youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 youtube.com###survey
 
 ## channel page
+### shelves
 ! recognized channel member
 youtube.com##.ytd-recognition-shelf-renderer
+! members only videos
+youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
+### header / homepage
 ! channel banner
 youtube.com##.banner-visible-area
 ! home page links
 youtube.com###channel-header > #links-holder
+### tabs
 ! channel store tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
+### about
 ! about > links
 youtube.com###links-container.ytd-channel-about-metadata-renderer
-! members only videos
-youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
+
 ! channel member prompt popup
 youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
 
