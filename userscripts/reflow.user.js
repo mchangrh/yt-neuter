@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.1
+// @version      0.2
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -54,12 +54,15 @@ function reflow() {
         // set elements per row on element
         grid.style.setProperty('--ytd-rich-grid-items-per-row', vidPerRow);
         grid.elementsPerRow = vidPerRow;
+        // disable rich grid post, slim and game since they aren't limited
+        /*
         grid.style.setProperty('--ytd-rich-grid-posts-per-row', postPerRow);
         grid.postsPerRow = postPerRow;
         grid.style.setProperty('--ytd-rich-grid-slim-items-per-row', slimPerRow);
         grid.slimItemsPerRow = slimPerRow;
         grid.style.setProperty('--ytd-rich-grid-game-cards-per-row', gamePerRow);
         grid.gameCardsPerRow = gamePerRow;
+        */
         // trigger reflow on delay
         setTimeout(trigger_reflow, 700, grid)
         // trigger reflow with ruke
