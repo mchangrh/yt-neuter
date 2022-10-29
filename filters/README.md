@@ -1,27 +1,27 @@
 ## nolive
 - Hide all Live/ Upcoming / Premiere videos
 
-`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/nolive.txt`
+`https://neuter.mchang.xyz/nolive`
 
 ## notrack
   - Block video tracking endpoints
   - This will break your history and recommendations but allows for spiteful watching of content
 
-`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/notrack.txt`
+`https://neuter.mchang.xyz/notrack`
 
 ## noshorts
  - Block YouTube Shorts
 
-`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/noshorts.txt`
+`https://neuter.mchang.xyz/noshorts`
 
 ## misc
   - more aggressive, misc filters
   - featured channel video
   - block casting
   
-`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/misc.txt`
+`https://neuter.mchang.xyz/misc`
 
 ## funkey
  - niche filters for funkey
 
-`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/funkey.txt`
+`https://neuter.mchang.xyz/funkey`

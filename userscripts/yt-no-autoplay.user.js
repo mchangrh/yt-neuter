@@ -6,8 +6,8 @@
 // @author       michael mchang.name
 // @match        https://www.youtube.com/watch*
 // @icon         https://www.youtube.com/favicon.ico
-// @updateURL    https://github.com/mchangrh/yt-neuter/raw/main/userscripts/yt-no-autoplay.user.js
-// @downloadURL  https://github.com/mchangrh/yt-neuter/raw/main/userscripts/yt-no-autoplay.user.js
+// @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/yt-no-autoplay.user.js
+// @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/yt-no-autoplay.user.js
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
