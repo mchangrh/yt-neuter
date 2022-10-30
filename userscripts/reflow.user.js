@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.2
+// @version      0.3
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -71,7 +71,8 @@ function reflow() {
 }
 
 // add delay so that previous grid will disappear
-const navigateFinish = () => setTimeout(reflow, 50)
+const delayReflow = () => setTimeout(reflow, 50)
 
-document.addEventListener('yt-navigate-finish', navigateFinish);
+document.addEventListener('yt-navigate-finish', delayReflow);
+window.onresize = delayReflow; // trigger reflow on resize
 wfke('ytd-rich-grid-media', reflow)

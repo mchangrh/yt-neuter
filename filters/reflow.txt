@@ -1,0 +1,13 @@
+[uBlock Origin]
+! Title: YouTube Neuter - reflow
+! Last modified: 2022/10/28
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Licence: Unlicense
+!
+
+# custom filter to revert item-renderer size (pairs well with reflow)
+
+youtube.com##ytd-rich-item-renderer:style(margin-bottom: 24px; margin-right: 4px; margin-left: 0px; width: 210px; )
+youtube.com##video-title.ytd-rich-grid-media:style(font-size: 1.4rem; line-height: 2rem; max-height: 4rem; )
+youtube.com##ytd-video-meta-block[rich-meta] #metadata-line.ytd-video-meta-block:style( font-size: 1.2rem; line-height: 1.8rem; max-height: 3.6rem; )
