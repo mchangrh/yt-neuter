@@ -49,6 +49,8 @@ youtube.com##ytd-guide-renderer #footer
 youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
 ! sign in nag
 youtube.com##ytd-guide-signin-promo-renderer
+! your clips
+youtube.com##.ytd-guide-entry-renderer[href="/feed/clips"]
 
 ## topbar
 ! create button
