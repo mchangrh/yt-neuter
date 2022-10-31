@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.4
+// @version      0.5.0
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -13,6 +13,7 @@
 // ==/UserScript==
 
 const vidPerRow = 6;
+const scale = false;
 
 const isVisible = (elem) => elem.offsetWidth > 0 || elem.offsetHeight > 0;
 
@@ -45,18 +46,21 @@ function reflow() {
     const grids = document.querySelectorAll('ytd-rich-grid-renderer')
 
     // calculate # of elements per row
-    const postPerRow = Math.floor(vidPerRow * 1.3); // post is 1.3x width of video
-    // slim and game are 1/2 width of post
-    const slimPerRow = Math.floor(postPerRow / 2);
-    const gamePerRow = Math.floor(postPerRow / 2);
+    const width = browseResultsRenderer.clientWidth
+    const elemPerRow = scale ? Math.floor(width / 240) : vidPerRow; // scale if enabled, else use constant
+    /*
+    grid-item: 320-360px
+    grid-mini-item: 240-320px
+    grid-slim-item: 220px
+    */
+    // const slimPerRow = Math.floor(width / 220);
 
     for (const grid of grids) {
         if (!isVisible(grid)) continue;
         // set elements per row on element
-        grid.style.setProperty('--ytd-rich-grid-items-per-row', vidPerRow);
-        grid.elementsPerRow = vidPerRow;
-        // disable rich grid post, slim and game since they aren't limited
-        /*
+        grid.style.setProperty('--ytd-rich-grid-items-per-row', elemPerRow);
+        grid.elementsPerRow = elemPerRow;
+        /* disable rich grid post, slim and game since they scale properly
         grid.style.setProperty('--ytd-rich-grid-posts-per-row', postPerRow);
         grid.postsPerRow = postPerRow;
         grid.style.setProperty('--ytd-rich-grid-slim-items-per-row', slimPerRow);
