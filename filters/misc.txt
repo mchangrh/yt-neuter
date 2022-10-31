@@ -12,3 +12,9 @@ youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer
 
 ## block casting
 ||www.gstatic.com/*/cast_sender.js
+
+## remove hashtags in description
+youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
+
+! blocks external links in description
+||youtube.com/redirect?event=video_description^$document
