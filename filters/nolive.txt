@@ -20,6 +20,12 @@ youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-rende
 ! channel is live indicator
 youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
 
+## remove streamed videos
+! sidebar/ recommendations
+youtube.com##ytd-compact-video-renderer:has(#metadata-line>:has-text(Streamed))
+! channel videos
+youtube.com##ytd-grid-video-renderer:has(#metadata-line>:has-text(Streamed))
+
 ## remove upcoming videos
 ! homepage
 youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])

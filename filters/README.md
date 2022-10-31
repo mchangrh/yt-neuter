@@ -1,5 +1,5 @@
 ## nolive
-- Hide all Live/ Upcoming / Premiere videos
+- Hide all Live/ Upcoming/ Premiere/ Steamed videos
 
 `https://neuter.mchang.xyz/nolive`
 
