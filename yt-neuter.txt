@@ -12,6 +12,8 @@
 youtube.com###voice-search-button
 ! create button
 youtube.com##ytd-topbar-menu-button-renderer:has(button[aria-label=Create])
+! removes country code
+youtube.com##ytd-topbar-logo-renderer>#country-code
 
 # homepage
 ! block shelves #15
