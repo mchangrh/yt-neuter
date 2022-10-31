@@ -9,13 +9,10 @@ Filter URLs
 ## GitHub
 `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`
 
-## jsDelivr
-`https://cdn.jsdelivr.net/gh/mchangrh/yt-neuter/yt-neuter.txt`
-
 ## Serverless redirect
 `https://neuter.mchang.xyz/filter`
 
------ 
+-----
 
 ## Userscripts
 Automatically disables YouTube recommended and playlist AutoPlay [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/yt-no-autoplay.user.js)
