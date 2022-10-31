@@ -140,6 +140,8 @@ youtube.com###chat
 youtube.com###donation-shelf
 ! other sponsored videos #1
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]
+! shelves in watch-next recommendations (shorts shelf)
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
 
 ## recommendations sidebar
 ! recommendations categories
