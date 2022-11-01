@@ -18,3 +18,13 @@ Filter URLs
 Automatically disables YouTube recommended and playlist AutoPlay [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/yt-no-autoplay.user.js)
 
 Force YouTube grid to fit more elements per row [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/reflow.user.js)
+
+-----
+
+## Filters
+Misc filters for even more aggressive, specific blocking
+
+-----
+
+## scriptlets
+Addon scriptlets for uBlock Origin to block/replace elements
