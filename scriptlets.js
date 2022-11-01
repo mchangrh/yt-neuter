@@ -11,7 +11,7 @@
         if (el) return callback();
         setTimeout(wfke, 100, selector, callback);
     }
-    const addclass = ev => {
+    const addclass = () => {
         const nodes = document.querySelectorAll(selector);
         try {
             for (const node of nodes) {
