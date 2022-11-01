@@ -18,3 +18,6 @@ youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 
 ! blocks external links in description
 ||youtube.com/redirect?event=video_description^$document
+
+## make thumbnails square again
+youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)

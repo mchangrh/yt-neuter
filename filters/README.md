@@ -18,6 +18,7 @@
   - more aggressive, misc filters
   - featured channel video
   - block casting
+  - make thumbnails square again
   
 `https://neuter.mchang.xyz/filter/misc`
 
