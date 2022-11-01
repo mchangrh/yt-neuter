@@ -1,6 +1,6 @@
 /// replace-class.js
 /// alias repc.js
-// example.com##+js(repc, selctor, oldClass, newClass)
+// example.com##+js(repc, selector, oldClass, newClass)
 (() => {
     'use strict';
     const selector = '{{1}}';
