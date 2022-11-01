@@ -10,14 +10,18 @@
 ! hide featured channel video
 youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
 
-! block casting
+## block casting
 ||www.gstatic.com/*/cast_sender.js
 
-! remove hashtags in description
+## remove hashtags in description
 youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 
-! blocks external links in description
+## blocks external links in description
 ||youtube.com/redirect?event=video_description^$document
+
+## make thumbnails square again
+youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
+
 
 ## depends on scriptlets
 ! makes subscribe button blend in with other buttons
