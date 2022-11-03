@@ -10,6 +10,8 @@
 ## header
 ! voice search button
 youtube.com###voice-search-button
+! voice search response noises
+||youtube.com/s/search/audio/*.mp3$
 ! create button
 youtube.com##ytd-topbar-menu-button-renderer:has(button[aria-label=Create])
 ! removes country code
@@ -89,6 +91,8 @@ youtube.com###player>#cinematics.ytd-watch-flexy
 
 ! download button
 youtube.com##ytd-download-button-renderer
+! download worker
+||youtube.com/s/player/*/player_ias.vflset/*/offline.js
 ! clip button
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Clip]))
