@@ -96,6 +96,8 @@ youtube.com##ytd-download-button-renderer
 ! clip button
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Clip]))
+! overflow menu
+youtube.com##tp-yt-paper-item:has(>yt-formatted-string:has-text(Clip))
 ! thanks button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Thanks]))
