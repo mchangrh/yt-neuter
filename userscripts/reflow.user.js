@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.5.1
+// @version      0.6.0
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -41,13 +41,13 @@ function reflow() {
     const browseResultsRenderer = document.querySelector('ytd-two-column-browse-results-renderer');
     if (!browseResultsRenderer) return;
     // force results to fit as many per row
-    browseResultsRenderer.style.setProperty("width", "100%", "important")
-    browseResultsRenderer.style.setProperty("max-width", "100%", "important")
+    browseResultsRenderer.style.setProperty("width", "100%", "important");
+    browseResultsRenderer.style.setProperty("max-width", "100%", "important");
     // target rich grid renderer
-    const grids = document.querySelectorAll('ytd-rich-grid-renderer')
+    const grids = document.querySelectorAll('ytd-rich-grid-renderer');
 
     // calculate # of elements per row
-    const width = browseResultsRenderer.clientWidth
+    const width = browseResultsRenderer.clientWidth;
     const elemPerRow = scale ? Math.floor(width / 240) : vidPerRow; // scale if enabled, else use constant
     /*
     grid-item: 320-360px
@@ -60,7 +60,7 @@ function reflow() {
         if (!isVisible(grid)) continue;
         // set elements per row on element
         grid.style.setProperty('--ytd-rich-grid-items-per-row', elemPerRow);
-        grid.elementsPerRow = elemPerRow;
+        grid.elementsPerRow = elemPerRow
         /* disable rich grid post, slim and game since they scale properly
         grid.style.setProperty('--ytd-rich-grid-posts-per-row', postPerRow);
         grid.postsPerRow = postPerRow;
@@ -70,14 +70,14 @@ function reflow() {
         grid.gameCardsPerRow = gamePerRow;
         */
         // trigger reflow on delay
-        setTimeout(trigger_reflow, 700, grid)
+        setTimeout(trigger_reflow, 700, grid);
         // trigger reflow with ruke
         ruke("#contents.ytd-rich-grid-row:has(>:nth-child(5))", trigger_reflow, grid);
     }
 }
 
 // add delay so that previous grid will disappear
-const delayReflow = () => setTimeout(reflow, 50)
+const delayReflow = () => setTimeout(reflow, 50);
 
 document.addEventListener('yt-navigate-finish', delayReflow);
 window.onresize = delayReflow; // trigger reflow on resize
@@ -85,7 +85,7 @@ window.onresize = delayReflow; // trigger reflow on resize
 document.addEventListener('keydown', (e) => {
     if (e.key == 'r') {
         console.log("[yt-neuter] Manually triggering reflow");
-        reflow()
+        reflow();
     }
 });
-wfke('ytd-rich-grid-media', reflow)
+wfke('ytd-rich-grid-media', reflow);
