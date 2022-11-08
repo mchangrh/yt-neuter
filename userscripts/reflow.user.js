@@ -81,4 +81,11 @@ const delayReflow = () => setTimeout(reflow, 50)
 
 document.addEventListener('yt-navigate-finish', delayReflow);
 window.onresize = delayReflow; // trigger reflow on resize
+// add key listener to manually trigger reflow
+document.addEventListener('keydown', (e) => {
+    if (e.key == 'r') {
+        console.log("[yt-neuter] Manually triggering reflow");
+        reflow()
+    }
+});
 wfke('ytd-rich-grid-media', reflow)
