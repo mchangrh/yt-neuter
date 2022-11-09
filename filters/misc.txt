@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2022/11/02
+! Last modified: 2022/11/08
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter/filters
 ! Licence: Unlicense
@@ -34,6 +34,9 @@ youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 
 ## don't become webmanifest
 ||youtube.com/manifest.webmanifest
+
+! block all shelves
+youtube.com##ytd-rich-shelf-renderer
 
 ## depends on scriptlets
 ! makes subscribe button blend in with other buttons
