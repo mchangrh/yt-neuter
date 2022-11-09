@@ -14,3 +14,4 @@
 ||www.youtube.com/youtubei/v1/log_event
 ! ? generic stats ping
 ||www.youtube.com/generate_204
+||i.ytimg.com/generate_204
