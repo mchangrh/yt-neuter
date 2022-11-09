@@ -2,11 +2,11 @@
 ! Title: YouTube Neuter - reflow
 ! Last modified: 2022/10/30
 ! Expires: 10 days
-! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
 
-# custom filter to revert item-renderer size (pairs well with reflow)
+! custom filter to revert item-renderer size (pairs well with reflow)
 
 youtube.com##ytd-rich-item-renderer:style(margin-bottom: 24px !important; margin-right: 4px !important; margin-left: 0px !important; width: 210px !important;)
 youtube.com##video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important; max-height: 4rem !important;)

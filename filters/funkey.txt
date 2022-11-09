@@ -2,7 +2,7 @@
 ! Title: YouTube Neuter - funkey
 ! Last modified: 2022/10/28
 ! Expires: 10 days
-! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
 

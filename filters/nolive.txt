@@ -1,16 +1,16 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - nolive
-! Last modified: 2022/10/29
+! Last modified: 2022/11/8
 ! Expires: 10 days
-! Homepage: https://github.com/mchangrh/yt-neuter/filters
+! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
 
-## channel
+!! channel
 ! live tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Live))
 
-## remove live videos
+!! remove live videos
 ! homepage
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
 ! sidebar/ recommendations
@@ -20,12 +20,12 @@ youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-rende
 ! channel is live indicator
 youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
 
-## remove streamed videos
+!! remove streamed videos
 ! sidebar/ recommendations
 youtube.com##ytd-compact-video-renderer:has(#metadata-line>:has-text(Streamed))
 ! channel videos
 youtube.com##ytd-grid-video-renderer:has(#metadata-line>:has-text(Streamed))
 
-## remove upcoming videos
+!! remove upcoming videos
 ! homepage
 youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
