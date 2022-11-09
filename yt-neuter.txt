@@ -125,6 +125,8 @@ youtube.com###subscribe-button
 youtube.com##ytd-badge-supported-renderer:has(.badge-style-type-ypc)
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
+!! stop scrolling on "show less" (ubo only)
+youtube.com##+js(aeld, yt-text-inline-expander-collapse-clicked)
 
 !! under description metadata box
 ! ticket shelf
