@@ -1,0 +1,21 @@
+name: Update docs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - filters/**
+      - yt-neuter.txt
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: mkdir -p docs/filters
+      - name: Update docs
+        run: | 
+          node docs/gendocs.js
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          commit_message: Automated docs update
+          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>

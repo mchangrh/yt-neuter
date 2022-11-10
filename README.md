@@ -24,6 +24,8 @@ Force YouTube grid to fit more elements per row [Install](https://raw.githubuser
 ## Filters
 Misc filters for even more aggressive, specific blocking
 
+A list of elements blocked is automatically generated in [docs](./docs)
+
 -----
 
 ## scriptlets
