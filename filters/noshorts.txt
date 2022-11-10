@@ -12,13 +12,13 @@ youtube.com##.ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
 ! shorts tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
 
-!! homepage
-# shelf #15
+!! other locations
+! homepage shelf (#15)
 youtube.com##ytd-rich-shelf-renderer[is-shorts]
 
-!! sidebar
+! sidebar
 youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 
-!! subscriptions
+! subscriptions
 youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])

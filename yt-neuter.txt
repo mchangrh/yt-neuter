@@ -6,7 +6,7 @@
 ! Licence: Unlicense
 !
 
-!! global
+!!! global
 !! header
 ! voice search button
 youtube.com###voice-search-button
@@ -17,9 +17,8 @@ youtube.com##ytd-topbar-menu-button-renderer:has(button[aria-label=Create])
 ! country code
 youtube.com##ytd-topbar-logo-renderer>#country-code
 
-!! homepage
-!
-! shelves #15
+!!! homepage
+!! shelves #15
 ! game shelf
 youtube.com##ytd-rich-shelf-renderer[has-box-art-thumbnail-style]
 ! free movies (targets movies channelID
@@ -41,8 +40,7 @@ youtube.com##ytd-rich-item-renderer.style-scope:has(> .ytd-feed-nudge-renderer)
 ! recommendation surveys
 youtube.com##ytd-inline-survey-renderer
 
-!! sidebar
-!
+!!! sidebar
 !! buttons
 ! premium
 youtube.com##a.ytd-guide-entry-renderer[href="/premium"]
@@ -64,15 +62,15 @@ youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More f
 ! footer
 youtube.com##ytd-guide-renderer #footer
 
-!! popups
-! choose what to play next popup #12
+!!! popups
+! choose what to play next popup (#12)
 youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
 ! "Become a member of this channel"
 youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 ! generic survey
 youtube.com###survey
 
-!! video
+!!! video page
 
 !! in-video overlays
 ! fast forward icon
@@ -93,7 +91,7 @@ youtube.com##.ytp-pause-overlay
 youtube.com###player>#cinematics.ytd-watch-flexy
 
 !! interaction row
-! like button animation #18
+! like button animation (#18)
 ||www.gstatic.com/external_hosted/lottie/lottie_light.js$domain=youtube.com
 ! download button
 youtube.com##ytd-download-button-renderer
@@ -125,7 +123,7 @@ youtube.com###subscribe-button
 youtube.com##ytd-badge-supported-renderer:has(.badge-style-type-ypc)
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
-!! stop scrolling on "show less" (ubo only)
+! stop scrolling on "show less" (ubo only)
 youtube.com##+js(aeld, yt-text-inline-expander-collapse-clicked)
 
 !! under description metadata box
@@ -153,7 +151,7 @@ youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-co
 !! video sidebar
 ! fundraiser
 youtube.com###donation-shelf
-! other sponsored videos #1
+! other sponsored videos (#1)
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]
 ! shelves in watch-next recommendations (shorts shelf)
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
@@ -176,8 +174,7 @@ youtube.com##ytd-feed-nudge-renderer
 ! Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)
 youtube.com##:matches-path(/watch) ytd-compact-video-renderer:not(:has(#metadata-line span:nth-of-type(2))):not(:has(.secondary-metadata > ytd-badge-supported-renderer > .badge-style-type-live-now-alternate))
 
-!! channel page
-!
+!!! channel page
 !! shelves
 ! recognized channel member
 youtube.com##.ytd-recognition-shelf-renderer
@@ -194,11 +191,11 @@ youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 !! about
 ! about > links
 youtube.com###links-container.ytd-channel-about-metadata-renderer
-
+!! misc
 ! channel member prompt popup
 youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
 
-!! live chat
+!!! live chat
 ! chat window
 youtube.com###chat
 ! superchat/member ticker
@@ -220,8 +217,8 @@ youtube.com##.emoji[data-emoji-id]
 ! emoji-only messages
 youtube.com##yt-live-chat-text-message-renderer:not(:has(#message:min-text-length(1)))
 
-!! search
-! People also watched, Latest from <channel>, For you, Previously watched, Channels new to you
+!!! search
+! People also watched, Latest from channel, For you, Previously watched, Channels new to you
 youtube.com##:matches-path(/results) ytd-shelf-renderer
 ! People also search for
 youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer

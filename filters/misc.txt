@@ -1,44 +1,46 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2022/11/08
+! Last modified: 2022/11/09
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
 
+!! global
+! don't become webmanifest
+||youtube.com/manifest.webmanifest
+
 !! channel page
 ! hide featured channel video
 youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
 
-!! block casting
+!! player
+! block casting
 ||www.gstatic.com/*/cast_sender.js
 ! remove cast_sender backups
 ||youtube.com/s/desktop/*/jsbin/www-tampering.vflset/www-tampering.js
 ! remove remote
 ||youtube.com/s/player/*/player_ias.vflset/*/remote.js
-
-!! remove hashtags in description
-youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
-
-!! blocks external links in description
-||youtube.com/redirect?event=video_description^$document
-
-!! make thumbnails square again
-youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
-
-!! force miniplayer to be fully featured
+! force miniplayer to be fully featured
 ||youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js
 
-!! remove annotations module
+!! endscreen
+! remove annotations module
 ||youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 
-!! don't become webmanifest
-||youtube.com/manifest.webmanifest
+!! video description
+! remove hashtags in description
+youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
+! blocks external links in description
+||youtube.com/redirect?event=video_description^$document
+
+!! browse/ home
+! make thumbnails square again
+youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 
 ! block all shelves
 youtube.com##ytd-rich-shelf-renderer
 
-!! depends on scriptlets
-!
+!!! depends on scriptlets
 ! makes subscribe button blend in with other buttons
 youtube.com##+js(repc, .ytd-subscribe-button-renderer>button, yt-spec-button-shape-next--filled, yt-spec-button-shape-next--tonal)
