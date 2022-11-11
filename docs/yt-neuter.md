@@ -15,6 +15,7 @@
 * movies free with ads
 * "new to you" #2
 * recommendation surveys
+* explore categories
 # sidebar
 ## buttons
 * premium
@@ -47,6 +48,7 @@
 * clip button
 * clip overflow menu
 * thanks button
+* share button
 * hide disabled buttons (download for non-premium, save for yt kids)
 ## video title
 * supertitle (trending for x) or #hashtags

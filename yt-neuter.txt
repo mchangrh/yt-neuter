@@ -39,6 +39,8 @@ youtube.com##ytd-rich-item-renderer:has(.badge-style-type-ypc> span:has-text(Fre
 youtube.com##ytd-rich-item-renderer.style-scope:has(> .ytd-feed-nudge-renderer)
 ! recommendation surveys
 youtube.com##ytd-inline-survey-renderer
+! explore categories
+youtube.com##ytd-feed-filter-chip-bar-renderer
 
 !!! sidebar
 !! buttons
@@ -105,6 +107,8 @@ youtube.com##tp-yt-paper-item:has(>yt-formatted-string:has-text(Clip))
 ! thanks button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Thanks]))
+! share button
+youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Share]))
 ! hide disabled buttons (download for non-premium, save for yt kids)
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled))
 
