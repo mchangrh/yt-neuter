@@ -40,7 +40,7 @@ youtube.com##ytd-rich-item-renderer.style-scope:has(> .ytd-feed-nudge-renderer)
 ! recommendation surveys
 youtube.com##ytd-inline-survey-renderer
 ! explore categories
-youtube.com##ytd-feed-filter-chip-bar-renderer
+youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 
 !!! sidebar
 !! buttons
