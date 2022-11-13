@@ -15,5 +15,7 @@
 ## browse/ home
 * make thumbnails square again
 * block all shelves
+## search
+* key moments/chapters
 # depends on scriptlets
 * makes subscribe button blend in with other buttons

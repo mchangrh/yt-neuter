@@ -37,9 +37,12 @@ youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 !! browse/ home
 ! make thumbnails square again
 youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
-
 ! block all shelves
 youtube.com##ytd-rich-shelf-renderer
+
+!! search
+! key moments/chapters
+youtube.com###expandable-metadata
 
 !!! depends on scriptlets
 ! makes subscribe button blend in with other buttons
