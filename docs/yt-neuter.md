@@ -111,3 +111,4 @@
 * People also watched, Latest from channel, For you, Previously watched, Channels new to you
 * People also search for
 * Featured channels
+* channel mix
