@@ -1,5 +1,5 @@
 ## global
-* don't become webmanifest
+* don't become service worker
 ## channel page
 * hide featured channel video
 ## player
