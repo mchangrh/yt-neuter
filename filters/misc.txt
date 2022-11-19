@@ -7,8 +7,9 @@
 !
 
 !! global
-! don't become webmanifest
-||youtube.com/manifest.webmanifest
+! don't become service worker
+||www.youtube.com/manifest.webmanifest
+||www.youtube.com/sw.js$scriptw
 
 !! channel page
 ! hide featured channel video
@@ -16,17 +17,17 @@ youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer
 
 !! player
 ! block casting
-||www.gstatic.com/*/cast_sender.js
+||www.gstatic.com/*/cast_sender.js$script
 ! remove cast_sender backups
-||youtube.com/s/desktop/*/jsbin/www-tampering.vflset/www-tampering.js
+||www.youtube.com/s/desktop/*/jsbin/www-tampering.vflset/www-tampering.js$script
 ! remove remote
-||youtube.com/s/player/*/player_ias.vflset/*/remote.js
+||ywww.outube.com/s/player/*/player_ias.vflset/*/remote.js$script
 ! force miniplayer to be fully featured
-||youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js
+||www.youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js$script
 
 !! endscreen
 ! remove annotations module
-||youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
+||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
 
 !! video description
 ! remove hashtags in description
