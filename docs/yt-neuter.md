@@ -49,6 +49,7 @@
 * clip overflow menu
 * thanks button
 * share button
+* save button
 * hide disabled buttons (download for non-premium, save for yt kids)
 ## video title
 * supertitle (trending for x) or #hashtags
