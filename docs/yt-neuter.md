@@ -67,6 +67,7 @@
 * box art (game being played)
 * show metadata
 * featured music
+* featured playlist
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
