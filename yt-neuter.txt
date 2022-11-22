@@ -146,6 +146,8 @@ youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDE
 youtube.com###collapsible > .ytd-metadata-row-container-renderer
 ! featured music
 youtube.com##ytd-video-description-music-section-renderer
+! featured playlist
+youtube.com##ytd-structured-description-content-renderer:has(ytd-structured-description-playlist-lockup-renderer)
 
 !! comments
 ! channel member comment badge
