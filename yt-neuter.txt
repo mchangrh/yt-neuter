@@ -174,9 +174,10 @@ youtube.com##.ytd-compact-radio-renderer
 youtube.com##ytd-compact-movie-renderer
 ! yt music
 youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
-! new/ fundraiser badges
+! new/ fundraiser/ 4k badges
 youtube.com##.badge:has(span:has-text(Fundraiser))
 youtube.com##.badge:has(span:has-text(New))
+youtube.com##.badge:has(span:has-text(4K))
 ! nudges (recommendation/ turn on watch history)
 youtube.com##ytd-feed-nudge-renderer
 ! "Recommended for you" sponsored videos
