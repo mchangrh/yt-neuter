@@ -21,6 +21,8 @@ youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-rende
 youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
 
 !! remove streamed videos
+! homepage
+youtube.com##ytd-rich-item-renderer:has(#metadata-line>span:has-text(Streamed))
 ! sidebar/ recommendations
 youtube.com##ytd-compact-video-renderer:has(#metadata-line>:has-text(Streamed))
 ! channel videos
