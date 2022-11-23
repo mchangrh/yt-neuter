@@ -19,6 +19,7 @@ youtube.com##ytd-rich-shelf-renderer[is-shorts]
 ! sidebar
 youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
-
 ! subscriptions
 youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+! search
+youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
