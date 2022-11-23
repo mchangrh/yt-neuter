@@ -194,6 +194,8 @@ youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
 youtube.com##.banner-visible-area
 ! home page links
 youtube.com###channel-header > #links-holder
+! channel handle
+youtube.com###meta>p:has(>#channel-handle)
 !! tabs
 ! channel store tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
