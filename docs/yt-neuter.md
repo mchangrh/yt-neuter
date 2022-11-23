@@ -81,7 +81,7 @@
 * mixes
 * movie suggestions
 * yt music
-* new/ fundraiser badges
+* new/ fundraiser/ 4k badges
 * nudges (recommendation/ turn on watch history)
 * "Recommended for you" sponsored videos
 * Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)

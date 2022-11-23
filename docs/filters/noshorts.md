@@ -5,3 +5,4 @@
 * homepage shelf (#15)
 * sidebar
 * subscriptions
+* search
