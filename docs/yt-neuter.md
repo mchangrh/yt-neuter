@@ -92,6 +92,7 @@
 ## header / homepage
 * channel banner
 * home page links
+* channel handle
 ## tabs
 * channel store tab
 ## about
