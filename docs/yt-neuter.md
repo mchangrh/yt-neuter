@@ -31,6 +31,7 @@
 * choose what to play next popup (#12)
 * "Become a member of this channel"
 * generic survey
+* "feedback shared" / "experiencing interruptions" toasts
 # video page
 ## in-video overlays
 * fast forward icon
