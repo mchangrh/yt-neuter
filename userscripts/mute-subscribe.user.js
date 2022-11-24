@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         YT Neuter - mute subscribe
 // @namespace    yt-neuter
-// @version      0.1.0
-// @description  Remove contrasting colours in subscrube button
-// @author       You
+// @version      0.1.1
+// @description  Remove contrasting colours in subscribe button
+// @author       michael mchang.name
 // @match        https://www.youtube.com/watch*
 // @icon         https://www.youtube.com/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/mute-subscribe.user.js
@@ -18,7 +18,7 @@ function replaceClass(selector, oldClass, newClass) {
         if (el) return callback();
         setTimeout(wfke, 100, selector, callback);
     }
-    const addclass = () => {
+    const addClass = () => {
         const nodes = document.querySelectorAll(selector);
         try {
             for (const node of nodes) {
@@ -27,7 +27,7 @@ function replaceClass(selector, oldClass, newClass) {
             }
         } catch {}
     };
-    wfke(selector, addclass)
+    wfke(selector, addClass)
 }
 
 replaceClass(".ytd-subscribe-button-renderer>button", "yt-spec-button-shape-next--filled", "yt-spec-button-shape-next--tonal")

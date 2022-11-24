@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.0
+// @version      0.6.1
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
-// @run-at       document-idle
 // @icon         https://www.youtube.com/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/reflow.user.js
 // @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/reflow.user.js
+// @run-at       document-idle
 // @grant        none
 // ==/UserScript==
 
