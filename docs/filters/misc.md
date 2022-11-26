@@ -1,12 +1,13 @@
 ## global
-* don't become service worker
+* remove offline service worker
+* disable installable progressive web app functionality
 ## channel page
 * hide featured channel video
 ## player
-* block casting
-* remove cast_sender backups
-* remove remote
-* force miniplayer to be fully featured
+* block chromecast cast_sender module
+* remove chromecast cast_sender backups
+* remove mobile chromecast remote
+* remove miniplayer restrictions - makes miniplayer fully featured
 ## endscreen
 * remove annotations module
 ## video description

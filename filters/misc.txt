@@ -7,22 +7,23 @@
 !
 
 !! global
-! don't become service worker
-||www.youtube.com/manifest.webmanifest
+! remove offline service worker
 ||www.youtube.com/sw.js$script
+! disable installable progressive web app functionality
+||www.youtube.com/manifest.webmanifest
 
 !! channel page
 ! hide featured channel video
 youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
 
 !! player
-! block casting
+! block chromecast cast_sender module
 ||www.gstatic.com/*/cast_sender.js$script
-! remove cast_sender backups
+! remove chromecast cast_sender backups
 ||www.youtube.com/s/desktop/*/jsbin/www-tampering.vflset/www-tampering.js$script
-! remove remote
+! remove mobile chromecast remote
 ||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script
-! force miniplayer to be fully featured
+! remove miniplayer restrictions - makes miniplayer fully featured
 ||www.youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js$script
 
 !! endscreen
