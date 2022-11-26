@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2022/11/18
+! Last modified: 2022/11/26
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -21,7 +21,7 @@ youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer
 ! remove cast_sender backups
 ||www.youtube.com/s/desktop/*/jsbin/www-tampering.vflset/www-tampering.js$script
 ! remove remote
-||ywww.outube.com/s/player/*/player_ias.vflset/*/remote.js$script
+||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script
 ! force miniplayer to be fully featured
 ||www.youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js$script
 
