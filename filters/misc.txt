@@ -9,7 +9,7 @@
 !! global
 ! don't become service worker
 ||www.youtube.com/manifest.webmanifest
-||www.youtube.com/sw.js$scriptw
+||www.youtube.com/sw.js$script
 
 !! channel page
 ! hide featured channel video
