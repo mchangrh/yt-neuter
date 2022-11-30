@@ -4,7 +4,10 @@
 * voice search response noises
 * create button
 * country code
-* yoodle (#20)
+## yoodle (#20)
+* block image/animations from being fetched (falls back to normal logo)
+* block child elements of yoodle
+* block yoodle container
 # homepage
 ## shelves #15
 * game shelf

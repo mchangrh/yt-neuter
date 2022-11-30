@@ -16,9 +16,12 @@ youtube.com###voice-search-button
 youtube.com##ytd-topbar-menu-button-renderer:has(button[aria-label=Create])
 ! country code
 youtube.com##ytd-topbar-logo-renderer>#country-code
-! yoodle (#20)
+!! yoodle (#20)
+! block image/animations from being fetched (falls back to normal logo)
 ||www.gstatic.com/youtube/img/promos/*$image
+! block child elements of yoodle
 youtube.com##.ytd-yoodle-renderer
+! block yoodle container
 youtube.com##ytd-yoodle-renderer
 
 !!! homepage
