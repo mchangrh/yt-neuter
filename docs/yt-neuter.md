@@ -4,6 +4,7 @@
 * voice search response noises
 * create button
 * country code
+* yoodle (#20)
 # homepage
 ## shelves #15
 * game shelf
