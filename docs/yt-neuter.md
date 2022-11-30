@@ -4,11 +4,11 @@
 * voice search response noises
 * create button
 * country code
-## yoodle (#20)
+## yoodle ([#20](https://github.com/mchangrh/yt-neuter/issues/20))
 * block image/animations from being fetched (falls back to normal logo)
 * block child elements of yoodle
 # homepage
-## shelves #15
+## shelves ([#15](https://github.com/mchangrh/yt-neuter/issues/15))
 * game shelf
 * free movies (targets movies channelID
 * community posts
@@ -16,7 +16,7 @@
 * youtube featured banners
 * mixes
 * movies free with ads
-* "new to you" #2
+* "new to you" ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
 * recommendation surveys
 * explore categories
 # sidebar
@@ -31,7 +31,7 @@
 * more from youtube section
 * footer
 # popups
-* choose what to play next popup (#12)
+* choose what to play next popup ([#12](https://github.com/mchangrh/yt-neuter/issues/12))
 * "Become a member of this channel"
 * generic survey
 * "feedback shared" / "experiencing interruptions" toasts
@@ -46,7 +46,7 @@
 * recommendation pause overlay (seen in /embed/)
 * ambient mode
 ## interaction row
-* like button animation (#18)
+* like button animation ([#18](https://github.com/mchangrh/yt-neuter/issues/18))
 * download button
 * download worker
 * clip button
@@ -78,7 +78,7 @@
 * paid (thanks) comment highlight
 ## video sidebar
 * fundraiser
-* other sponsored videos (#1)
+* other sponsored videos ([#1](https://github.com/mchangrh/yt-neuter/issues/1))
 * shelves in watch-next recommendations (shorts shelf)
 ## recommendations sidebar
 * recommendations categories

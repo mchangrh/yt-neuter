@@ -23,7 +23,7 @@ youtube.com##ytd-topbar-logo-renderer>#country-code
 youtube.com##.ytd-yoodle-renderer
 
 !!! homepage
-!! shelves #15
+!! shelves (#15)
 ! game shelf
 youtube.com##ytd-rich-shelf-renderer[has-box-art-thumbnail-style]
 ! free movies (targets movies channelID
@@ -40,7 +40,7 @@ youtube.com##ytd-brand-video-singleton-renderer
 youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-renderer)
 ! movies free with ads
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-ypc> span:has-text(Free with Ads))
-! "new to you" #2
+! "new to you" (#2)
 youtube.com##ytd-rich-item-renderer.style-scope:has(> .ytd-feed-nudge-renderer)
 ! recommendation surveys
 youtube.com##ytd-inline-survey-renderer

@@ -10,6 +10,7 @@ function syncReadFile(filename) {
     const commentLines = arr.filter(line => line.startsWith('!'))
     // format comments into markdown
     const comments = commentLines.map(line => line
+        .replace(/\#(\d+)/, '[#$1](https://github.com/mchangrh/yt-neuter/issues/$1)')
         .replace(/\!\!\!/, '#')
         .replace(/\!\!/, '##')
         .replace(/\!/, '*')
