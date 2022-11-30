@@ -21,8 +21,6 @@ youtube.com##ytd-topbar-logo-renderer>#country-code
 ||www.gstatic.com/youtube/img/promos/*$image
 ! block child elements of yoodle
 youtube.com##.ytd-yoodle-renderer
-! block yoodle container
-youtube.com##ytd-yoodle-renderer
 
 !!! homepage
 !! shelves #15
