@@ -64,6 +64,7 @@
 * fundraiser tag
 * buy product badge
 * stop scrolling on "show less" (ubo only)
+* merch shelf
 ## under description metadata box
 * ticket shelf
 * clarify / covid-19 box
