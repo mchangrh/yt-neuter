@@ -247,3 +247,9 @@ youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
 youtube.com##:matches-path(/results) ytd-universal-watch-card-renderer
 ! channel mix
 youtube.com##ytd-radio-renderer
+
+!!! embed
+! info panel
+youtube.com##.ytp-info-panel-preview
+! watch on youtube overlay
+youtube.com##.ytp-impression-link

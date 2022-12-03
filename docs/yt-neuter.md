@@ -120,3 +120,6 @@
 * People also search for
 * Featured channels
 * channel mix
+# embed
+* info panel
+* watch on youtube overlay
