@@ -88,6 +88,7 @@ youtube.com##.ytp-doubletap-ui-legacy
 youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
 ! info card
 youtube.com##.ytp-cards-button-icon
+youtube.com##.ytp-cards-button
 ! annotations
 youtube.com##.ytp-ce-element
 ! watermark
