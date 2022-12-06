@@ -15,7 +15,8 @@ youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
 !! other locations
 ! homepage shelf (#15)
 youtube.com##ytd-rich-shelf-renderer[is-shorts]
-
+! homepage tab (mobile)
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 ! sidebar
 youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
