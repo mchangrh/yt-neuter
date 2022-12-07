@@ -35,6 +35,10 @@ youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer
 youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 ! blocks external links in description
 ||youtube.com/redirect?event=video_description^$document
+! blocks store links in description
+||youtube.com/redirect?event=product_shelf^$document
+! remove store links in description
+youtube.com##a.yt-simple-endpoint.yt-formatted-string[href^="https://www.youtube.com/redirect?event=product_shelf"]
 
 !! browse/ home
 ! make thumbnails square again

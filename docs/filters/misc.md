@@ -13,6 +13,8 @@
 ## video description
 * remove hashtags in description
 * blocks external links in description
+* blocks store links in description
+* remove store links in description
 ## browse/ home
 * make thumbnails square again
 * block all shelves
