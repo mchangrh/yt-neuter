@@ -15,6 +15,8 @@
 * blocks external links in description
 * blocks store links in description
 * remove store links in description
+## video endcards
+* make all video info visible
 ## browse/ home
 * make thumbnails square again
 * block all shelves
