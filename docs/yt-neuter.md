@@ -52,6 +52,7 @@
 * clip button
 * clip overflow menu
 * thanks button
+* thanks overflow menu
 * share button
 * save button
 * hide disabled buttons (download for non-premium, save for yt kids)

@@ -116,6 +116,8 @@ youtube.com##tp-yt-paper-item:has(>yt-formatted-string:has-text(Clip))
 ! thanks button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Thanks]))
+! thanks overflow menu
+youtube.com##tp-yt-paper-item:has(>yt-formatted-string:has-text(Thanks))
 ! share button
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Share]))
 ! save button
