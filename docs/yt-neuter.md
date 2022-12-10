@@ -61,6 +61,7 @@
 ## profile row
 * member/join button
 * subscribe
+* channel name tooltip
 ## video description
 * fundraiser tag
 * buy product badge

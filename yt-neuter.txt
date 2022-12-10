@@ -134,6 +134,8 @@ youtube.com###title>#super-title
 youtube.com###sponsor-button
 ! subscribe
 youtube.com###subscribe-button
+! channel name tooltip
+youtube.com##ytd-channel-name>.ytd-channel-name>tp-yt-paper-tooltip.ytd-channel-name
 
 !! video description
 ! fundraiser tag
