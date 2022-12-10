@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - nolive
-! Last modified: 2022/11/25
+! Last modified: 2022/12/09
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -21,6 +21,8 @@ youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-rende
 youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
 ! search
 youtube.com##ytd-video-renderer:has(.badge-style-type-live-now-alternate)
+! subscriptions
+youtube.com##ytd-grid-video-renderer:has(.badge-style-type-live-now-alternate)
 
 !! remove streamed videos
 ! homepage
