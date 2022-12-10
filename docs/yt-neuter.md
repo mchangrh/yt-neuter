@@ -90,6 +90,8 @@
 * nudges (recommendation/ turn on watch history)
 * "Recommended for you" sponsored videos
 * Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)
+## endscreen
+* mixes
 # channel page
 ## shelves
 * recognized channel member
