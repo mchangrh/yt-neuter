@@ -7,6 +7,7 @@
 * channel is live indicator
 * search
 * subscriptions
+* video endscreen
 ## remove streamed videos
 * homepage
 * sidebar/ recommendations
