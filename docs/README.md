@@ -28,11 +28,16 @@ filters to accompany the [reflow userscript](../userscripts/reflow.user.js)
 niche filters for funkey
 
 ## excluding filter
-to add an exclusion for a filter, copy the offending filter to "Your Filters" and replace the `##` after youtube.com with `#@#`
+to add an exclusion for a costmetic filter, copy the offending filter to "Your Filters" and replace the `##` after youtube.com with `#@#`
+
+to add an exclusion for a URL filter, replace `||` with `@@`
 
 example:
 ```diff
 ! block subscribe button
 - youtube.com###subscribe-button
 + youtube.com#@##subscribe-button
+! block endscreen
+- ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
++ @@www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
 ```

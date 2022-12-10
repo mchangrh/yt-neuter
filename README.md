@@ -2,6 +2,8 @@
 
 Originally on a [gist](https://gist.github.com/mchangrh/a51e72bb36a492bfda37a6a9fa537f22) but ported over to better track new elements to block
 
+if you like this, you'll probably also like [blocktube](https://github.com/amitbl/blocktube) (no affiliation)
+
 -----
 
 Filter URLs
@@ -28,5 +30,5 @@ A list of elements blocked is automatically generated in [docs](./docs)
 
 -----
 
-## scriptlets
+## Scriptlets
 Addon scriptlets for uBlock Origin to block/replace elements
