@@ -147,6 +147,10 @@ youtube.com##+js(aeld, yt-text-inline-expander-collapse-clicked)
 ! merch shelf
 youtube.com##.ytd-merch-shelf-renderer
 
+!! video info container
+! remove hashtags
+youtube.com###info-container #info>a.yt-simple-endpoint[href^="/hashtag/"]
+
 !! under description metadata box
 ! ticket shelf
 youtube.com###ticket-shelf

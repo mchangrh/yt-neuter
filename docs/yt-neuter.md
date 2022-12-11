@@ -67,6 +67,8 @@
 * buy product badge
 * stop scrolling on "show less" (ubo only)
 * merch shelf
+## video info container
+* remove hashtags
 ## under description metadata box
 * ticket shelf
 * clarify / covid-19 box
