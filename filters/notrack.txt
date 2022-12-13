@@ -7,11 +7,16 @@
 !
 
 ! playback ping
-||www.youtube.com/api/stats/playback
+||www.youtube.com/api/stats/playback?$empty
 ! watch % and time
-||www.youtube.com/api/stats/watchtime
+||www.youtube.com/api/stats/watchtime?$empty
+! quality of experience
+# already included in easyprivacy, repeated to suppress errors
+||www.youtube.com/api/stats/qoe?$empty
 ! periodic stat pings
-||www.youtube.com/youtubei/v1/log_event
+||www.youtube.com/youtubei/v1/log_event?$empty
 ! ? generic stats ping
-||www.youtube.com/generate_204
-||i.ytimg.com/generate_204
+||www.youtube.com/generate_204$empty
+||i.ytimg.com/generate_204$empty
+||www.youtube.com/youtubei/v1/att/get
+||jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create$empty
