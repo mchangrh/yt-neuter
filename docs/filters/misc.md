@@ -1,6 +1,7 @@
 ## global
 * remove offline service worker
 * disable installable progressive web app functionality
+## remove emoji shortcuts for comments
 ## channel page
 * hide featured channel video
 ## player

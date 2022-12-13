@@ -11,6 +11,8 @@
 ||www.youtube.com/sw.js$script
 ! disable installable progressive web app functionality
 ||www.youtube.com/manifest.webmanifest
+!! remove emoji shortcuts for comments
+||www.gstatic.com/youtube/img/emojis/emoji-*.json
 
 !! channel page
 ! hide featured channel video
