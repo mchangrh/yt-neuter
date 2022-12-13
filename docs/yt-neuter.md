@@ -109,7 +109,6 @@
 ## about
 * about > links
 ## search
-* movies in search results
 ## misc
 * channel member prompt popup
 # live chat
