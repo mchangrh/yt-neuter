@@ -32,3 +32,7 @@ A list of elements blocked is automatically generated in [docs](./docs)
 
 ## Scriptlets
 Addon scriptlets for uBlock Origin to block/replace elements
+
+[Instructions](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation)
+
+`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/scriptlets.js`
