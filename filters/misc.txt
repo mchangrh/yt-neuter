@@ -27,6 +27,8 @@ youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer
 ||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script
 ! remove miniplayer restrictions - makes miniplayer fully featured
 ||www.youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js$script
+! make quality selector superscript red again
+youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red) !important;)
 
 !! endscreen
 ! remove annotations module

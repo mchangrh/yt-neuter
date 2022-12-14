@@ -9,6 +9,7 @@
 * remove chromecast cast_sender backups
 * remove mobile chromecast remote
 * remove miniplayer restrictions - makes miniplayer fully featured
+* make quality selector superscript red again
 ## endscreen
 * remove annotations module
 ## video description
