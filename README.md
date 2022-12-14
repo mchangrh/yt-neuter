@@ -25,6 +25,8 @@ Change "Subscribe" background to blend in with the rest of the theme [Install](h
 
 Replces YouTube rounded views and relative date with absolute values [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/absview-date.user.js)
 
+Make YT Quality icons red again [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/old-red-quality.user.js)
+
 -----
 
 ## Filters
