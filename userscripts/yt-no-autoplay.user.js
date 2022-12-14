@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube No AutoPlay
 // @namespace    yt-neuter
-// @version      1.1
+// @version      1.1.1
 // @description  Disable YouTube AutoPlay by default
 // @author       michael mchang.name
 // @match        https://www.youtube.com/watch*
@@ -21,6 +21,7 @@
     if (playlistMgr) playlistMgr.canAutoAdvance_ = false
   }
 
+  disable()
   let frequency = 5000
   setInterval(disable, frequency)
 })();
