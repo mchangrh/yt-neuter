@@ -27,6 +27,8 @@ Replces YouTube rounded views and relative date with absolute values [Install](h
 
 Make YT Quality icons red again [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/old-red-quality.user.js)
 
+Persist YT Controls [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/persist-ctrl.user.js)
+
 -----
 
 ## Filters
