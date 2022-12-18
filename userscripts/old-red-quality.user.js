@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT Old Red Quality Indicator
 // @namespace    yt-neuter
-// @version      1.0.0
+// @version      1.0.1
 // @description  Make YT Quality icons red again
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 /* ubo rule:
-youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red) !important;)
+youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red, #f00) !important;)
 */
 
-GM_addStyle(".ytp-menuitem sup.ytp-swatch-color-white { color: var(--yt-spec-static-brand-red) !important; }");
+GM_addStyle(".ytp-menuitem sup.ytp-swatch-color-white { color: var(--yt-spec-static-brand-red, #f00) !important; }");
