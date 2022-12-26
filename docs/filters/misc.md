@@ -12,6 +12,8 @@
 * make quality selector superscript red again
 ## endscreen
 * remove annotations module
+## video title
+* remove highlights for tagged channels
 ## video description
 * remove hashtags in description
 * blocks external links in description

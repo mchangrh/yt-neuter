@@ -246,7 +246,7 @@ youtube.com##yt-live-chat-paid-sticker-renderer
 ! chat member badge
 youtube.com##yt-live-chat-author-badge-renderer[type=member]
 ! revert member color
-youtube.com###author-name.member:style(color: var(--yt-live-chat-secondary-text-color) !important)
+youtube.com###author-name.member:style(color: var(--yt-live-chat-secondary-text-color, rgba(255,255,255,0.7)) !important)
 ! custom emojis
 youtube.com##.emoji[data-emoji-id]
 ! emoji-only messages
