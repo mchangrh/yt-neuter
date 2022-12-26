@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT Neuter - no link path
 // @namespace    yt-neuter
-// @version      1.0.0
+// @version      1.0.1
 // @description  Removes trailing paths to links in description
 // @author       michael mchang.name
 // @match        https://www.youtube.com/watch*
@@ -29,4 +29,5 @@ const wfke = (selector, callback) => {
 }
 wfke("#description-inner", neuterDescLinks)
 // re-run on description expand
-document.addEventListener("yt-text-inline-expander-expanded-changed", neuterDescLinks)
+// timeout is needed on un-expanding
+document.addEventListener("yt-text-inline-expander-expanded-changed", () => setTimeout(() => neuterDescLinks(), 0))
