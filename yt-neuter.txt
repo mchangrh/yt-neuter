@@ -128,6 +128,8 @@ youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button
 !! video title
 ! supertitle (trending for x) or #hashtags
 youtube.com###title>#super-title
+! supertitle for location
+youtube.com###info-container>#info>a.yt-simple-endpoint[style-target="bold"]
 
 !! profile row
 ! member/join button

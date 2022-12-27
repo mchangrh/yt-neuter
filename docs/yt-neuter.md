@@ -58,6 +58,7 @@
 * hide disabled buttons (download for non-premium, save for yt kids)
 ## video title
 * supertitle (trending for x) or #hashtags
+* supertitle for location
 ## profile row
 * member/join button
 * subscribe
