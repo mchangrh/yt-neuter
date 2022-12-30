@@ -1,0 +1,13 @@
+{
+    "path": "https://www.youtube.com/*",
+    "name": "persist-controls",
+    "version": "1.1.0",
+    "description": "Make YouTube controls persist",
+    "rules": [{
+        "selector": ".ytp-chrome-bottom",
+        "style": "opacity: 1 !important;"
+    }, {
+        "selector": ".ytp-gradient-bottom",
+        "style": "opacity: 1 !important; display: block !important;"
+    }]
+}

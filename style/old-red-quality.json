@@ -1,0 +1,10 @@
+{
+    "path": "https://www.youtube.com/*",
+    "name": "old-red-quality",
+    "version": "1.0.1",
+    "description": "Makes the quality indicator red again",
+    "rules": [{
+        "selector": ".ytp-menuitem sup.ytp-swatch-color-white",
+        "style": "color: var(--yt-spec-static-brand-red, #f00) !important;"
+    }]
+}
