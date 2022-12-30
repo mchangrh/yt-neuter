@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.1
+// @version      0.6.2
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -20,15 +20,16 @@ const isVisible = (elem) => elem.offsetWidth > 0 || elem.offsetHeight > 0;
 // wait for visible key elements
 function wfke(selector, callback) {
     var els = document.querySelectorAll(selector);
-    for (const el of els)
+    for (const el of els) {
         if (el && isVisible(el)) return callback();
+    }
     setTimeout(wfke, 100, selector, callback);
 }
 
 // run until key elements
 function ruke(selector, callback, parent) {
     var el = parent.querySelector(selector);
-    if (el && isVisible(el)) return;
+    if (el && isVisible(el) && el.childElementCount >= 5) return;
     callback(parent);
     setTimeout(ruke, 700, selector, callback, parent);
 }
@@ -72,7 +73,7 @@ function reflow() {
         // trigger reflow on delay
         setTimeout(trigger_reflow, 700, grid);
         // trigger reflow with ruke
-        ruke("#contents.ytd-rich-grid-row:has(>:nth-child(5))", trigger_reflow, grid);
+        ruke("#contents.ytd-rich-grid-row", trigger_reflow, grid);
     }
 }
 
