@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         YT Neuter - no link path
 // @namespace    yt-neuter
-// @version      1.0.2
+// @version      1.0.3
 // @description  Removes trailing paths to links in description
 // @author       michael mchang.name
-// @match        https://www.youtube.com/watch*
+// @match        https://www.youtube.com/*
 // @icon         https://www.youtube.com/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/no-link-path.user.js
 // @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/no-link-path.user.js

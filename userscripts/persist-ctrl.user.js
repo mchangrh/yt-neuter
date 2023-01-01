@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         YT Persist Controls
 // @namespace    yt-neuter
-// @version      1.1.0
+// @version      1.1.1
 // @description  Make youtube controls persist
 // @author       michael mchang.name
-// @match        https://www.youtube.com/watch*
+// @match        https://www.youtube.com/*
 // @icon         https://www.youtube.com/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/persist-ctrl.user.js
 // @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/persist-ctrl.user.js
