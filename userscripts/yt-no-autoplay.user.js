@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube No AutoPlay
 // @namespace    yt-neuter
-// @version      1.2.1
+// @version      1.2.2
 // @description  Disable YouTube AutoPlay by default
 // @author       michael mchang.name
 // @match        https://www.youtube.com/watch*
@@ -14,12 +14,17 @@
 
 const player = document.querySelector(".ytd-player>.html5-video-player")
 const playlistMgr = document.querySelector("yt-playlist-manager")
+const autonavButton = document.querySelector(".ytp-autonav-toggle-button")
 
 const disable = () => {
-    if (player) player.setAutonav(false, 1)
+    if (autonavButton?.ariaChecked === "true") autonavButton.click()
+    if (player) player.setAutonav(0, null)
     if (playlistMgr) playlistMgr.canAutoAdvance_ = false
 }
 
+const check = () => {
+    if (playlistMgr?.canAutoAdvance_ || autonavButton?.isAriaChecked) disable()
+}
+
 disable()
-let frequency = 5000
-setInterval(disable, frequency)
+setInterval(check, 5000)
