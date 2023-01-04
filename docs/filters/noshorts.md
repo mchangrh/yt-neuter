@@ -7,3 +7,5 @@
 * sidebar
 * subscriptions
 * search (videos)
+* recommendations
+* video endscreen?
