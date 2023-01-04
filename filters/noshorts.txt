@@ -27,3 +27,5 @@ youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-rende
 youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
 ! recommendations
 youtube.com##ytd-compact-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+! video endscreen?
+youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
