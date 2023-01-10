@@ -13,6 +13,7 @@
 ||www.youtube.com/manifest.webmanifest
 !! remove emoji shortcuts for comments
 ||www.gstatic.com/youtube/img/emojis/emoji-*.json
+||www.gstatic.com/youtube/img/emojis/emojis-svg-*.json
 
 !! channel page
 ! hide featured channel video
