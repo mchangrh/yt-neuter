@@ -1,31 +1,41 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - noshorts
-! Last modified: 2023/01/03
-! Expires: 10 days
+! Last modified: 2023/01/11
+! Expires: 2 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
 
+!! shelves
 ! generic shorts shelf (channel, search)
 youtube.com##ytd-reel-shelf-renderer
-
-!! channel page
-! shorts tab
-youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
-
-!! other locations
 ! homepage shelf (#15)
 youtube.com##ytd-rich-shelf-renderer[is-shorts]
+
+!! shorts tabs
+! channel page
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
 ! homepage tab (mobile)
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 ! sidebar
 youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+
+!! shorts videos
+! generic shorts video
+youtube.com###dismissible:has(a[href^="/shorts/"])
+youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+! video title with #shorts
+youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts))
+
+!! specific shorts filters
 ! subscriptions
-youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-grid-video-renderer
 ! search (videos)
 youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
 ! recommendations
 youtube.com##ytd-compact-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
 ! video endscreen?
 youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+! hashtag page
+youtube.com##.ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
