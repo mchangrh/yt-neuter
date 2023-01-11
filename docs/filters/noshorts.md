@@ -1,11 +1,16 @@
+## shelves
 * generic shorts shelf (channel, search)
-## channel page
-* shorts tab
-## other locations
 * homepage shelf ([#15](https://github.com/mchangrh/yt-neuter/issues/15))
+## shorts tabs
+* channel page
 * homepage tab (mobile)
 * sidebar
+## shorts videos
+* generic shorts video
+* video title with #shorts
+## specific shorts filters
 * subscriptions
 * search (videos)
 * recommendations
 * video endscreen?
+* hashtag page
