@@ -23,11 +23,11 @@ Force YouTube grid to fit more elements per row [Install](https://raw.githubuser
 
 Change "Subscribe" background to blend in with the rest of the theme [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/mute-subscribe.user.js)  
 
-Replces YouTube rounded views and relative date with absolute values [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/absview-date.user.js)
+Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js) **(Migrated)**
 
 Make YT Quality icons red again [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/old-red-quality.user.js)
 
-Persist YT Controls [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/persist-ctrl.user.js)
+Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js) **(Migrated)**
 
 -----
 
