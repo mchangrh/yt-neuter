@@ -6,8 +6,8 @@
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
 // @icon         https://www.youtube.com/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/persist-ctrl.user.js
-// @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/persist-ctrl.user.js
+// @updateURL    https://raw.githubusercontent.com/mchangrh/uscript/main/yt/yt-persist-ctrl.user.js
+// @downloadURL  https://raw.githubusercontent.com/mchangrh/uscript/main/yt/yt-persist-ctrl.user.js
 // @grant        GM_addStyle
 // @run-at       document-end
 // ==/UserScript==
