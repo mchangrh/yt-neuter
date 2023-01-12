@@ -23,8 +23,8 @@ youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 
 !! shorts videos
 ! generic shorts video
-youtube.com###dismissible:has(a[href^="/shorts/"])
-youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+!youtube.com###dismissible:has(a[href^="/shorts/"])
+!youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
 ! video title with #shorts
 youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts))
 
