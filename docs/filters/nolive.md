@@ -1,16 +1,9 @@
 ## channel
 * live tab
-## remove live videos
-* homepage
-* sidebar/ recommendations
-* channel videos
 * channel is live indicator
-* search
-* subscriptions
+## generic filters
+* remove live videos
+* remove streamed videos
+* remove upcoming videos
+## specific filters
 * video endscreen
-## remove streamed videos
-* homepage
-* sidebar/ recommendations
-* channel videos
-## remove upcoming videos
-* homepage
