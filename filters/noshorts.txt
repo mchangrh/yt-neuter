@@ -21,21 +21,14 @@ m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Sh
 youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 
-!! shorts videos
-! generic shorts video
-!youtube.com###dismissible:has(a[href^="/shorts/"])
-!youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+!! generic filters
+! videos that resolve to shorts
+youtube.com###dismissible:has(a[href^="/shorts/"]):not(.ytd-shelf-renderer):upward(1)
+! videos with shorts icons
+youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]):not(.ytd-shelf-renderer):upward(1)
 ! video title with #shorts
 youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts))
 
 !! specific shorts filters
-! subscriptions
-youtube.com##ytd-grid-video-renderer
-! search (videos)
-youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
-! recommendations
-youtube.com##ytd-compact-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
-! video endscreen?
+! video endscreen
 youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
-! hashtag page
-youtube.com##.ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
