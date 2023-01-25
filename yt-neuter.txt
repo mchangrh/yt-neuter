@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2023/01/07
-! Expires: 2 days
+! Last modified: 2023/01/25
+! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
@@ -112,12 +112,12 @@ youtube.com##ytd-download-button-renderer
 youtube.com##ytd-button-renderer:has(a:has(> yt-formatted-string:has-text(Clip)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Clip]))
 ! clip overflow menu
-youtube.com##tp-yt-paper-item:has(>yt-formatted-string:has-text(Clip))
+youtube.com##ytd-menu-service-item-renderer:has(>tp-yt-paper-item:has(>yt-formatted-string:has-text(Clip)))
 ! thanks button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Thanks)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Thanks]))
 ! thanks overflow menu
-youtube.com##tp-yt-paper-item:has(>yt-formatted-string:has-text(Thanks))
+youtube.com##ytd-menu-service-item-renderer:has(>tp-yt-paper-item:has(>yt-formatted-string:has-text(Thanks)))
 ! share button
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Share)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Share]))
