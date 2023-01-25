@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - noshorts
-! Last modified: 2023/01/11
-! Expires: 2 days
+! Last modified: 2023/01/24
+! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
@@ -27,7 +27,7 @@ youtube.com###dismissible:has(a[href^="/shorts/"]):not(.ytd-shelf-renderer):upwa
 ! videos with shorts icons
 youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]):not(.ytd-shelf-renderer):upward(1)
 ! video title with #shorts
-youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts)):not(.ytd-shelf-renderer):upward(1)
 
 !! specific shorts filters
 ! video endscreen
