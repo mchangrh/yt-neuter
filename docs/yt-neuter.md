@@ -7,6 +7,16 @@
 ## yoodle ([#20](https://github.com/mchangrh/yt-neuter/issues/20))
 * block image/animations from being fetched (falls back to normal logo)
 * block child elements of yoodle
+## surveys ([#24](https://github.com/mchangrh/yt-neuter/issues/24))
+* survey answer card/ thanks
+* checkbox survey?
+* feedback survey?
+* follow up survey?
+* generic surveys
+* multistage survey?
+* ratings survey? 
+* youtube RED exit survey
+* "how are your recommendations" survey
 # homepage
 ## shelves ([#15](https://github.com/mchangrh/yt-neuter/issues/15))
 * game shelf
@@ -17,7 +27,6 @@
 * mixes
 * movies free with ads
 * "new to you" ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
-* recommendation surveys
 * explore categories
 # sidebar
 ## buttons
