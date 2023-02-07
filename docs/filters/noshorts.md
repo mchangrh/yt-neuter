@@ -1,8 +1,9 @@
 ## shelves
 * generic shorts shelf (channel, search)
 * homepage shelf ([#15](https://github.com/mchangrh/yt-neuter/issues/15))
-## shorts tabs
-* channel page
+* mobile homepage shelf
+## navigation
+* channel page tab
 * homepage tab (mobile)
 * sidebar
 ## generic filters

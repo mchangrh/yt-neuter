@@ -7,3 +7,6 @@
 * remove upcoming videos
 ## specific filters
 * video endscreen
+## navigation
+* sidebar
+* recommendations chips
