@@ -23,6 +23,7 @@
 * free movies (targets movies channelID
 * community posts
 * "featured" shelf
+* breaking news shelf
 * youtube featured banners
 * mixes
 * movies free with ads

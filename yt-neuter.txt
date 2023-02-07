@@ -59,6 +59,8 @@ youtube.com##ytd-rich-shelf-renderer:has(a[href="/channel/UClgRkhTL3_hImCAmdLfDE
 youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
 ! "featured" shelf
 youtube.com##ytd-rich-shelf-renderer:has(ytd-badge-supported-renderer#featured-badge)
+! breaking news shelf
+youtube.com##ytd-rich-shelf-renderer:has(#title:has-text(Breaking news))
 
 ! youtube featured banners
 youtube.com##ytd-statement-banner-renderer
