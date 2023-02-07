@@ -63,6 +63,10 @@ youtube.com##ytd-rich-shelf-renderer
 ! key moments/chapters
 youtube.com###expandable-metadata
 
+!! learning playlists (#25)
+! remove from playlists view
+youtube.com##ytd-grid-playlist-renderer:has(.ytd-badge-supported-renderer:has(>span:has-text("Learning playlist")))
+
 !!! depends on scriptlets
 !! video description
 ! makes subscribe button blend in with other buttons

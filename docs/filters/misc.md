@@ -26,6 +26,8 @@
 * block all shelves
 ## search
 * key moments/chapters
+## learning playlists ([#25](https://github.com/mchangrh/yt-neuter/issues/25))
+* remove from playlists view
 # depends on scriptlets
 ## video description
 * makes subscribe button blend in with other buttons
