@@ -21,6 +21,7 @@ const filters = [
     "yt-neuter",
     "filters/misc",
     "filters/nolive",
+    "filters/nomusic",
     "filters/noshorts",
     "filters/notrack",
     "filters/reflow"

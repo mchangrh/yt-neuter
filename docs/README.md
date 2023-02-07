@@ -6,15 +6,19 @@ The main filter list
 Hide all Live/ Upcoming/ Premiere/ Streamed videos  
 [docs](./filters/nolive.md) | short link: `https://neuter.mchang.xyz/filter/nolive`
 
-## notrack
-Block video tracking endpoints  
-!! Will break history and recommendations !!  
-[docs](./filters/notrack.md) | short link: `https://neuter.mchang.xyz/filter/notrack`
-
 ## noshorts
 Block YouTube Shorts  
 This works best alongside [BlockTube](https://github.com/amitbl/blocktube)'s shorts blocking feature, adds some filters on channel pages  
 [docs](./filters/noshorts.md) | short link: `https://neuter.mchang.xyz/filter/noshorts`
+
+## nomusic
+Hide all videos by verified artists and Music recommendations  
+[docs](./filters/nomusic.md) | short link: `https://neuter.mchang.xyz/filter/nomusic`
+
+## notrack
+Block video tracking endpoints  
+!! Will break history and recommendations !!  
+[docs](./filters/notrack.md) | short link: `https://neuter.mchang.xyz/filter/notrack`
 
 ## misc
 Extremely aggressive misc filters  
@@ -37,6 +41,7 @@ example:
 ! block subscribe button
 - youtube.com###subscribe-button
 + youtube.com#@##subscribe-button
+
 ! block endscreen
 - ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
 + @@www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
