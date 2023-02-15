@@ -45,6 +45,7 @@
 * "Become a member of this channel"
 * generic survey
 * "feedback shared" / "experiencing interruptions" toasts
+* "change your subtitle settings" popup
 # video page
 ## in-video overlays
 * fast forward icon
