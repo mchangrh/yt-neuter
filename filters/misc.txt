@@ -48,6 +48,13 @@ youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 ||youtube.com/redirect?event=product_shelf^$document
 ! remove store links in description
 youtube.com##a.yt-simple-endpoint.yt-formatted-string[href^="https://www.youtube.com/redirect?event=product_shelf"]
+! remove description video link highlights
+youtube.com##.yt-core-attributed-string--highlight-text-decorator:style(color: var(--yt-spec-text-primary, #f1f1f1) !important; background-color: transparent !important;)
+youtube.com##.yt-core-attributed-string--highlight-text-decorator>span>img.yt-core-image
+
+!! links
+! remove external link highlights (comments, descriptions)
+youtube.com##a[target=_blank]:not([has-link-only_]):style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 
 !! video endcards
 ! make all video info visible
