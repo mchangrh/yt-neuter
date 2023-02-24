@@ -20,7 +20,7 @@ const neuterLink = (elem) => {
 // iterate over all in description
 const neuterDescLinks = () =>
     document.querySelector("#description-inner")
-        .querySelectorAll("a.yt-simple-endpoint.yt-formatted-string")
+        .querySelectorAll(`a[target="_blank"]`)
         .forEach(neuterLink)
 wfke("#description-inner", neuterDescLinks)
 // re-run on description expand
