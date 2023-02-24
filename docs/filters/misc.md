@@ -19,11 +19,15 @@
 * blocks external links in description
 * blocks store links in description
 * remove store links in description
+* remove description video link highlights
+## links
+* remove external link highlights (comments, descriptions)
 ## video endcards
 * make all video info visible
 ## browse/ home
 * make thumbnails square again
 * block all shelves
+* remove verified badges
 ## search
 * key moments/chapters
 ## learning playlists ([#25](https://github.com/mchangrh/yt-neuter/issues/25))
