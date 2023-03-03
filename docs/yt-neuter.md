@@ -144,5 +144,3 @@
 # embed
 * info panel
 * watch on youtube overlay
-# video filters
-* youtube movies
