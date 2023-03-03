@@ -303,7 +303,3 @@ youtube.com##ytd-radio-renderer
 youtube.com##.ytp-info-panel-preview
 ! watch on youtube overlay
 youtube.com##.ytp-impression-link
-
-!!! video filters
-! youtube movies
-youtube.com###dismissible:has(#avatar-link[title="undefined"]):upward(1)
