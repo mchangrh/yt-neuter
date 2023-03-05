@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.2
+// @version      0.6.3
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -39,11 +39,13 @@ const trigger_reflow = (parent) => parent.dispatchEvent(new Event('yt-rich-grid-
 
 function reflow() {
     // select browse-results-renderer (to increase maxwidth)
-    const browseResultsRenderer = document.querySelector('ytd-two-column-browse-results-renderer');
-    if (!browseResultsRenderer) return;
+    const browseResultsRenderer = document.querySelectorAll('ytd-two-column-browse-results-renderer');
+    if (!browseResultsRenderer.length) return;
     // force results to fit as many per row
-    browseResultsRenderer.style.setProperty("width", "100%", "important");
-    browseResultsRenderer.style.setProperty("max-width", "100%", "important");
+    for (const el of browseResultsRenderer) {
+        el.style.setProperty("width", "100%", "important");
+        el.style.setProperty("max-width", "100%", "important");
+    }
     // target rich grid renderer
     const grids = document.querySelectorAll('ytd-rich-grid-renderer');
 
