@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Absolute views, dates
 // @namespace    mchang.name
-// @version      1.0.3
+// @version      1.0.4
 // @description  Replces YouTube rounded views and relative date with absolute values
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
 // @icon         https://www.youtube.com/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/mchangrh/uscripts/main/yt/yt-absview-data.user.js
-// @downloadURL  https://raw.githubusercontent.com/mchangrh/uscripts/main/yt/yt-absview-data.user.js
+// @updateURL    https://raw.githubusercontent.com/mchangrh/uscripts/main/yt/yt-absview-date.user.js
+// @downloadURL  https://raw.githubusercontent.com/mchangrh/uscripts/main/yt/yt-absview-date.user.js
 // @require      https://neuter.mchang.xyz/require/wfke.js
 // @grant        none
 // @run-at       document-end
