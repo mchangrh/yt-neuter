@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.3
+// @version      0.6.4
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
 // @icon         https://www.youtube.com/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/reflow.user.js
 // @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/reflow.user.js
+// @require      https://neuter.mchang.xyz/require/wfke.js
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
@@ -16,15 +17,6 @@ const vidPerRow = 6;
 const scale = false;
 
 const isVisible = (elem) => elem.offsetWidth > 0 || elem.offsetHeight > 0;
-
-// wait for visible key elements
-function wfke(selector, callback) {
-    var els = document.querySelectorAll(selector);
-    for (const el of els) {
-        if (el && isVisible(el)) return callback();
-    }
-    setTimeout(wfke, 100, selector, callback);
-}
 
 // run until key elements
 function ruke(selector, callback, parent) {
@@ -91,4 +83,4 @@ document.addEventListener('keydown', (e) => {
         reflow();
     }
 });
-wfke('ytd-rich-grid-media', reflow);
+wfke('.ytd-app', reflow);
