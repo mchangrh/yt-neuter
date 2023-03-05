@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2023/03/03
+! Last modified: 2023/03/05
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -202,6 +202,8 @@ youtube.com###collapsible > .ytd-metadata-row-container-renderer
 youtube.com##ytd-video-description-music-section-renderer
 ! featured playlist
 youtube.com##ytd-structured-description-content-renderer:has(ytd-structured-description-playlist-lockup-renderer)
+! products in current video
+youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
 
 !! comments
 ! channel member comment badge
@@ -216,8 +218,12 @@ youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-co
 youtube.com###donation-shelf
 ! other sponsored videos (#1)
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]
+! ads
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]
 ! shelves in watch-next recommendations (shorts shelf)
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
+! shop products in this video
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id^="shopping_panel_for_entry_point"]
 
 !! recommendations sidebar
 ! recommendations categories
@@ -234,9 +240,6 @@ youtube.com##.badge:has(span:has-text(New))
 youtube.com##.badge:has(span:has-text(4K))
 ! nudges (recommendation/ turn on watch history)
 youtube.com##ytd-feed-nudge-renderer
-! "Recommended for you" sponsored videos
-! Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)
-youtube.com##:matches-path(/watch) ytd-compact-video-renderer:not(:has(#metadata-line span:nth-of-type(2))):not(:has(.secondary-metadata > ytd-badge-supported-renderer > .badge-style-type-live-now-alternate))
 
 !! endscreen
 ! mixes

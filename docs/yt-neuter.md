@@ -91,6 +91,7 @@
 * show metadata
 * featured music
 * featured playlist
+* products in current video
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
@@ -98,7 +99,9 @@
 ## video sidebar
 * fundraiser
 * other sponsored videos ([#1](https://github.com/mchangrh/yt-neuter/issues/1))
+* ads
 * shelves in watch-next recommendations (shorts shelf)
+* shop products in this video
 ## recommendations sidebar
 * recommendations categories
 * mixes
@@ -106,8 +109,6 @@
 * yt music
 * new/ fundraiser/ 4k badges
 * nudges (recommendation/ turn on watch history)
-* "Recommended for you" sponsored videos
-* Looks for non-live videos without 2 spans in the metadata-line (on normal videos, there's view count + upload date)
 ## endscreen
 * mixes
 # channel page
