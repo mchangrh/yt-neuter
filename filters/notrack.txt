@@ -16,7 +16,7 @@
 ! periodic stat pings
 ||www.youtube.com/youtubei/v1/log_event?$empty
 ! ? generic stats ping
-||www.youtube.com/generate_204$empty
-||i.ytimg.com/generate_204$empty
+||www.youtube.com/generate_204
+/generate_204$~xhr
 ||www.youtube.com/youtubei/v1/att/get
 ||jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create
