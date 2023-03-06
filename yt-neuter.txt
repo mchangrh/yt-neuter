@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2023/03/05
+! Last modified: 2023/03/06
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -204,6 +204,8 @@ youtube.com##ytd-video-description-music-section-renderer
 youtube.com##ytd-structured-description-content-renderer:has(ytd-structured-description-playlist-lockup-renderer)
 ! products in current video
 youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
+! suggested channels
+youtube.com##ytd-metadata-row-renderer:has(yt-formatted-string[has-link-only_] > a[href^="/channel/"])
 
 !! comments
 ! channel member comment badge

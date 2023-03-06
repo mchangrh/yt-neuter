@@ -92,6 +92,7 @@
 * featured music
 * featured playlist
 * products in current video
+* suggested channels
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
