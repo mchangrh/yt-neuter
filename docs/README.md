@@ -28,8 +28,8 @@ Extremely aggressive misc filters
 filters to accompany the [reflow userscript](../userscripts/reflow.user.js)  
 [docs](./filters/reflow.md) | short link: `https://neuter.mchang.xyz/filter/reflow`
 
-## funkey
-niche filters for funkey
+## requests
+niche transformative filters requested
 
 ## excluding filter
 to add an exclusion for a costmetic filter, copy the offending filter to "Your Filters" and replace the `##` after youtube.com with `#@#`
