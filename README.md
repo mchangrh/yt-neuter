@@ -17,17 +17,21 @@ Filter URLs
 -----
 
 ## Userscripts
-Automatically disables YouTube recommended and playlist AutoPlay [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/yt-no-autoplay.user.js)
+Automatically disables YouTube recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)
 
-Force YouTube grid to fit more elements per row [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/reflow.user.js)
+Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow.user.js)
 
-Change "Subscribe" background to blend in with the rest of the theme [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/mute-subscribe.user.js)  
+Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe.user.js)  
 
 Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js) **(Migrated)**
 
-Make YT Quality icons red again [Install](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/old-red-quality.user.js)
+Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality.user.js)
 
 Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js) **(Migrated)**
+
+Remove everything from description links but hostname [Install](https://neuter.mchang.xyz/script/no-link-path)
+
+Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
 
 -----
 
