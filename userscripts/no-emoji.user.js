@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT no emoji
 // @namespace    yt-neuter
-// @version      1.0.0
+// @version      1.1.0
 // @description  Blank out emojis with empty font
 // @author       michael mchang.name
 // @match        https://*.youtube.com/*
@@ -16,4 +16,7 @@ GM_addStyle(`@font-face {
   src: url('https://neuter.mchang.xyz/require/nofont.otf') format('opentype');
   unicode-range: U+10000-1FFFF;
 }`);
+// browse titles
 GM_addStyle('#video-title { font-family: nofont,"Roboto","Arial",sans-serif !important; }')
+// video title
+GM_addStyle('h1.ytd-watch-metadata { font-family: nofont,"YouTube Sans","Roboto",sans-serif; }')
