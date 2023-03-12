@@ -10,6 +10,7 @@
 * remove chromecast cast_sender backups
 * remove mobile chromecast remote
 * remove miniplayer restrictions - makes miniplayer fully featured
+* remove inline player restrictions - makes inline player fully featured
 * make quality selector superscript red again
 ## endscreen
 * remove annotations module
@@ -29,6 +30,7 @@
 * make thumbnails square again
 * block all shelves
 * remove verified badges
+* remove inline video previews 
 ## search
 * key moments/chapters
 ## learning playlists ([#25](https://github.com/mchangrh/yt-neuter/issues/25))
