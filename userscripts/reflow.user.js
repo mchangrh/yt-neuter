@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.5
+// @version      0.6.6
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -34,7 +34,7 @@ function reflow() {
     const browseResultsRenderer = document.querySelector('ytd-two-column-browse-results-renderer');
     if (!browseResultsRenderer) return;
     // force results to fit as many per row
-    GM_addStyle(`ytd-two-column-browse-results-renderer:not([page-subtype="channels"]) {
+    GM_addStyle(`ytd-two-column-browse-results-renderer:not([page-subtype="channels"]):not([page-subtype="subscriptions"]) {
         width: 100% !important;
         max-width: 100% !important;
     }`)
