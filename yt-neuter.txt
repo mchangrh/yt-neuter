@@ -52,7 +52,7 @@ youtube.com##.ytd-single-option-survey-renderer
 !!! homepage
 !! shelves (#15)
 ! game shelf
-youtube.com##ytd-rich-shelf-renderer[has-box-art-thumbnail-style]
+youtube.com##ytd-rich-shelf-renderer[has-rounded-box-art-thumbnail-style]
 ! free movies (targets movies channelID
 youtube.com##ytd-rich-shelf-renderer:has(a[href="/channel/UClgRkhTL3_hImCAmdLfDE4g"])
 ! community posts
