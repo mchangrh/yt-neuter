@@ -8,5 +8,5 @@
 
 ! custom filter to revert item-renderer size (pairs well with reflow)
 youtube.com##ytd-rich-item-renderer:style(margin-bottom: 24px !important; margin-right: 4px !important; margin-left: 0px !important; width: 210px !important;)
-youtube.com##video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important; max-height: 4rem !important;)
+youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important; max-height: 4rem !important;)
 youtube.com##ytd-video-meta-block[rich-meta] #metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important; max-height: 3.6rem !important;)
