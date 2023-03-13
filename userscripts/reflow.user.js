@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.6
+// @version      0.6.7
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -29,21 +29,23 @@ function ruke(selector, callback, parent) {
 // dispatch reflow event to fill in empty spaces
 const trigger_reflow = (parent) => parent.dispatchEvent(new Event('yt-rich-grid-reflow'));
 
+// force results to fit as many per row
+// exclude channels, susbscriptions, history
+GM_addStyle(`ytd-two-column-browse-results-renderer:not([page-subtype="channels"]):not([page-subtype="subscriptions"]):not([page-subtype="history"]) {
+    width: 100% !important;
+    max-width: 100% !important;
+}`)
+
 function reflow() {
     // select browse-results-renderer (to increase maxwidth)
     const browseResultsRenderer = document.querySelector('ytd-two-column-browse-results-renderer');
     if (!browseResultsRenderer) return;
-    // force results to fit as many per row
-    GM_addStyle(`ytd-two-column-browse-results-renderer:not([page-subtype="channels"]):not([page-subtype="subscriptions"]) {
-        width: 100% !important;
-        max-width: 100% !important;
-    }`)
     // target rich grid renderer
     const grids = document.querySelectorAll('ytd-rich-grid-renderer');
 
     // calculate # of elements per row
-    const width = browseResultsRenderer.clientWidth;
-    const elemPerRow = scale ? Math.floor(width / 240) : vidPerRow; // scale if enabled, else use constant
+    const browseWidth = browseResultsRenderer.clientWidth;
+    const elemPerRow = scale ? Math.floor(browseWidth / 240) : vidPerRow; // scale if enabled, else use constant
     /*
     grid-item: 320-360px
     grid-mini-item: 240-320px
