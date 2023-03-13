@@ -5,6 +5,7 @@
 * remove emoji
 ## channel page
 * hide featured channel video
+# video player
 ## player
 * block chromecast cast_sender module
 * remove chromecast cast_sender backups
@@ -12,8 +13,14 @@
 * remove miniplayer restrictions - makes miniplayer fully featured
 * remove inline player restrictions - makes inline player fully featured
 * make quality selector superscript red again
+## video previews
+* visually hide video previews
+* remove inline video previews 
+* remove hover tooltips
 ## endscreen
 * remove annotations module
+* make all video info visible
+# video page
 ## video title
 * remove highlights for tagged channels
 ## video description
@@ -22,16 +29,12 @@
 * blocks store links in description
 * remove store links in description
 * remove description video link highlights
-## links
 * remove external link highlights (comments, descriptions)
-## video endcards
-* make all video info visible
-## browse/ home
+# browse/ home
 * make thumbnails square again
 * block all shelves
 * remove verified badges
-* remove inline video previews 
-## search
+# search
 * key moments/chapters
 ## learning playlists ([#25](https://github.com/mchangrh/yt-neuter/issues/25))
 * remove from playlists view

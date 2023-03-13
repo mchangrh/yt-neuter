@@ -21,6 +21,7 @@ youtube.com##img.emoji
 ! hide featured channel video
 youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
 
+!!! video player
 !! player
 ! block chromecast cast_sender module
 ||www.gstatic.com/*/cast_sender.js$script
@@ -35,10 +36,22 @@ youtube.com##ytd-item-section-renderer:has(ytd-channel-featured-content-renderer
 ! make quality selector superscript red again
 youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red, #f00) !important;)
 
+!! video previews
+! visually hide video previews
+youtube.com##ytd-video-preview
+! remove inline video previews 
+youtube.com###video-preview:remove()
+! remove hover tooltips
+youtube.com###thumbnail > #mouseover-overlay
+youtube.com###thumbnail > #hover-overlays
+
 !! endscreen
 ! remove annotations module
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
+! make all video info visible
+youtube.com##.ytp-videowall-still-info-content:style(opacity: 1 !important)
 
+!!! video page
 !! video title
 ! remove highlights for tagged channels
 youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
@@ -56,15 +69,10 @@ youtube.com##a.yt-simple-endpoint.yt-formatted-string[href^="https://www.youtube
 youtube.com##.yt-core-attributed-string--highlight-text-decorator:style(color: var(--yt-spec-text-primary, #f1f1f1) !important; background-color: transparent !important;)
 youtube.com##.yt-core-attributed-string--highlight-text-decorator>span>img.yt-core-image
 
-!! links
 ! remove external link highlights (comments, descriptions)
 youtube.com##a[target=_blank]:not([has-link-only_]):style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 
-!! video endcards
-! make all video info visible
-youtube.com##.ytp-videowall-still-info-content:style(opacity: 1 !important)
-
-!! browse/ home
+!!! browse/ home
 ! make thumbnails square again
 youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 ! block all shelves
@@ -72,10 +80,8 @@ youtube.com##ytd-rich-shelf-renderer
 m.youtube.com##ytm-rich-section-renderer
 ! remove verified badges
 youtube.com##.badge-style-type-verified
-! remove inline video previews 
-youtube.com###video-preview:remove()
 
-!! search
+!!! search
 ! key moments/chapters
 youtube.com###expandable-metadata
 
