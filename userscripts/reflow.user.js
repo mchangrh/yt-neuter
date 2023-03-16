@@ -80,7 +80,7 @@ const delayReflow = () => setTimeout(reflow, 50);
 
 document.addEventListener('yt-navigate-finish', delayReflow);
 document.addEventListener('yt-guide-toggle', delayReflow);
-window.onresize = delayReflow; // trigger reflow on resize
+window.onresize = () => setTimeout(reflow, 350);; // trigger reflow on resize
 // add key listener to manually trigger reflow
 document.addEventListener('keydown', (e) => {
     if (e.key == 'r') {
