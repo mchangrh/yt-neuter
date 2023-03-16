@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.10
+// @version      0.6.11
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -34,8 +34,6 @@ const trigger_reflow = (parent) => parent.dispatchEvent(new Event('yt-rich-grid-
 GM_addStyle(`ytd-two-column-browse-results-renderer {
     width: 100% !important;
     max-width: 100% !important;
-}`)
-GM_addStyle(`ytd-two-column-browse-results-renderer {
     justify-content: center;
     display: flex;
 }`)
