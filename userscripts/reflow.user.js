@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.8
+// @version      0.6.9
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -72,8 +72,6 @@ function reflow() {
         */
         // trigger reflow on delay
         setTimeout(trigger_reflow, 700, grid);
-        // trigger reflow with ruke
-        ruke("#contents.ytd-rich-grid-row", trigger_reflow, grid);
     }
 }
 
