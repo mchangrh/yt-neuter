@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Grid Reflow
 // @namespace    yt-neuter
-// @version      0.6.7
+// @version      0.6.8
 // @description  Force YouTube grid to fit more elements per row
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -31,9 +31,13 @@ const trigger_reflow = (parent) => parent.dispatchEvent(new Event('yt-rich-grid-
 
 // force results to fit as many per row
 // exclude channels, susbscriptions, history
-GM_addStyle(`ytd-two-column-browse-results-renderer:not([page-subtype="channels"]):not([page-subtype="subscriptions"]):not([page-subtype="history"]) {
+GM_addStyle(`ytd-two-column-browse-results-renderer {
     width: 100% !important;
     max-width: 100% !important;
+}`)
+GM_addStyle(`ytd-two-column-browse-results-renderer {
+    justify-content: center;
+    display: flex;
 }`)
 
 function reflow() {
