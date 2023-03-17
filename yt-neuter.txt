@@ -207,6 +207,8 @@ youtube.com##ytd-structured-description-content-renderer:has(ytd-structured-desc
 youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
 ! suggested channels
 youtube.com##ytd-metadata-row-renderer:has(yt-formatted-string[has-link-only_] > a[href^="/channel/"])
+! age restricted notice
+youtube.com##ytd-metadata-row-renderer:has(a[href="http://www.youtube.com/t/community_guidelines"])
 
 !! comments
 ! channel member comment badge

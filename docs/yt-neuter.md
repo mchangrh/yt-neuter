@@ -93,6 +93,7 @@
 * featured playlist
 * products in current video
 * suggested channels
+* age restricted notice
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
