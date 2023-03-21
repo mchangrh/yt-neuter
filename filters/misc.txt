@@ -61,13 +61,12 @@ youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-prim
 youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 youtube.com##.yt-core-attributed-string--link-inherit-color>a.yt-core-attributed-string__link--call-to-action-color[href^="/hashtag/"]! blocks external links in description
 ||youtube.com/redirect?event=video_description^$document
-! blocks store links in description
-||youtube.com/redirect?event=product_shelf^$document
 ! remove store links in description
+||youtube.com/redirect?event=product_shelf^$document
 youtube.com##a.yt-simple-endpoint.yt-formatted-string[href^="https://www.youtube.com/redirect?event=product_shelf"]
 ! remove description video link highlights
 youtube.com##.yt-core-attributed-string--highlight-text-decorator:style(color: var(--yt-spec-text-primary, #f1f1f1) !important; background-color: transparent !important;)
-youtube.com##.yt-core-attributed-string--highlight-text-decorator>span>img.yt-core-image
+youtube.com##.yt-core-attributed-string--highlight-text-decorator>a>span>img
 ! remove mention highlights
 youtube.com##.yt-core-attributed-string__link--call-to-action-color[href^="/channel/"]:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 
