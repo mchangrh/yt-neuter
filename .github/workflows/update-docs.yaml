@@ -17,4 +17,4 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Automated docs update" 2>&1 && git push
+          git commit -m "Automated docs update" 2>&1 && git push 2>&1
