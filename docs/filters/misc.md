@@ -4,7 +4,8 @@
 ## remove emoji shortcuts for comments
 * remove emoji
 ## channel page
-* hide featured channel video
+* hide large avatar
+* remove tagline
 # video player
 ## player
 * block chromecast cast_sender module

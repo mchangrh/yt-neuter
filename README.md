@@ -33,6 +33,8 @@ Remove everything from description links but hostname [Install](https://neuter.m
 
 Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
 
+Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)
+
 -----
 
 ## Filters

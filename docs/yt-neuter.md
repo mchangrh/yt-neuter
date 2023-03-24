@@ -117,12 +117,15 @@
 ## shelves
 * recognized channel member
 * members only videos
+* featured channels
 ## header / homepage
 * channel banner
 * home page links
 * channel handle
 ## tabs
 * channel store tab
+* community tab
+* featured channels
 ## about
 * about > links
 ## search
