@@ -139,6 +139,8 @@
 * revert member color
 * custom emojis
 * emoji-only messages
+## premiere chat
+* hide "chat replay is disabled"
 # search
 * People also watched, Latest from channel, For you, Previously watched, Channels new to you
 * People also search for

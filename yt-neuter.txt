@@ -296,6 +296,10 @@ youtube.com##.emoji[data-emoji-id]
 ! emoji-only messages
 youtube.com##yt-live-chat-text-message-renderer:not(:has(#message:min-text-length(1)))
 
+!! premiere chat
+! hide "chat replay is disabled"
+www.youtube.com##ytd-live-chat-frame:has(> ytd-message-renderer)
+
 !!! search
 ! People also watched, Latest from channel, For you, Previously watched, Channels new to you
 youtube.com##:matches-path(/results) ytd-shelf-renderer
