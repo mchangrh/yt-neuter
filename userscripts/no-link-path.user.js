@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT Neuter - no link path
 // @namespace    yt-neuter
-// @version      1.0.3
+// @version      1.1.0
 // @description  Removes trailing paths to links in description
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -14,7 +14,13 @@
 
 // remove path from URL, remove www. prefix
 const neuterLink = (elem) => {
-    try { elem.textContent = new URL(elem.textContent).hostname.replace(/^www\./, '') }
+    try {
+        const hostname = new URL(elem.textContent).hostname
+            .replace(/^www\./, '')
+            .split(".")
+        if (hostname.length > 2) hostname.shift()
+        elem.textContent = hostname.join(".")
+    }
     catch { return }
 }
 // iterate over all in description
