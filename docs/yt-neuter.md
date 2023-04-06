@@ -118,6 +118,7 @@
 * recognized channel member
 * members only videos
 * featured channels
+* channel scroller
 ## header / homepage
 * channel banner
 * home page links
@@ -125,7 +126,7 @@
 ## tabs
 * channel store tab
 * community tab
-* featured channels
+* channels
 ## about
 * about > links
 ## search
