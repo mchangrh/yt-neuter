@@ -8,6 +8,8 @@ if you like this, you'll probably also like [blocktube](https://github.com/amitb
 
 Filter URLs
 
+[add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter)
+
 ## GitHub
 `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`
 
