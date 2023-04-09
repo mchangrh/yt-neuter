@@ -259,7 +259,7 @@ youtube.com##.ytd-recognition-shelf-renderer
 ! members only videos
 youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
 ! featured channels
-youtube.com##ytd-shelf-renderer:has(.grid-subheader):has(ytd-channel-renderer)
+youtube.com##ytd-shelf-renderer:has(ytd-channel-renderer):has(.grid-subheader:not(:has(>#title-container[hidden])))
 ! channel scroller
 youtube.com##ytd-shelf-renderer:has(ytd-grid-channel-renderer)
 !! header / homepage
