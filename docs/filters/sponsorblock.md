@@ -16,6 +16,7 @@
 * choose what to play next popup ([#12](https://github.com/mchangrh/yt-neuter/issues/12))
 * "Become a member of this channel"
 * generic survey
+# video page
 ## video description
 * buy product badge
 * merch shelf
@@ -30,7 +31,6 @@
 # channel page
 ## shelves
 * recognized channel member
-## search
 ## misc
 * channel member prompt popup
 # embed

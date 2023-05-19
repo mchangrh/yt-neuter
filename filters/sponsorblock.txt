@@ -49,6 +49,7 @@ youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 ! generic survey
 youtube.com###survey
 
+!!! video page
 !! video description
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
