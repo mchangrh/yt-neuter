@@ -25,7 +25,8 @@ const filters = [
     "filters/noshorts",
     "filters/notrack",
     "filters/reflow",
-    "filters/requests"
+    "filters/requests",
+    "filters/sponsorblock"
 ]
 
 for (const filter of filters) {

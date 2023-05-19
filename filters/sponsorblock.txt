@@ -1,0 +1,84 @@
+[uBlock Origin]
+! Title: YouTube Neuter - sponsorblock
+! Last modified: 2023/05/19
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter
+! Licence: Unlicense
+!
+
+!!! Subset of yt-neuter for sponsorblock
+
+!! surveys (#24)
+! survey answer card/ thanks
+youtube.com##yt-survey-answer-card-renderer
+! checkbox survey?
+youtube.com##.ytd-checkbox-survey-renderer
+! feedback survey?
+youtube.com##ytd-feedback-survey-renderer
+youtube.com##.ytd-feedback-survey-renderer
+! follow up survey?
+youtube.com##.ytd-survey-follow-up-renderer
+youtube.com##ytd-survey-follow-up-renderer
+! generic surveys
+youtube.com##ytd-inline-survey-renderer
+youtube.com##.ytd-inline-survey-renderer
+! multistage survey?
+youtube.com##.ytd-multi-stage-survey-renderer
+youtube.com##ytd-multi-stage-survey-renderer
+! ratings survey? 
+youtube.com##ytd-rating-survey-renderer
+youtube.com##.ytd-rating-survey-renderer
+! youtube RED exit survey
+youtube.com##.ytd-red-cancel-survey-renderer
+youtube.com##ytd-red-cancel-survey-renderer
+! "how are your recommendations" survey
+youtube.com##ytd-single-option-survey-renderer
+youtube.com##.ytd-single-option-survey-renderer
+
+!!! homepage
+!! shelves (#15)
+! youtube featured banners
+youtube.com##ytd-statement-banner-renderer
+youtube.com##ytd-brand-video-singleton-renderer
+
+!!! popups
+! choose what to play next popup (#12)
+youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
+! "Become a member of this channel"
+youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
+! generic survey
+youtube.com###survey
+
+!! video description
+! buy product badge
+youtube.com##.ytp-suggested-action-badge
+! merch shelf
+youtube.com##.ytd-merch-shelf-renderer
+
+!! under description metadata box
+! products in current video
+youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
+
+!! comments
+! channel member comment badge
+youtube.com##span#sponsor-comment-badge
+! paid (thanks) comment badge
+youtube.com###paid-comment-chip
+! paid (thanks) comment highlight
+youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
+
+!! recommendations sidebar
+! nudges (recommendation/ turn on watch history)
+youtube.com##ytd-feed-nudge-renderer
+
+!!! channel page
+!! shelves
+! recognized channel member
+youtube.com##.ytd-recognition-shelf-renderer
+!! misc
+! channel member prompt popup
+youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
+
+!!! embed
+! watch on youtube overlay
+youtube.com##.ytp-impression-link
