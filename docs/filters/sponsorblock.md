@@ -30,7 +30,6 @@
 # channel page
 ## shelves
 * recognized channel member
-## search
 ## misc
 * channel member prompt popup
 # embed
