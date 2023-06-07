@@ -21,8 +21,6 @@ Filter URLs
 ## Userscripts
 Automatically disables YouTube recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)
 
-Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow.user.js)
-
 Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe.user.js)  
 
 Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js) **(Migrated)**
@@ -36,6 +34,11 @@ Remove everything from description links but hostname [Install](https://neuter.m
 Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
 
 Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)
+
+### Deprecated or broken
+
+#### reflow - broken due to youtube changes using static values
+Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow.user.js)
 
 -----
 

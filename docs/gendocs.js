@@ -24,7 +24,6 @@ const filters = [
     "filters/nomusic",
     "filters/noshorts",
     "filters/notrack",
-    "filters/reflow",
     "filters/requests",
     "filters/sponsorblock"
 ]

@@ -1,1 +1,0 @@
-* custom filter to revert item-renderer size (pairs well with reflow)
