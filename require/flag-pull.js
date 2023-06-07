@@ -1,0 +1,1 @@
+const pull_flag = (name, value = false) => ytcfg.data_.EXPERIMENT_FLAGS[name] = value;
