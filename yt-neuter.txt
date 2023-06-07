@@ -188,6 +188,8 @@ youtube.com##.ytd-merch-shelf-renderer
 !! video info container
 ! remove hashtags
 youtube.com###info-container #info>a.yt-simple-endpoint[href^="/hashtag/"]
+! large channel infocard (#35)
+youtube.com##ytd-video-description-infocards-section-renderer:has(>#action-buttons)
 
 !! under description metadata box
 ! ticket shelf

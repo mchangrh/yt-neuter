@@ -83,6 +83,7 @@
 * merch shelf
 ## video info container
 * remove hashtags
+* large channel infocard ([#35](https://github.com/mchangrh/yt-neuter/issues/35))
 ## under description metadata box
 * ticket shelf
 * clarify / covid-19 box
