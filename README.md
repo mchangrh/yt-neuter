@@ -35,6 +35,8 @@ Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
 
 Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)
 
+Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)
+
 ### Deprecated or broken
 
 #### reflow - broken due to youtube changes using static values

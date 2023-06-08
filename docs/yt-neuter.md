@@ -57,7 +57,6 @@
 * recommendation pause overlay (seen in /embed/)
 * ambient mode
 ## interaction row
-* like button animation ([#18](https://github.com/mchangrh/yt-neuter/issues/18))
 * download button
 * download worker
 * clip button

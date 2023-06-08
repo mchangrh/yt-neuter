@@ -132,9 +132,6 @@ youtube.com###player>#cinematics.ytd-watch-flexy
 youtube.com###player>#cinematics-container
 
 !! interaction row
-! like button animation (#18)
-||www.gstatic.com/external_hosted/lottie/lottie_light.js$script,domain=youtube.com
-||www.gstatic.com/youtube/img/lottie/animated_like_icon/*.json$domain=youtube.com
 ! download button
 youtube.com##ytd-download-button-renderer
 ! download worker
