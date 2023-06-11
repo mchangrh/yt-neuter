@@ -65,7 +65,7 @@
 * thanks overflow menu
 * share button
 * save button
-* hide disabled buttons (download for non-premium, save for yt kids)
+* hide disabled buttons (download for non-premium, save for yt kids), exclude comment save/submit [#36](https://github.com/mchangrh/yt-neuter/issues/36)
 ## video title
 * supertitle (trending for x) or #hashtags
 * collection badge

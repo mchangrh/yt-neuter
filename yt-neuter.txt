@@ -151,8 +151,8 @@ youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Share
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Share]))
 ! save button
 youtube.com##ytd-button-renderer:has(.yt-core-attributed-string:has-text(Save))
-! hide disabled buttons (download for non-premium, save for yt kids)
-youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled))
+! hide disabled buttons (download for non-premium, save for yt kids), exclude comment save/submit #36
+##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled)):not(.ytd-commentbox)
 
 !! video title
 ! supertitle (trending for x) or #hashtags
