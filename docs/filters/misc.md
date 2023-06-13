@@ -29,6 +29,9 @@
 * remove store links in description
 * remove description video link highlights
 * remove mention highlights
+## description infocards
+* remove chapter infocard previews
+* remove infocards
 * remove external link highlights (comments, descriptions)
 # browse/ home
 * make thumbnails square again
