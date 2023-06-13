@@ -202,8 +202,8 @@ youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDE
 youtube.com###collapsible > .ytd-metadata-row-container-renderer
 ! featured music
 youtube.com##ytd-video-description-music-section-renderer
-! featured playlist
-youtube.com##ytd-structured-description-content-renderer:has(ytd-structured-description-playlist-lockup-renderer)
+! featured playlist #37
+youtube.com##ytd-video-description-course-section-renderer
 ! products in current video
 youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
 ! suggested channels

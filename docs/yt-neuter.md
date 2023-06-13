@@ -90,7 +90,7 @@
 * box art (game being played)
 * show metadata
 * featured music
-* featured playlist
+* featured playlist [#37](https://github.com/mchangrh/yt-neuter/issues/37)
 * products in current video
 * suggested channels
 * suggested videos
