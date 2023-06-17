@@ -29,6 +29,9 @@
 * movies free with ads
 * "new to you" ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
 * explore categories
+## video elements ([#38](https://github.com/mchangrh/yt-neuter/issues/38))
+* download button
+* share button
 # sidebar
 ## buttons
 * premium
@@ -114,6 +117,8 @@
 * nudges (recommendation/ turn on watch history)
 ## endscreen
 * mixes
+# shorts
+* share button ([#38](https://github.com/mchangrh/yt-neuter/issues/38))
 # channel page
 ## shelves
 * recognized channel member

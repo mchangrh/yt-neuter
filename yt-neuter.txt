@@ -76,6 +76,12 @@ youtube.com##.ytd-rich-item-renderer:has(>.ytd-feed-nudge-renderer)
 ! explore categories
 youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 
+!! video elements (#38)
+! download button
+youtube.com##ytd-menu-service-item-download-renderer
+! share button
+youtube.com##ytd-menu-service-item-renderer:has(>tp-yt-paper-item:has(>yt-formatted-string:has-text(Share)))
+
 !!! sidebar
 !! buttons
 ! premium
@@ -253,6 +259,10 @@ youtube.com##ytd-feed-nudge-renderer
 !! endscreen
 ! mixes
 youtube.com##.ytp-videowall-still[data-is-mix=true]
+
+!!! shorts
+! share button (#38)
+youtube.com###share-button.ytd-reel-player-overlay-renderer
 
 !!! channel page
 !! shelves
