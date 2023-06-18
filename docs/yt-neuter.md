@@ -83,6 +83,7 @@
 * buy product badge
 * stop scrolling on "show less" (ubo only)
 * merch shelf
+* hashtags in description
 ## video info container
 * remove hashtags
 * large channel infocard ([#35](https://github.com/mchangrh/yt-neuter/issues/35))
