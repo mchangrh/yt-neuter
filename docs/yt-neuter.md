@@ -15,16 +15,15 @@
 * generic surveys
 * multistage survey?
 * ratings survey? 
-* youtube RED exit survey
+* RED exit survey
 * "how are your recommendations" survey
 # homepage
 ## shelves ([#15](https://github.com/mchangrh/yt-neuter/issues/15))
 * game shelf
 * free movies (targets movies channelID
 * community posts
-* "featured" shelf
 * breaking news shelf
-* youtube featured banners/ shelf [#40](https://github.com/mchangrh/yt-neuter/issues/40)
+* brand featured banner/ shelf [#40](https://github.com/mchangrh/yt-neuter/issues/40)
 * mixes
 * movies free with ads
 * "new to you" ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
