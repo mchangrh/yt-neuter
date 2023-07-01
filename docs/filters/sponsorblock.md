@@ -7,11 +7,11 @@
 * generic surveys
 * multistage survey?
 * ratings survey? 
-* youtube RED exit survey
+* RED exit survey
 * "how are your recommendations" survey
 # homepage
 ## shelves ([#15](https://github.com/mchangrh/yt-neuter/issues/15))
-* youtube featured banners
+* brand featured banner/ shelf [#40](https://github.com/mchangrh/yt-neuter/issues/40)
 # popups
 * choose what to play next popup ([#12](https://github.com/mchangrh/yt-neuter/issues/12))
 * "Become a member of this channel"

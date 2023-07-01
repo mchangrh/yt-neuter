@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2023/05/19
+! Last modified: 2023/07/01
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -28,7 +28,7 @@ youtube.com##ytd-multi-stage-survey-renderer
 ! ratings survey? 
 youtube.com##ytd-rating-survey-renderer
 youtube.com##.ytd-rating-survey-renderer
-! youtube RED exit survey
+! RED exit survey
 youtube.com##.ytd-red-cancel-survey-renderer
 youtube.com##ytd-red-cancel-survey-renderer
 ! "how are your recommendations" survey
@@ -37,9 +37,11 @@ youtube.com##.ytd-single-option-survey-renderer
 
 !!! homepage
 !! shelves (#15)
-! youtube featured banners
+! brand featured banner/ shelf #40
 youtube.com##ytd-statement-banner-renderer
 youtube.com##ytd-brand-video-singleton-renderer
+youtube.com##ytd-brand-video-shelf-renderer
+youtube.com##.ytd-brand-video-shelf-renderer
 
 !!! popups
 ! choose what to play next popup (#12)
