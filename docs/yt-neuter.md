@@ -24,7 +24,7 @@
 * community posts
 * "featured" shelf
 * breaking news shelf
-* youtube featured banners
+* youtube featured banners/ shelf [#40](https://github.com/mchangrh/yt-neuter/issues/40)
 * mixes
 * movies free with ads
 * "new to you" ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
