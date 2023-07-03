@@ -6,6 +6,8 @@
 ! Licence: Unlicense
 !
 
+! install link
+
 !! global
 ! remove offline service worker
 ||www.youtube.com/sw.js$script

@@ -6,6 +6,8 @@
 ! Licence: Unlicense
 !
 
+! install link
+
 !! shelves
 ! generic shorts shelf (channel, search)
 youtube.com##ytd-reel-shelf-renderer

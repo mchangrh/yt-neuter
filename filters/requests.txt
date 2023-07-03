@@ -6,6 +6,8 @@
 ! Licence: Unlicense
 !
 
+! install link
+
 ! remove background for youtube buttons, excludes subscribe button
 youtube.com##button.yt-spec-button-shape-next--tonal:style(background-color: transparent !important)
 

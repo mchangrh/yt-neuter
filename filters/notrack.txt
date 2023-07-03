@@ -6,6 +6,8 @@
 ! Licence: Unlicense
 !
 
+! install link
+
 ! playback ping
 ||www.youtube.com/api/stats/playback?$empty
 ! watch % and time
