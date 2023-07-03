@@ -1,4 +1,10 @@
 # Subset of yt-neuter for sponsorblock
+# Install
+
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fmchangrh%2Fyt-neuter%2Fmaster%2Ffilters%2Fsponsorblock.txt&title=yt-neuter%20sponsorblock)
+
+[View List](https://raw.githubusercontent.com/mchangrh/yt-neuter/master/filters/sponsorblock.txt)
+
 ## surveys ([#24](https://github.com/mchangrh/yt-neuter/issues/24))
 * survey answer card/ thanks
 * checkbox survey?

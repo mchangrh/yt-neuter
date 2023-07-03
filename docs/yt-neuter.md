@@ -1,3 +1,9 @@
+# Install
+
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fmchangrh%2Fyt-neuter%2Fmaster%2Fyt-neuter.txt&title=yt-neuter)
+
+[View List](https://raw.githubusercontent.com/mchangrh/yt-neuter/master/yt-neuter.txt)
+
 # global
 ## header
 * voice search button
