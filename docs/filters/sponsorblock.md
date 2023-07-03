@@ -29,8 +29,6 @@
 ## under description metadata box
 * products in current video
 ## comments
-* channel member comment badge
-* paid (thanks) comment badge
 * paid (thanks) comment highlight
 ## recommendations sidebar
 * nudges (recommendation/ turn on watch history)
@@ -39,5 +37,3 @@
 * recognized channel member
 ## misc
 * channel member prompt popup
-# embed
-* watch on youtube overlay

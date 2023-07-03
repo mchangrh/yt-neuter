@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2023/07/01
+! Last modified: 2023/07/03
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -65,10 +65,6 @@ youtube.com##.ytd-merch-shelf-renderer
 youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
 
 !! comments
-! channel member comment badge
-youtube.com##span#sponsor-comment-badge
-! paid (thanks) comment badge
-youtube.com###paid-comment-chip
 ! paid (thanks) comment highlight
 youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
 
@@ -83,7 +79,3 @@ youtube.com##.ytd-recognition-shelf-renderer
 !! misc
 ! channel member prompt popup
 youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
-
-!!! embed
-! watch on youtube overlay
-youtube.com##.ytp-impression-link
