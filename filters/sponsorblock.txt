@@ -8,6 +8,8 @@
 
 !!! Subset of yt-neuter for sponsorblock
 
+! install link
+
 !! surveys (#24)
 ! survey answer card/ thanks
 youtube.com##yt-survey-answer-card-renderer

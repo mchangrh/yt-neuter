@@ -6,6 +6,8 @@
 ! Licence: Unlicense
 !
 
+! install link
+
 !! channel
 ! live tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Live))

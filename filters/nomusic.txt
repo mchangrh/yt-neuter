@@ -6,6 +6,8 @@
 ! Licence: Unlicense
 !
 
+! install link
+
 !! navigation
 ! sidebar
 youtube.com##ytd-guide-entry-renderer:has-text(Music)
