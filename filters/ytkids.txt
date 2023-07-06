@@ -1,0 +1,17 @@
+[uBlock Origin]
+! Title: YouTube Neuter - YTKids
+! Last modified: 2023/07/06
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter
+! Licence: Unlicense
+!
+
+!!! yt-neuter for yt kids
+
+! install link
+
+!!! video page
+! subscribe button
+www.youtubekids.com###subscribe-container
+! loading overlay
+www.youtubekids.com###player-loading-overlay

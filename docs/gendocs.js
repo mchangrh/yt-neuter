@@ -43,7 +43,8 @@ const filters = [
     "filters/noshorts",
     "filters/notrack",
     "filters/requests",
-    "filters/sponsorblock"
+    "filters/sponsorblock",
+    "filters/ytkids"
 ]
 
 for (const filter of filters) {
