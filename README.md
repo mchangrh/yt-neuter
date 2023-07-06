@@ -23,11 +23,7 @@ Automatically disables YouTube recommended and playlist AutoPlay [Install](https
 
 Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe.user.js)  
 
-Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js) **(Migrated)**
-
 Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality.user.js)
-
-Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js) **(Migrated)**
 
 Remove everything from description links but hostname [Install](https://neuter.mchang.xyz/script/no-link-path)
 
@@ -36,6 +32,13 @@ Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
 Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)
 
 Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)
+
+### Migrated/ other scripts
+Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js)
+
+Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js)
+
+[mchangrh/uscripts](https://github.com/mchangrh/uscripts/tree/main/yt)
 
 ### Deprecated or broken
 

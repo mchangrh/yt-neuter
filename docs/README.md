@@ -6,14 +6,14 @@ The main filter list
 Hide all Live/ Upcoming/ Premiere/ Streamed videos  
 [docs](./filters/nolive.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/nolive&title=YouTube%20Neuter%20-%20nolive)
 
+## nomusic
+Hide all videos by verified artists and Music recommendations  
+[docs](./filters/nomusic.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/nomusic&title=YouTube%20Neuter%20-%20nomusic)
+
 ## noshorts
 Block YouTube Shorts  
 This works best alongside [BlockTube](https://github.com/amitbl/blocktube)'s shorts blocking feature, adds some filters on channel pages  
 [docs](./filters/noshorts.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/noshorts&title=YouTube%20Neuter%20-%20noshorts)
-
-## nomusic
-Hide all videos by verified artists and Music recommendations  
-[docs](./filters/nomusic.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/nomusic&title=YouTube%20Neuter%20-%20nomusic)
 
 ## notrack
 Block video tracking endpoints  
@@ -24,9 +24,9 @@ Block video tracking endpoints
 Extremely aggressive misc filters  
 [docs](./filters/misc.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/misc&title=YouTube%20Neuter%20-%20misc)
 
-## reflow
-filters to accompany the [reflow userscript](../userscripts/reflow.user.js)  
-[docs](./filters/reflow.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/reflow&title=YouTube%20Neuter%20-%20reflow)
+## sponsorblock
+Conservative subset of yt-neuter for SponsorBlock (PRs require additional scrutiny)  
+[docs](./filters/sponsorblock.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/misc&title=YouTube%20Neuter%20-%20SponsorBlock)
 
 ## requests
 niche transformative filters requested
