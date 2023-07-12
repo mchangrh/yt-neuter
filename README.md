@@ -8,55 +8,33 @@ if you like this, you'll probably also like [blocktube](https://github.com/amitb
 
 Filter URLs
 
-[add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter&title=YouTube%20Neuter)
-
-## GitHub
-`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`
-
-## Serverless redirect
-`https://neuter.mchang.xyz/filter`
-
------
+[add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter&title=YouTube%20Neuter)  
+GitHub: `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`  
+Serverless Redirect: `https://neuter.mchang.xyz/filter`
 
 ## Userscripts
-Automatically disables YouTube recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)
-
+Automatically disables YouTube recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)  
 Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe.user.js)  
-
-Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality.user.js)
-
-Remove everything from description links but hostname [Install](https://neuter.mchang.xyz/script/no-link-path)
-
+Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality.user.js)  
+Remove everything from description links but hostname [Install](https://neuter.mchang.xyz/script/no-link-path)  
 Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
-
-Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)
-
-Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)
+Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)  
+Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)  
 
 ### Migrated/ other scripts
-Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js)
-
-Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js)
+Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js)  
+Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js)  
 
 [mchangrh/uscripts](https://github.com/mchangrh/uscripts/tree/main/yt)
-
 ### Deprecated or broken
 
 #### reflow - broken due to youtube changes using static values
 Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow.user.js)
 
------
-
 ## Filters
-Misc filters for even more aggressive, specific blocking
-
-A list of elements blocked is automatically generated in [docs](./docs)
-
------
+Misc filters for even more aggressive, specific blocking. A list of elements blocked is automatically generated in [docs](./docs)
 
 ## Scriptlets
-Addon scriptlets for uBlock Origin to block/replace elements
-
-[Instructions](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation)
-
+Addon scriptlets for uBlock Origin to block/replace elements  
+[Instructions](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation)  
 `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/scriptlets.js`
