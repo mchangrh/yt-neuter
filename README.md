@@ -9,8 +9,8 @@ if you like this, you'll probably also like [blocktube](https://github.com/amitb
 Filter URLs
 
 [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter&title=YouTube%20Neuter)  
-GitHub: `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`  
-Serverless Redirect: `https://neuter.mchang.xyz/filter`
+GitHub: [`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt)  
+Serverless Redirect: [`https://neuter.mchang.xyz/filter`](https://neuter.mchang.xyz/filter)
 
 ## Userscripts
 Automatically disables YouTube recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)  
@@ -25,7 +25,7 @@ Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)
 Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js)  
 Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js)  
 
-[mchangrh/uscripts](https://github.com/mchangrh/uscripts/tree/main/yt)
+More scripts at [mchangrh/uscripts](https://github.com/mchangrh/uscripts/tree/main/yt)
 ### Deprecated or broken
 
 #### reflow - broken due to youtube changes using static values
