@@ -29,7 +29,9 @@ More scripts at [mchangrh/uscripts](https://github.com/mchangrh/uscripts/tree/ma
 ### Deprecated or broken
 
 #### reflow - broken due to youtube changes using static values
-Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow.user.js)
+Force YouTube grid to fit more elements per row 
+**Replacement Script**: [Roki100/YouTube-rows-fix](https://github.com/Roki100/YouTube-rows-fix)  
+[Install](https://neuter.mchang.xyz/script/reflow.user.js)  
 
 ## Filters
 Misc filters for even more aggressive, specific blocking. A list of elements blocked is automatically generated in [docs](./docs)
