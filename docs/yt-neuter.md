@@ -104,6 +104,7 @@
 * suggested channels
 * suggested videos
 * age restricted notice
+* featured places
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
