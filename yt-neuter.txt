@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2023/08/08
+! Last modified: 2023/08/15
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -183,7 +183,7 @@ youtube.com##ytd-channel-name>.ytd-channel-name>tp-yt-paper-tooltip.ytd-channel-
 
 !! video description
 ! fundraiser tag
-youtube.com##ytd-badge-supported-renderer:has(.badge-style-type-ypc)
+youtube.com##ytd-badge-supported-renderer:has(.badge-style-type-ypc):remove()
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
 ! stop scrolling on "show less" (ubo only)
@@ -287,6 +287,7 @@ youtube.com##.banner-visible-area
 youtube.com###channel-header > #links-holder
 ! channel handle
 youtube.com###meta>p:has(>#channel-handle)
+youtube.com##.meta-item:has(>#channel-handle)
 !! tabs
 ! channel store tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
@@ -307,7 +308,7 @@ youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatte
 youtube.com###chat
 ! superchat/member ticker
 youtube.com###ticker
-! superchat button
+! superchat/ donate button
 youtube.com###product-picker
 ! superchats
 youtube.com##yt-live-chat-paid-message-renderer

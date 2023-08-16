@@ -148,7 +148,7 @@
 # live chat
 * chat window
 * superchat/member ticker
-* superchat button
+* superchat/ donate button
 * superchats
 * memberships
 * paid badges
