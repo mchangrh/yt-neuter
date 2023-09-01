@@ -64,6 +64,7 @@
 * endscreen
 * recommendation pause overlay (seen in /embed/)
 * ambient mode
+* cultural moment ([#46](https://github.com/mchangrh/yt-neuter/issues/46))
 ## interaction row
 * download button
 * download worker

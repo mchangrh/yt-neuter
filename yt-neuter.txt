@@ -138,6 +138,8 @@ youtube.com##.ytp-pause-overlay
 ! ambient mode
 youtube.com###player>#cinematics.ytd-watch-flexy
 youtube.com###player>#cinematics-container
+! cultural moment (#46)
+youtube.com##.ytp-cultural-moment-overlay
 
 !! interaction row
 ! download button
@@ -213,6 +215,7 @@ youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDE
 youtube.com###collapsible > .ytd-metadata-row-container-renderer
 ! featured music
 youtube.com##ytd-video-description-music-section-renderer
+youtube.com##div[slot="extra-content"]:has(button-view-model>a[href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"])
 ! featured playlist #37
 youtube.com##ytd-video-description-course-section-renderer
 ! products in current video
