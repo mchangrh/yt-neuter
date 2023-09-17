@@ -77,6 +77,8 @@ youtube.com##ytd-rich-item-renderer.style-scope:has(>.ytd-feed-nudge-renderer)
 youtube.com##.ytd-rich-item-renderer:has(>.ytd-feed-nudge-renderer)
 ! explore categories
 youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
+! video-attached survey
+youtube.com###attached-survey
 
 !! video elements (#38)
 ! download button

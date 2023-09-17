@@ -34,6 +34,7 @@
 * movies free with ads
 * "new to you" ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
 * explore categories
+* video-attached survey
 ## video elements ([#38](https://github.com/mchangrh/yt-neuter/issues/38))
 * download button
 * share button
