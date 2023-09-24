@@ -290,6 +290,7 @@ youtube.com##ytd-shelf-renderer:has(ytd-grid-channel-renderer)
 youtube.com##.banner-visible-area
 ! home page links
 youtube.com###channel-header > #links-holder
+youtube.com###channel-header-links
 ! channel handle
 youtube.com###meta>p:has(>#channel-handle)
 youtube.com##.meta-item:has(>#channel-handle)
