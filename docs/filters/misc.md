@@ -32,6 +32,7 @@
 * remove highlights for tagged channels
 ## video description
 * remove hashtags in description
+* blocks external links in description
 * remove store links in description
 * remove description video link highlights
 * remove mention highlights
