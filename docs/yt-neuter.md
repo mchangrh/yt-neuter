@@ -83,6 +83,7 @@
 * location pin
 ## profile row
 * member/join button
+* free trial/ TV subscription
 * subscribe
 * channel name tooltip
 ## video description

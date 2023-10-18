@@ -180,6 +180,8 @@ youtube.com##a:has(>yt-icon[icon="yt-icons:location_pin"])
 !! profile row
 ! member/join button
 youtube.com###sponsor-button
+! free trial/ TV subscription
+youtube.com###purchase-button
 ! subscribe
 youtube.com###subscribe-button
 ! channel name tooltip
