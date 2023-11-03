@@ -8,7 +8,7 @@
 // @icon         https://www.youtube.com/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/flag-remover.user.js
 // @downloadURL  https://raw.githubusercontent.com/mchangrh/yt-neuter/main/userscripts/flag-remover.user.js
-// @require      https://neuter.mchang.xyz/require/flag-pull.js
+// @require      https://uscript.mchang.xyz/require/flag-pull.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-end

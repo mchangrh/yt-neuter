@@ -30,6 +30,8 @@
 # video page
 ## video title
 * remove highlights for tagged channels
+## profile row
+* subscribe
 ## video description
 * remove hashtags in description
 * blocks external links in description
