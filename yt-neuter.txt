@@ -195,7 +195,7 @@ youtube.com##+js(aeld, yt-text-inline-expander-collapse-clicked)
 ! merch shelf
 youtube.com##.ytd-merch-shelf-renderer
 ! hashtags in description
-youtube.com##span:has(>a[href^="/hashtag/"])
+youtube.com##a[href^="/hashtag/"]
 
 !! video info container
 ! remove hashtags
