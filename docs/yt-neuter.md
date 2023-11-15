@@ -165,6 +165,8 @@
 * People also search for
 * Featured channels
 * channel mix
+* channel
+## channel description
 # embed
 * info panel
 * watch on youtube overlay
