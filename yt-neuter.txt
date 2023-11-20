@@ -121,6 +121,11 @@ youtube.com##tp-yt-paper-toast#toast
 youtube.com##.ytp-promotooltip-wrapper
 
 !!! video page
+!! rolling/animated views, likes
+||www.youtube.com/s/desktop/*/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js$script,domain=youtube.com
+||www.youtube.com/s/desktop/*/jsbin/scheduler.vflset/scheduler.js$script,domain=youtube.com
+||www.youtube.com/youtubei/v1/updated_metadata$domain=youtube.com
+
 !! in-video overlays
 ! fast forward icon
 youtube.com##.ytp-doubletap-ui-legacy

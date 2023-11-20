@@ -56,6 +56,7 @@
 * "feedback shared" / "experiencing interruptions" toasts
 * "change your subtitle settings" popup
 # video page
+## rolling/animated views, likes
 ## in-video overlays
 * fast forward icon
 * autoplay
