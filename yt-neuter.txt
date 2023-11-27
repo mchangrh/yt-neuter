@@ -235,6 +235,8 @@ youtube.com##ytd-metadata-row-renderer:has(yt-formatted-string[has-link-only_] >
 youtube.com##ytd-metadata-row-renderer:has(a[href="http://www.youtube.com/t/community_guidelines"])
 ! featured places
 youtube.com##ytd-horizontal-card-list-renderer:has(ytd-place-data-view-model)
+! show transcript button
+youtube.com##ytd-video-description-transcript-section-renderer
 
 !! comments
 ! channel member comment badge
