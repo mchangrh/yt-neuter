@@ -119,6 +119,10 @@ youtube.com###survey
 youtube.com##tp-yt-paper-toast#toast
 ! "change your subtitle settings" popup
 youtube.com##.ytp-promotooltip-wrapper
+! premium enhanced bitrate nag (#49)
+youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
+! popup z-index fix
+youtube.com##tp-yt-iron-overlay-backdrop.opened
 
 !!! video page
 !! rolling/animated views, likes

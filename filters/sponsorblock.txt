@@ -52,6 +52,10 @@ youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
 youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 ! generic survey
 youtube.com###survey
+! premium enhanced bitrate nag (#49)
+youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
+! popup z-index fix
+youtube.com##tp-yt-iron-overlay-backdrop.opened
 
 !!! video page
 !! video description

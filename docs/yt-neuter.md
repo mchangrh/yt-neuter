@@ -55,6 +55,8 @@
 * generic survey
 * "feedback shared" / "experiencing interruptions" toasts
 * "change your subtitle settings" popup
+* premium enhanced bitrate nag ([#49](https://github.com/mchangrh/yt-neuter/issues/49))
+* popup z-index fix
 # video page
 ## rolling/animated views, likes
 ## in-video overlays

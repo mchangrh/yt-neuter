@@ -22,6 +22,8 @@
 * choose what to play next popup ([#12](https://github.com/mchangrh/yt-neuter/issues/12))
 * "Become a member of this channel"
 * generic survey
+* premium enhanced bitrate nag ([#49](https://github.com/mchangrh/yt-neuter/issues/49))
+* popup z-index fix
 # video page
 ## video description
 * buy product badge
