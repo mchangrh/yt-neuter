@@ -26,7 +26,7 @@ Extremely aggressive misc filters
 
 ## sponsorblock
 Conservative subset of yt-neuter for SponsorBlock (PRs require additional scrutiny)  
-[docs](./filters/sponsorblock.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/misc&title=YouTube%20Neuter%20-%20SponsorBlock)
+[docs](./filters/sponsorblock.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/sponsorblock&title=YouTube%20Neuter%20-%20SponsorBlock)
 
 ## requests
 niche transformative filters requested
