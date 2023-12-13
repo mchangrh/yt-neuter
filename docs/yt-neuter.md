@@ -128,6 +128,7 @@
 * yt music
 * new/ fundraiser/ 4k badges
 * nudges (recommendation/ turn on watch history)
+* watch on youtube
 ## endscreen
 * mixes
 # shorts

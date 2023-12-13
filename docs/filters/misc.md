@@ -42,6 +42,8 @@
 * remove chapter infocard previews
 * remove infocards
 * remove external link highlights (comments, descriptions)
+## recommendations sidebar
+* remove all offers
 # browse/ home
 * make thumbnails square again
 * block all shelves
