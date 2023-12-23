@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT Neuter - no channel trailer
 // @namespace    yt-neuter
-// @version      0.0.1
+// @version      0.1.0
 // @description  Pause and remove youtube channel trailers
 // @author       michael mchang.name
 // @match        https://www.youtube.com/*
@@ -16,6 +16,8 @@
 // only trigger on channel page
 document.addEventListener("yt-navigate-finish", (e) => {
   if (e.detail.pageType != "channel") return // only trigger on channel page
-  document.querySelector("ytd-channel-video-player-renderer").style.display = "none" // hide the element
-  wfke(".html5-video-player", el => el.cancelPlayback()) // send it into infinite loading state
+  wfke(`ytd-player[context="WEB_PLAYER_CONTEXT_CONFIG_ID_KEVLAR_CHANNEL_TRAILER"]`, el => {
+    el.player_.stopVideo() // stop video
+    document.querySelector("ytd-channel-video-player-renderer").style.display = "none" // hide the element
+  })
 })
