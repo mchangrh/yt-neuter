@@ -20,6 +20,11 @@ Block video tracking endpoints
 !! Will break history and recommendations !!  
 [docs](./filters/notrack.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/notrack&title=YouTube%20Neuter%20-%20notrack)
 
+## premium
+Exclusion List for YT Premium Members  
+Un-hides some premium features  
+[docs](./filters/premium.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/premium&title=YouTube%20Neuter%20-%20premium)
+
 ## misc
 Extremely aggressive misc filters  
 [docs](./filters/misc.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/misc&title=YouTube%20Neuter%20-%20misc)

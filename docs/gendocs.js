@@ -41,6 +41,7 @@ function syncReadFile(filter) {
     "filters/nomusic",
     "filters/noshorts",
     "filters/notrack",
+    "filters/premium",
     "filters/requests",
     "filters/sponsorblock",
     "filters/ytkids"

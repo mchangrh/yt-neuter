@@ -25,6 +25,8 @@
 * premium enhanced bitrate nag ([#49](https://github.com/mchangrh/yt-neuter/issues/49))
 * popup z-index fix
 # video page
+## profile row
+* subscribe smartimation
 ## video description
 * buy product badge
 * merch shelf

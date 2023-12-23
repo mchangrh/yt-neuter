@@ -69,7 +69,10 @@
 * recommendation pause overlay (seen in /embed/)
 * ambient mode
 * cultural moment ([#46](https://github.com/mchangrh/yt-neuter/issues/46))
+## settings
+* enhanced bitrate selector
 ## interaction row
+* subscribe smartimation
 * download button
 * download worker
 * clip button
