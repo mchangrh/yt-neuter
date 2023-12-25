@@ -32,6 +32,7 @@
 * remove highlights for tagged channels
 ## profile row
 * subscribe
+* unhide unsubscribe button
 ## video description
 * remove hashtags in description
 * blocks external links in description
