@@ -33,6 +33,7 @@
 ## profile row
 * subscribe
 * unhide unsubscribe button
+* subscribe smartimation
 ## video description
 * remove hashtags in description
 * blocks external links in description

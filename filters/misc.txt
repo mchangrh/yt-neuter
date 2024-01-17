@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2023/12/25
+! Last modified: 2024/01/17
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -64,6 +64,9 @@ youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-prim
 youtube.com###subscribe-button
 ! unhide unsubscribe button
 youtube.com#@##subscribe-button:has(>ytd-subscribe-button-renderer[subscribed])
+! subscribe smartimation
+youtube.com##.smartimation__border
+youtube.com##yt-animated-action
 !! video description
 ! remove hashtags in description
 youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]

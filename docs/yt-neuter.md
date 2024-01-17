@@ -72,7 +72,6 @@
 ## settings
 * enhanced bitrate selector
 ## interaction row
-* subscribe smartimation
 * download button
 * download worker
 * clip button
