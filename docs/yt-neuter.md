@@ -112,7 +112,6 @@
 * suggested videos
 * age restricted notice
 * featured places
-* show transcript button
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
