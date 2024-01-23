@@ -17,7 +17,7 @@ Automatically disables YouTube recommended and playlist AutoPlay [Install](https
 Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe.user.js)  
 Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality.user.js)  
 Remove everything from description links but hostname [Install](https://neuter.mchang.xyz/script/no-link-path)  
-Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
+Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)  
 Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)  
 Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)  
 
@@ -37,6 +37,6 @@ Force YouTube grid to fit more elements per row
 Misc filters for even more aggressive, specific blocking. A list of elements blocked is automatically generated in [docs](./docs)
 
 ## Scriptlets
-Addon scriptlets for uBlock Origin to block/replace elements  
+Addon scriptlets for uBlock Origin to block/replace elements 
 [Instructions](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation)  
 `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/scriptlets.js`
