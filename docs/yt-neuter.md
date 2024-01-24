@@ -86,6 +86,7 @@
 * collection badge
 * supertitle for location
 * location pin
+* product count
 ## profile row
 * member/join button
 * free trial/ TV subscription
@@ -112,6 +113,7 @@
 * suggested videos
 * age restricted notice
 * featured places
+* infocards section
 ## comments
 * channel member comment badge
 * paid (thanks) comment badge
