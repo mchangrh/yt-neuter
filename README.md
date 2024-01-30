@@ -6,9 +6,11 @@ if you like this, you'll probably also like [blocktube](https://github.com/amitb
 
 -----
 
-Filter URLs
+## Install
 
 [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter&title=YouTube%20Neuter)  
+
+Filter URLs  
 GitHub: [`https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt`](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt)  
 Serverless Redirect: [`https://neuter.mchang.xyz/filter`](https://neuter.mchang.xyz/filter)
 
