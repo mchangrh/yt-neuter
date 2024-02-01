@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2024/01/17
+! Last modified: 2024/02/01
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -24,6 +24,8 @@ youtube.com##img.emoji
 youtube.com###channel-header-container>yt-img-shadow#avatar
 ! remove tagline
 youtube.com###channel-tagline
+! remove featured video
+youtube.com##ytd-channel-featured-content-renderer
 
 !!! video player
 !! player
@@ -92,7 +94,8 @@ youtube.com##a[target=_blank]:not([has-link-only_]):style(color: var(--yt-spec-t
 !! recommendations sidebar
 ! remove all offers
 youtube.com###offer-module
-
+! closed captioning badge
+youtube.com##.badge:has(>:has-text(CC))
 
 !!! browse/ home
 ! make thumbnails square again
