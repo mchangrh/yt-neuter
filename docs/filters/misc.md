@@ -12,6 +12,7 @@
 ## channel page
 * hide large avatar
 * remove tagline
+* remove featured video
 # video player
 ## player
 * block chromecast cast_sender module
@@ -46,6 +47,7 @@
 * remove external link highlights (comments, descriptions)
 ## recommendations sidebar
 * remove all offers
+* closed captioning badge
 # browse/ home
 * make thumbnails square again
 * block all shelves
