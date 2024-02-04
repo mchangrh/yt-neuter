@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2024-01-22
+! Last modified: 2024/02/04
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -10,7 +10,14 @@
 
 ! install link
 
-!! surveys (#24)
+
+!!!! global elements
+!!! popups
+!! generic surveys (#24)
+! generic surveys
+youtube.com###survey
+youtube.com##ytd-inline-survey-renderer
+youtube.com##.ytd-inline-survey-renderer
 ! survey answer card/ thanks
 youtube.com##yt-survey-answer-card-renderer
 ! checkbox survey?
@@ -21,9 +28,6 @@ youtube.com##.ytd-feedback-survey-renderer
 ! follow up survey?
 youtube.com##.ytd-survey-follow-up-renderer
 youtube.com##ytd-survey-follow-up-renderer
-! generic surveys
-youtube.com##ytd-inline-survey-renderer
-youtube.com##.ytd-inline-survey-renderer
 ! multistage survey?
 youtube.com##.ytd-multi-stage-survey-renderer
 youtube.com##ytd-multi-stage-survey-renderer
@@ -36,50 +40,54 @@ youtube.com##ytd-red-cancel-survey-renderer
 ! "how are your recommendations" survey
 youtube.com##ytd-single-option-survey-renderer
 youtube.com##.ytd-single-option-survey-renderer
+youtube.com##.ytd-single-option-survey-renderer
+!! targeted/ specific popups
+! choose what to play next popup (#12)
+youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
+! "feedback shared" / "experiencing interruptions" toasts
+youtube.com##tp-yt-paper-toast#toast
+! "change your subtitle settings" popup
+youtube.com##.ytp-promotooltip-wrapper
+! popup z-index fix
+youtube.com##tp-yt-iron-overlay-backdrop.opened
+!! payment nags
+! premium enhanced bitrate nag (#49)
+youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
+! become a member of this channel
+youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
+youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
 
-!!! homepage
-!! shelves (#15)
-! brand featured banner/ shelf #40
+!!!! homepage
+!! youtube
+! brand featured banner/ shelf (#40)
 youtube.com##ytd-statement-banner-renderer
 youtube.com##ytd-brand-video-singleton-renderer
 youtube.com##ytd-brand-video-shelf-renderer
 youtube.com##.ytd-brand-video-shelf-renderer
 
-!!! popups
-! choose what to play next popup (#12)
-youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
-! "Become a member of this channel"
-youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
-! generic survey
-youtube.com###survey
-! premium enhanced bitrate nag (#49)
-youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
-! popup z-index fix
-youtube.com##tp-yt-iron-overlay-backdrop.opened
-
-!!! video page
-!! video description
+!!!! /video
+!!! under-player
+!! chips/ badges
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
-! merch shelf
-youtube.com##.ytd-merch-shelf-renderer
 
-!! under description metadata box
+!!! description box
+!! under-description shelves
+! merch shelf
+youtube.com##ytd-merch-shelf-renderer
 ! products in current video
 youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
 
-!! comments
+!!! comments
 ! paid (thanks) comment highlight
 youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
 
-!! recommendations sidebar
+!!! recommendations sidebar
+!! recommendations
 ! nudges (recommendation/ turn on watch history)
 youtube.com##ytd-feed-nudge-renderer
 
-!!! channel page
+!!!! /channel page
 !! shelves
 ! recognized channel member
 youtube.com##.ytd-recognition-shelf-renderer
-!! misc
-! channel member prompt popup
-youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))

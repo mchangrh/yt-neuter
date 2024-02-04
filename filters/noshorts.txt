@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - noshorts
-! Last modified: 2023/08/15
+! Last modified: 2024/02/04
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -8,32 +8,40 @@
 
 ! install link
 
+!!!! generics
 !! shelves
 ! generic shorts shelf (channel, search)
 youtube.com##ytd-reel-shelf-renderer
-! homepage shelf (#15)
-youtube.com##ytd-rich-shelf-renderer[is-shorts]
-! mobile homepage shelf
-m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
 
-!! navigation
-! channel page tab
-youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
-youtube.com##yt-tab-shape[tab-title="Shorts"]
-! homepage tab (mobile)
-m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
+!!!! global elements
+!!! sidebar navigation
 ! sidebar
 youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+! homepage tab (mobile)
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 
-!! generic filters
-! videos that resolve to shorts
+!!!! /homepage
+!!! shelves
+! homepage shelf (#15)
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
+
+!!!! /channel page
+!! tabs
+! shorts tab
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
+youtube.com##yt-tab-shape[tab-title="Shorts"]
+
+!!!! video browsing
+! videos that resolve to /shorts/
 youtube.com###dismissible:has(a[href^="/shorts/"]):not(.ytd-shelf-renderer):upward(1)
 ! videos with shorts icons
 youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]):not(.ytd-shelf-renderer):upward(1)
 ! video title with #shorts
 youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts)):not(.ytd-shelf-renderer):upward(1)
 
-!! specific shorts filters
+!!!! /video
+!! paused/ stopped overlay
 ! video endscreen
 youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])

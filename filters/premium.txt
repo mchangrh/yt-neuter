@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - Premium Exclusion
-! Last modified: 2023/12/23
+! Last modified: 2024/02/04
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -8,18 +8,19 @@
 
 ! install link
 
-!!! homepage
-!! video elements
+!!!! video browsing
+!! 3-dot dropdown (#38)
 ! download button
 youtube.com#@#ytd-menu-service-item-download-renderer
 
-!!! video page
-!! settings
+!!!! /video
+!!! controls
 !! settings
 ! enhanced bitrate selector
 youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 
-!! interaction row
+!!! under-player
+!! action row
 ! download button
 youtube.com#@#ytd-download-button-renderer
 ! download worker

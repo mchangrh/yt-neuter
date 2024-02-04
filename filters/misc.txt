@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2024/02/01
+! Last modified: 2024/02/04
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -8,40 +8,35 @@
 
 ! install link
 
-!! global
+!!!! network requests
 ! remove offline service worker
 ||www.youtube.com/sw.js$script
 ! disable installable progressive web app functionality
 ||www.youtube.com/manifest.webmanifest
-!! remove emoji shortcuts for comments
-||www.gstatic.com/youtube/img/emojis/emoji-*.json
-||www.gstatic.com/youtube/img/emojis/emojis-svg-*.json
-! remove emoji
-youtube.com##img.emoji
-
-!! channel page
-! hide large avatar
-youtube.com###channel-header-container>yt-img-shadow#avatar
-! remove tagline
-youtube.com###channel-tagline
-! remove featured video
-youtube.com##ytd-channel-featured-content-renderer
-
-!!! video player
-!! player
+!! chromecast
 ! block chromecast cast_sender module
 ||www.gstatic.com/*/cast_sender.js$script
 ! remove chromecast cast_sender backups
 ||www.youtube.com/s/desktop/*/jsbin/www-tampering.vflset/www-tampering.js$script
 ! remove mobile chromecast remote
 ||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script
+!! alternative players
 ! remove miniplayer restrictions - makes miniplayer fully featured
 ||www.youtube.com/s/player/*/player_ias.vflset/*/miniplayer.js$script
 ! remove inline player restrictions - makes inline player fully featured
 ||www.youtube.com/s/player/*/player_ias.vflset/*/inline_preview.js$script
-! make quality selector superscript red again
-youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red, #f00) !important;)
 
+!!!! generics
+! remove verified badges
+youtube.com##.badge-style-type-verified
+! learning playlists (#25)
+youtube.com##ytd-grid-playlist-renderer:has(.ytd-badge-supported-renderer:has(>span:has-text("Learning playlist")))
+!! shelves
+! block all shelves
+youtube.com##ytd-rich-shelf-renderer
+m.youtube.com##ytm-rich-section-renderer
+
+!!!! video browsing
 !! video previews
 ! visually hide video previews
 youtube.com##ytd-video-preview
@@ -50,26 +45,52 @@ youtube.com###video-preview:remove()
 ! remove hover tooltips
 youtube.com###thumbnail > #mouseover-overlay
 youtube.com###thumbnail > #hover-overlays
+! make thumbnails square again
+youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 
-!! endscreen
+!! badges
+! closed captioning badge
+youtube.com##.badge:has(>:has-text(CC))
+
+!!!! /video
+!!! in-player
+!! paused/ stopped overlay
 ! remove annotations module
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
 ! make all video info visible
 youtube.com##.ytp-videowall-still-info-content:style(opacity: 1 !important)
+!!! controls
+!! settings
+! make quality selector superscript red again
+youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red, #f00) !important;)
+!!! comments
+! remove emoji
+youtube.com##img.emoji
+!! comment creation
+! remove emoji shortcuts for comments
+||www.gstatic.com/youtube/img/emojis/emoji-*.json
+||www.gstatic.com/youtube/img/emojis/emojis-svg-*.json
 
-!!! video page
-!! video title
+!!! under-player
+!! title
 ! remove highlights for tagged channels
 youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
-!! profile row
+!! owner/ channel
 ! subscribe
 youtube.com###subscribe-button
 ! unhide unsubscribe button
 youtube.com#@##subscribe-button:has(>ytd-subscribe-button-renderer[subscribed])
-! subscribe smartimation
+! subscribe animation (smartimation)
 youtube.com##.smartimation__border
 youtube.com##yt-animated-action
-!! video description
+! makes subscribe button blend in with other buttons (scriptlet)
+youtube.com##+js(repc, .ytd-subscribe-button-renderer>button, yt-spec-button-shape-next--filled, yt-spec-button-shape-next--tonal)
+
+
+!!! description box
+!! creator description
+! remove mention highlights
+youtube.com##.yt-core-attributed-string__link--call-to-action-color[href^="/channel/"]:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 ! remove hashtags in description
 youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 youtube.com##.yt-core-attributed-string--link-inherit-color>a.yt-core-attributed-string__link--call-to-action-color[href^="/hashtag/"]
@@ -81,40 +102,29 @@ youtube.com##a.yt-simple-endpoint.yt-formatted-string[href^="https://www.youtube
 ! remove description video link highlights
 youtube.com##.yt-core-attributed-string--highlight-text-decorator:style(color: var(--yt-spec-text-primary, #f1f1f1) !important; background-color: transparent !important;)
 youtube.com##.yt-core-attributed-string--highlight-text-decorator>a>span>img
-! remove mention highlights
-youtube.com##.yt-core-attributed-string__link--call-to-action-color[href^="/channel/"]:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
-!! description infocards
-! remove chapter infocard previews
-youtube.com##ytd-horizontal-card-list-renderer[modern-chapters]>#shelf-container
-! remove infocards
-youtube.com##ytd-video-description-infocards-section-renderer>#infocards-section
 ! remove external link highlights (comments, descriptions)
 youtube.com##a[target=_blank]:not([has-link-only_]):style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 
-!! recommendations sidebar
+!! under-description shelves
+! remove chapter infocard previews
+youtube.com##ytd-horizontal-card-list-renderer[modern-chapters]>#shelf-container
+! remove infocards section
+youtube.com##ytd-video-description-infocards-section-renderer>#infocards-section
+
+!!! recommendations sidebar
+!! video-specific sidebar
 ! remove all offers
 youtube.com###offer-module
-! closed captioning badge
-youtube.com##.badge:has(>:has-text(CC))
+!!!! /channel page
+!! channel header / homepage
+! hide large avatar
+youtube.com###channel-header-container>yt-img-shadow#avatar
+! remove tagline
+youtube.com###channel-tagline
+!! shelves
+! remove featured video
+youtube.com##ytd-channel-featured-content-renderer
 
-!!! browse/ home
-! make thumbnails square again
-youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
-! block all shelves
-youtube.com##ytd-rich-shelf-renderer
-m.youtube.com##ytm-rich-section-renderer
-! remove verified badges
-youtube.com##.badge-style-type-verified
-
-!!! search
+!!!! /results - search
 ! key moments/chapters
 youtube.com###expandable-metadata
-
-!! learning playlists (#25)
-! remove from playlists view
-youtube.com##ytd-grid-playlist-renderer:has(.ytd-badge-supported-renderer:has(>span:has-text("Learning playlist")))
-
-!!! depends on scriptlets
-!! video description
-! makes subscribe button blend in with other buttons
-youtube.com##+js(repc, .ytd-subscribe-button-renderer>button, yt-spec-button-shape-next--filled, yt-spec-button-shape-next--tonal)
