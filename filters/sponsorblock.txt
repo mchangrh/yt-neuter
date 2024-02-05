@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2024/02/04
-! Expires: 10 days
+! Last modified: 2024/02/05
+! Expires: 1 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
@@ -42,8 +42,6 @@ youtube.com##ytd-single-option-survey-renderer
 youtube.com##.ytd-single-option-survey-renderer
 youtube.com##.ytd-single-option-survey-renderer
 !! targeted/ specific popups
-! choose what to play next popup (#12)
-youtube.com##yt-tooltip-renderer[slot="dropdown-content"]
 ! "feedback shared" / "experiencing interruptions" toasts
 youtube.com##tp-yt-paper-toast#toast
 ! "change your subtitle settings" popup
