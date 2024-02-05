@@ -29,7 +29,6 @@
   * RED exit survey
   * "how are your recommendations" survey
 * targeted/ specific popups
-  * choose what to play next popup ([#12](https://github.com/mchangrh/yt-neuter/issues/12))
   * "feedback shared" / "experiencing interruptions" toasts
   * "change your subtitle settings" popup
   * popup z-index fix
