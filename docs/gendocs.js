@@ -6,7 +6,7 @@ const getName = (filter) =>
     : `yt-neuter ${filter.replace('filters/', '')}`
 
 function generateInstallLink(filter) {
-  const listURL = `https://raw.githubusercontent.com/mchangrh/yt-neuter/master/${filter}.txt`
+  const listURL = `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/${filter}.txt`
   const installURL = `https://subscribe.adblockplus.org/?location=${encodeURIComponent(listURL)}&title=${encodeURIComponent(getName(filter))}`
   return `# Install\n\n[Subscribe](${installURL}) | [View List](${listURL})\n`
 }
