@@ -238,7 +238,7 @@ youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label=Shar
 ! save button
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button:has-text(Save)):has(yt-icon))
 youtube.com##tp-yt-paper-item:has(yt-icon):has(yt-formatted-string:has-text(Save))
-youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label=Save])
+youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label="Save to playlist"])
 ! hide disabled buttons (download for non-premium, save for yt kids), exclude comment save/submit (#36)
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled)):not(.ytd-commentbox)
 
