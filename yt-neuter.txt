@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2024/03/15
+! Last modified: 2024/03/21
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -114,6 +114,7 @@ youtube.com##ytd-brand-video-singleton-renderer
 youtube.com##ytd-brand-video-shelf-renderer
 youtube.com##.ytd-brand-video-shelf-renderer
 ! new to you (#2)
+youtube.com##ytd-feed-nudge-renderer
 youtube.com##ytd-rich-item-renderer.style-scope:has(>.ytd-feed-nudge-renderer)
 youtube.com##.ytd-rich-item-renderer:has(>.ytd-feed-nudge-renderer)
 ! explore categories
