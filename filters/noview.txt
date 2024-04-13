@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - noview
-! Last modified: 2024/02/04
+! Last modified: 2024/04/12
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
