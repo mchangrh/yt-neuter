@@ -1,6 +1,6 @@
 # Install
 
-[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fmchangrh%2Fyt-neuter%2Fmain%2Ffilters%2Fmisc.txt&title=yt-neuter%20misc) | [View List](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/misc.txt)
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fneuter.mchang.xyz%2Ffilter%2Fmisc&title=yt-neuter%20misc) | [View List](https://neuter.mchang.xyz/filter/misc)
 
 ## network requests
   * remove offline service worker

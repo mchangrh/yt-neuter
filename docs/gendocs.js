@@ -3,10 +3,11 @@ const { readFileSync, writeFileSync } = require('fs')
 const getName = (filter) =>
   filter == 'yt-neuter'
     ? filter
-    : `yt-neuter ${filter.replace('filters/', '')}`
+    : `yt-neuter ${filter.replace('filter/', '')}`
 
 function generateInstallLink(filter) {
-  const listURL = `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/${filter}.txt`
+  filter = filter.replace('filters/', 'filter/')
+  const listURL = `https://neuter.mchang.xyz/${filter}`
   const installURL = `https://subscribe.adblockplus.org/?location=${encodeURIComponent(listURL)}&title=${encodeURIComponent(getName(filter))}`
   return `# Install\n\n[Subscribe](${installURL}) | [View List](${listURL})\n`
 }
@@ -38,10 +39,11 @@ const filters = [
   "filters/nomusic",
   "filters/noshorts",
   "filters/notrack",
+  "filters/noview",
   "filters/premium",
   "filters/requests",
   "filters/sponsorblock",
-  "filters/ytkids",
+  "filters/ytkids"
 ]
 
 for (const filter of filters) {

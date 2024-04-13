@@ -1,6 +1,6 @@
 # Install
 
-[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fmchangrh%2Fyt-neuter%2Fmain%2Fyt-neuter.txt&title=yt-neuter) | [View List](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt)
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fneuter.mchang.xyz%2Fyt-neuter&title=yt-neuter) | [View List](https://neuter.mchang.xyz/yt-neuter)
 
 ## generics
 * shelves

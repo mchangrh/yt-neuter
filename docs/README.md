@@ -33,6 +33,10 @@ Extremely aggressive misc filters
 Conservative subset of yt-neuter for SponsorBlock (PRs require additional scrutiny)  
 [docs](./filters/sponsorblock.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/sponsorblock&title=YouTube%20Neuter%20-%20SponsorBlock)
 
+## noview
+Hide forced low-view videos from browse feeds  
+[docs](./filters/noview.md) | [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/noview&title=YouTube%20Neuter%20-%20noview)
+
 ## requests
 niche transformative filters requested
 

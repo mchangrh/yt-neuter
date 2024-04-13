@@ -1,6 +1,6 @@
 # Install
 
-[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fmchangrh%2Fyt-neuter%2Fmain%2Ffilters%2Fnomusic.txt&title=yt-neuter%20nomusic) | [View List](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/nomusic.txt)
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fneuter.mchang.xyz%2Ffilter%2Fnomusic&title=yt-neuter%20nomusic) | [View List](https://neuter.mchang.xyz/filter/nomusic)
 
 ## global elements
 ### sidebar navigation

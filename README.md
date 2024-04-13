@@ -17,11 +17,20 @@ Serverless Redirect: `https://neuter.mchang.xyz/filter`
 ### SponsorBlock sub-list
 Less aggressive in elements to block
 
-[add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filters/sponsorblock&title=yt-neuter%20sponsorblock)  
+[add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/sponsorblock&title=yt-neuter%20sponsorblock)  
 
 Filter URLs  
 GitHub: `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/sponsorblock.txt`  
 Serverless Redirect: `https://neuter.mchang.xyz/filter/sponsorblock`  
+
+### noview
+Hide force-pushed low-view videos
+
+[add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/noview&title=YouTube%20Neuter%20noview)  
+
+Filter URLs  
+GitHub: `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/noview.txt`  
+Serverless Redirect: `https://neuter.mchang.xyz/filter/noview`  
 
 ## Userscripts
  - Disable recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)
