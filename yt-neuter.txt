@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2024/03/21
+! Last modified: 2024/04/13
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -140,11 +140,11 @@ youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/
 
 !! badges
 ! fundraiser
-youtube.com##.badge:has(>:has-text(Fundraiser))
+youtube.com##.badge[aria-label="Fundraiser"]
 ! new
-youtube.com##.badge:has(>:has-text(New))
+youtube.com##.badge[aria-label="New"]
 ! 4k
-youtube.com##.badge:has(>:has-text(4K))
+youtube.com##.badge[aria-label="4K"]
 !! 3-dot dropdown (#38)
 ! download button
 youtube.com##ytd-menu-service-item-download-renderer

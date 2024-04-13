@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2024/02/04
+! Last modified: 2024/04/13
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -50,7 +50,7 @@ youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 
 !! badges
 ! closed captioning badge
-youtube.com##.badge:has(>:has-text(CC))
+youtube.com####.badge[aria-label="CC"]
 
 !!!! /video
 !!! in-player
