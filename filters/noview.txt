@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - noview
-! Last modified: 2024/04/13
+! Last modified: 2024/04/23
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -10,4 +10,4 @@
 
 !!!! video browsing
 ! remove forced low view count videos #62
-youtube.com##ytd-compact-video-renderer:has(.secondary-metadata:has(>ytd-video-meta-block.byline-separated):has(.badge[aria-label="New"])
+youtube.com##ytd-compact-video-renderer:has(.secondary-metadata:has(>ytd-video-meta-block.byline-separated)):has(.badge[aria-label="New"])
