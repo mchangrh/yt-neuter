@@ -12,6 +12,7 @@
 !! shelves
 ! generic shorts shelf (channel, search)
 youtube.com##ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
 
 !!!! global elements
 !!! sidebar navigation
