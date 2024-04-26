@@ -119,6 +119,7 @@ youtube.com##ytd-rich-item-renderer.style-scope:has(>.ytd-feed-nudge-renderer)
 youtube.com##.ytd-rich-item-renderer:has(>.ytd-feed-nudge-renderer)
 ! explore categories
 youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
+m.youtube.com##ytm-feed-filter-chip-bar-renderer:has(ytm-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 
 !! creator
 ! community posts
@@ -141,10 +142,15 @@ youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/
 !! badges
 ! fundraiser
 youtube.com##.badge[aria-label="Fundraiser"]
+m.youtube.com##ytm-badge:has-text(Fundraiser)
 ! new
 youtube.com##.badge[aria-label="New"]
+m.youtube.com##ytm-badge:has-text(New)
 ! 4k
 youtube.com##.badge[aria-label="4K"]
+m.youtube.com##ytm-badge:has-text(4K)
+! Related
+m.youtube.com##ytm-badge:has-text(Related)
 !! 3-dot dropdown (#38)
 ! download button
 youtube.com##ytd-menu-service-item-download-renderer
@@ -214,6 +220,8 @@ youtube.com###sponsor-button
 youtube.com###purchase-button
 ! channel name tooltip
 youtube.com##ytd-channel-name>.ytd-channel-name>tp-yt-paper-tooltip.ytd-channel-name
+! outlink badges
+m.youtube.com##.ytm-infocards-creator-custom-url-buttons
 
 !! action row
 ! download button
@@ -236,10 +244,12 @@ youtube.com##ytd-menu-service-item-renderer:has(>tp-yt-paper-item:has(>yt-format
 youtube.com##ytd-button-renderer:has(>a:has(> yt-formatted-string:has-text(Share)))
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button[aria-label=Share]))
 youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label=Share])
+m.youtube.com##button-view-model:has(button[aria-label="Share"])
 ! save button
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(> button:has-text(Save)):has(yt-icon))
 youtube.com##tp-yt-paper-item:has(yt-icon):has(yt-formatted-string:has-text(Save))
 youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label="Save to playlist"])
+m.youtube.com##button-view-model:has(button[aria-label="Save to playlist"])
 ! hide disabled buttons (download for non-premium, save for yt kids), exclude comment save/submit (#36)
 youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled)):not(.ytd-commentbox)
 
@@ -299,6 +309,7 @@ youtube.com##ytd-feed-nudge-renderer
 !! video-specific sidebar
 ! fundraiser
 youtube.com###donation-shelf
+m.youtube.com##ytm-donation-shelf-renderer
 ! other sponsored videos (#1)
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]
 ! ads
@@ -327,9 +338,11 @@ youtube.com##yt-tab-shape[tab-title="Channels"]
 ! channel banner
 youtube.com##.banner-visible-area
 youtube.com##.page-header-banner
+m.youtube.com##.c4-tabbed-header-page-header-banner
 ! home page links
 youtube.com###channel-header > #links-holder
 youtube.com###channel-header-links
+m.youtube.com##ytm-channel-header-links-view-model
 ! channel handle
 youtube.com###meta>p:has(>#channel-handle)
 youtube.com##.meta-item:has(>#channel-handle)
@@ -338,13 +351,16 @@ youtube.com##.meta-item:has(>#channel-handle)
 youtube.com##.ytd-recognition-shelf-renderer
 ! members only videos
 youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
+m.youtube.com##ytm-shelf-renderer:has(ytm-badge[data-type="BADGE_STYLE_TYPE_MEMBERS_ONLY"])
 ! featured channels
 youtube.com##ytd-shelf-renderer:has(ytd-channel-renderer):has(.grid-subheader:not(:has(>#title-container[hidden])))
+m.youtube.com##ytm-shelf-renderer:has(ytm-compact-channel-renderer)
 ! channel scroller
 youtube.com##ytd-shelf-renderer:has(ytd-grid-channel-renderer)
 !! about
 ! about > links
 youtube.com###links-container.ytd-channel-about-metadata-renderer
+m.youtube.com##.about-channel-section:has(>.about-channel-new-links-container)
 
 !!!! live chat
 !! premiere chat

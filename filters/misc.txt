@@ -29,6 +29,7 @@
 !!!! generics
 ! remove verified badges
 youtube.com##.badge-style-type-verified
+m.youtube.com##ytm-metadata-badge-renderer ytm-badge[data-type="BADGE_STYLE_TYPE_VERIFIED"]
 ! learning playlists (#25)
 youtube.com##ytd-grid-playlist-renderer:has(.ytd-badge-supported-renderer:has(>span:has-text("Learning playlist")))
 !! shelves
@@ -51,6 +52,7 @@ youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 !! badges
 ! closed captioning badge
 youtube.com####.badge[aria-label="CC"]
+m.youtube.com##ytm-badge-supported-renderer ytm-badge:has-text(CC)
 
 !!!! /video
 !!! in-player
@@ -78,6 +80,7 @@ youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-prim
 !! owner/ channel
 ! subscribe
 youtube.com###subscribe-button
+m.youtube.com##ytm-button-renderer.icon-subscribe
 ! unhide unsubscribe button
 youtube.com#@##subscribe-button:has(>ytd-subscribe-button-renderer[subscribed])
 ! subscribe animation (smartimation)
@@ -124,6 +127,7 @@ youtube.com###channel-tagline
 !! shelves
 ! remove featured video
 youtube.com##ytd-channel-featured-content-renderer
+m.youtube.com##ytm-channel-featured-video-renderer
 
 !!!! /results - search
 ! key moments/chapters

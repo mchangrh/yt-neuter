@@ -26,8 +26,10 @@ youtube.com##yt-tab-shape[tab-title="Live"]
 !!!! video browsing
 ! remove live videos
 youtube.com###dismissible:has(.badge-style-type-live-now-alternate):not(.ytd-shelf-renderer):upward(1)
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"])
 ! remove streamed videos
 youtube.com###dismissible:has(#metadata-line>span:has-text(Streamed)):not(.ytd-shelf-renderer):upward(1)
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer>span:has-text(Streamed))
 ! remove upcoming videos
 youtube.com###dismissible>ytd-thumbnail:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]):not(.ytd-shelf-renderer):upward(1)
 !! header

@@ -37,8 +37,10 @@ youtube.com##yt-tab-shape[tab-title="Shorts"]
 !!!! video browsing
 ! videos that resolve to /shorts/
 youtube.com###dismissible:has(a[href^="/shorts/"]):not(.ytd-shelf-renderer):upward(1)
+m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
 ! videos with shorts icons
 youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]):not(.ytd-shelf-renderer):upward(1)
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 ! video title with #shorts
 youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts)):not(.ytd-shelf-renderer):upward(1)
 
