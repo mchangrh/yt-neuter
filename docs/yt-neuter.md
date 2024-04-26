@@ -69,6 +69,7 @@
   * fundraiser
   * new
   * 4k
+  * Related
 * 3-dot dropdown ([#38](https://github.com/mchangrh/yt-neuter/issues/38))
   * download button
   * share button
@@ -107,6 +108,7 @@
   * member/ join button
   * free trial/ tv subscription
   * channel name tooltip
+  * outlink badges
 * action row
   * download button
   * download worker
