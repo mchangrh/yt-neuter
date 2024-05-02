@@ -58,6 +58,7 @@
 * creator
   * community posts
 ## video browsing
+  * members-only videos
   * video-attached survey
 * header
   * recommendations categories

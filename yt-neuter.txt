@@ -126,6 +126,8 @@ m.youtube.com##ytm-feed-filter-chip-bar-renderer:has(ytm-chip-cloud-chip-rendere
 youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
 
 !!!! video browsing
+! members-only videos
+youtube.com###dismissible:has(.badge.badge-style-type-members-only):not(.ytd-shelf-renderer):upward(1)
 ! video-attached survey
 youtube.com###attached-survey
 !! header
