@@ -143,6 +143,7 @@
   * channel member comment badge
   * paid (thanks) comment badge
   * paid (thanks) comment highlight
+  * translate button
 ### recommendations sidebar
   * watch on youtube
   * nudges (recommendation/ turn on watch history)
