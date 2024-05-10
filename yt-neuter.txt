@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2024/05/02
+! Last modified: 2024/05/10
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -303,6 +303,8 @@ youtube.com##span#sponsor-comment-badge
 youtube.com###paid-comment-chip
 ! paid (thanks) comment highlight
 youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
+! translate button
+youtube.com##.translate-button[state="untoggled"]
 
 !!! recommendations sidebar
 ! watch on youtube
