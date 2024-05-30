@@ -10,13 +10,13 @@
 
 !!!! global elements
 !!! sidebar navigation
-youtube.com##ytd-guide-entry-renderer:has-text(Music)
-youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
+www.youtube.com##ytd-guide-entry-renderer:has-text(Music)
+www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
 
 !!!! video browsing
 !! header
 ! recommendations chip
-youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
+m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
 !! badges
 ! videos by verified artists
 youtube.com###dismissible:has(.badge-style-type-verified-artist):not(.ytd-shelf-renderer):upward(1)

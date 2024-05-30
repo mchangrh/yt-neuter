@@ -11,21 +11,21 @@
 !!!! generics
 !! shelves
 ! generic shorts shelf (channel, search)
-youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-reel-shelf-renderer
 m.youtube.com##ytm-reel-shelf-renderer
 
 !!!! global elements
 !!! sidebar navigation
 ! sidebar
-youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
-youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 ! homepage tab (mobile)
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 
 !!!! /homepage
 !!! shelves
 ! homepage shelf (#15)
-youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
 m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
 
 !!!! /channel page
@@ -36,13 +36,13 @@ youtube.com##yt-tab-shape[tab-title="Shorts"]
 
 !!!! video browsing
 ! videos that resolve to /shorts/
-youtube.com###dismissible:has(a[href^="/shorts/"]):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###dismissible:has(a[href^="/shorts/"]):not(.ytd-shelf-renderer):upward(1)
 m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
 ! videos with shorts icons
-youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###dismissible:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]):not(.ytd-shelf-renderer):upward(1)
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 ! video title with #shorts
-youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts)):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#shorts)):not(.ytd-shelf-renderer):upward(1)
 
 !!!! /video
 !! paused/ stopped overlay

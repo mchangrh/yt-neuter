@@ -11,30 +11,30 @@
 !!!! global elements
 !!! sidebar navigation
 ! live tab
-youtube.com##ytd-guide-entry-renderer:has-text(Live)
-youtube.com##ytd-mini-guide-entry-renderer:has-text(Live)
+www.youtube.com##ytd-guide-entry-renderer:has-text(Live)
+www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Live)
 !! channels
 ! channel is live indicator
-youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
+www.youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
 
 !!!! /channel page
 !! tabs
 ! live tab
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Live))
-youtube.com##yt-tab-shape[tab-title="Live"]
+www.youtube.com##yt-tab-shape[tab-title="Live"]
 
 !!!! video browsing
 ! remove live videos
-youtube.com###dismissible:has(.badge-style-type-live-now-alternate):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###dismissible:has(.badge-style-type-live-now-alternate):not(.ytd-shelf-renderer):upward(1)
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"])
 ! remove streamed videos
-youtube.com###dismissible:has(#metadata-line>span:has-text(Streamed)):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###dismissible:has(#metadata-line>span:has-text(Streamed)):not(.ytd-shelf-renderer):upward(1)
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer>span:has-text(Streamed))
 ! remove upcoming videos
-youtube.com###dismissible>ytd-thumbnail:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###dismissible>ytd-thumbnail:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]):not(.ytd-shelf-renderer):upward(1)
 !! header
 ! live chips
-youtube.com##ytm-chip-cloud-chip-renderer[ellipsis-truncate-styling="Live"]
+m.youtube.com##ytm-chip-cloud-chip-renderer[ellipsis-truncate-styling="Live"]
 
 !!!! /video
 !! paused/ stopped overlay
