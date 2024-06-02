@@ -5,6 +5,7 @@
 ## generics
 * shelves
   * game shelf
+  * playbables shelf
 ## global elements
 ### header
 * icon

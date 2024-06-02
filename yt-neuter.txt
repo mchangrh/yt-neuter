@@ -12,6 +12,8 @@
 !! shelves
 ! game shelf
 youtube.com##ytd-rich-shelf-renderer[has-rounded-box-art-thumbnail-style]
+! playbables shelf
+www.youtube.com##ytd-rich-shelf-renderer:has(a[href="/playables"])
 
 !!!! global elements
 !!! header
