@@ -17,7 +17,7 @@ www.youtube.com#@#ytd-menu-service-item-download-renderer
 !!! controls
 !! settings
 ! enhanced bitrate selector
-youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+www.youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 
 !!! under-player
 !! action row

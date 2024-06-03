@@ -60,14 +60,14 @@ m.youtube.com##ytm-badge-supported-renderer ytm-badge:has-text(CC)
 ! remove annotations module
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
 ! make all video info visible
-youtube.com##.ytp-videowall-still-info-content:style(opacity: 1 !important)
+www.youtube.com##.ytp-videowall-still-info-content:style(opacity: 1 !important)
 !!! controls
 !! settings
 ! make quality selector superscript red again
-youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red, #f00) !important;)
+www.youtube.com##.ytp-menuitem sup.ytp-swatch-color-white:style(color: var(--yt-spec-static-brand-red, #f00) !important;)
 !!! comments
 ! remove emoji
-youtube.com##img.emoji
+www.youtube.com##img.emoji
 !! comment creation
 ! remove emoji shortcuts for comments
 ||www.gstatic.com/youtube/img/emojis/emoji-*.json
@@ -76,7 +76,7 @@ youtube.com##img.emoji
 !!! under-player
 !! title
 ! remove highlights for tagged channels
-youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
+www.youtube.com###title>h1 a.yt-simple-endpoint:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 !! owner/ channel
 ! subscribe
 www.youtube.com###subscribe-button
@@ -93,7 +93,7 @@ www.youtube.com##+js(repc, .ytd-subscribe-button-renderer>button, yt-spec-button
 !!! description box
 !! creator description
 ! remove mention highlights
-youtube.com##.yt-core-attributed-string__link--call-to-action-color[href^="/channel/"]:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
+www.youtube.com##.yt-core-attributed-string__link--call-to-action-color[href^="/channel/"]:style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 ! remove hashtags in description
 www.youtube.com##.ytd-text-inline-expander>a.yt-formatted-string[href^="/hashtag/"]
 youtube.com##.yt-core-attributed-string--link-inherit-color>a.yt-core-attributed-string__link--call-to-action-color[href^="/hashtag/"]
@@ -103,8 +103,8 @@ youtube.com##.yt-core-attributed-string--link-inherit-color>a.yt-core-attributed
 ||youtube.com/redirect?event=product_shelf^$document
 youtube.com##a.yt-simple-endpoint.yt-formatted-string[href^="https://www.youtube.com/redirect?event=product_shelf"]
 ! remove description video link highlights
-youtube.com##.yt-core-attributed-string--highlight-text-decorator:style(color: var(--yt-spec-text-primary, #f1f1f1) !important; background-color: transparent !important;)
-youtube.com##.yt-core-attributed-string--highlight-text-decorator>a>span>img
+www.youtube.com##.yt-core-attributed-string--highlight-text-decorator:style(color: var(--yt-spec-text-primary, #f1f1f1) !important; background-color: transparent !important;)
+www.youtube.com##.yt-core-attributed-string--highlight-text-decorator>a>span>img
 ! remove external link highlights (comments, descriptions)
 youtube.com##a[target=_blank]:not([has-link-only_]):style(color: var(--yt-spec-text-primary, #f1f1f1) !important;)
 
@@ -121,9 +121,10 @@ youtube.com###offer-module
 !!!! /channel page
 !! channel header / homepage
 ! hide large avatar
-youtube.com###channel-header-container>yt-img-shadow#avatar
+www.youtube.com###channel-header-container>yt-img-shadow#avatar
+m.youtube.com##yt-image-banner-view-model.yt-image-banner-view-model-wiz
 ! remove tagline
-youtube.com###channel-tagline
+www.outube.com###channel-tagline
 !! shelves
 ! remove featured video
 www.youtube.com##ytd-channel-featured-content-renderer
@@ -131,4 +132,4 @@ m.youtube.com##ytm-channel-featured-video-renderer
 
 !!!! /results - search
 ! key moments/chapters
-youtube.com###expandable-metadata
+www.youtube.com###expandable-metadata

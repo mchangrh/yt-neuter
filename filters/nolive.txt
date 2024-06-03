@@ -20,7 +20,7 @@ www.youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-
 !!!! /channel page
 !! tabs
 ! live tab
-youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Live))
+www.youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Live))
 www.youtube.com##yt-tab-shape[tab-title="Live"]
 
 !!!! video browsing
@@ -39,4 +39,4 @@ m.youtube.com##ytm-chip-cloud-chip-renderer[ellipsis-truncate-styling="Live"]
 !!!! /video
 !! paused/ stopped overlay
 ! video endscreen
-youtube.com##.ytp-videowall-still[data-is-live=true]
+www.youtube.com##.ytp-videowall-still[data-is-live=true]

@@ -47,4 +47,4 @@ www.youtube.com###dismissible:has(a#video-title>yt-formatted-string:has-text(#sh
 !!!! /video
 !! paused/ stopped overlay
 ! video endscreen
-youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+www.youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])

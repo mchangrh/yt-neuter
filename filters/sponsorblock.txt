@@ -45,15 +45,15 @@ www.youtube.com##.ytd-single-option-survey-renderer
 ! "feedback shared" / "experiencing interruptions" toasts
 youtube.com##tp-yt-paper-toast#toast
 ! "change your subtitle settings" popup
-youtube.com##.ytp-promotooltip-wrapper
+www.youtube.com##.ytp-promotooltip-wrapper
 ! popup z-index fix
 youtube.com##tp-yt-iron-overlay-backdrop.opened
 !! payment nags
 ! premium enhanced bitrate nag (#49)
 www.youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
 ! become a member of this channel
-youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
-youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
+www.youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
+www.youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
 
 !!!! homepage
 !! youtube
