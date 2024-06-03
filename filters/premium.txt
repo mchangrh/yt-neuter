@@ -11,17 +11,17 @@
 !!!! video browsing
 !! 3-dot dropdown (#38)
 ! download button
-youtube.com#@#ytd-menu-service-item-download-renderer
+www.youtube.com#@#ytd-menu-service-item-download-renderer
 
 !!!! /video
 !!! controls
 !! settings
 ! enhanced bitrate selector
-youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+www.youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 
 !!! under-player
 !! action row
 ! download button
-youtube.com#@#ytd-download-button-renderer
+www.youtube.com#@#ytd-download-button-renderer
 ! download worker
 @@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script

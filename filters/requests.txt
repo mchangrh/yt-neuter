@@ -18,7 +18,7 @@ youtube.com##.ytp-subtitles-button
 ! remove background for youtube buttons, excludes subscribe button
 youtube.com##button.yt-spec-button-shape-next--tonal:style(background-color: transparent !important)
 ! remove button text labels
-youtube.com##ytd-menu-renderer > .ytd-menu-renderer > ytd-button-renderer > yt-button-shape > button:has(>.yt-spec-button-shape-next__icon) > .yt-spec-button-shape-next--button-text-content
+www.youtube.com##ytd-menu-renderer > .ytd-menu-renderer > ytd-button-renderer > yt-button-shape > button:has(>.yt-spec-button-shape-next__icon) > .yt-spec-button-shape-next--button-text-content
 ! center buttons without text
-youtube.com##yt-button-shape > button> .yt-spec-button-shape-next__icon:style(margin: 0 !important)
+www.youtube.com##yt-button-shape > button> .yt-spec-button-shape-next__icon:style(margin: 0 !important)
 
