@@ -51,7 +51,7 @@ www.youtube.com##a.ytd-thumbnail:style(border-radius: 0px !important)
 
 !! badges
 ! closed captioning badge
-youtube.com####.badge[aria-label="CC"]
+youtube.com##.badge[aria-label="CC"]
 m.youtube.com##ytm-badge-supported-renderer ytm-badge:has-text(CC)
 
 !!!! /video
@@ -124,7 +124,7 @@ youtube.com###offer-module
 www.youtube.com###channel-header-container>yt-img-shadow#avatar
 m.youtube.com##yt-image-banner-view-model.yt-image-banner-view-model-wiz
 ! remove tagline
-www.outube.com###channel-tagline
+www.youtube.com###channel-tagline
 !! shelves
 ! remove featured video
 www.youtube.com##ytd-channel-featured-content-renderer
