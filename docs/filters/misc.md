@@ -17,6 +17,7 @@
   * learning playlists ([#25](https://github.com/mchangrh/yt-neuter/issues/25))
 * shelves
   * block all shelves
+  * block rich grid sections containing shelves
 ## video browsing
 * video previews
   * visually hide video previews
