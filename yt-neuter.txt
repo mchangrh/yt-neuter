@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2024/07/03
+! Last modified: 2024/08/23
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -221,6 +221,7 @@ youtube.com##a[href^="/hashtag/"]
 !! owner/ channel
 ! member/ join button
 youtube.com###sponsor-button
+youtube.com##button[aria-label="Join this channel"]
 ! free trial/ tv subscription
 youtube.com###purchase-button
 ! channel name tooltip
@@ -346,6 +347,7 @@ youtube.com##yt-tab-shape[tab-title="Channels"]
 ! channel banner
 youtube.com##.banner-visible-area
 youtube.com##.page-header-banner
+www.youtube.com###page-header-banner
 m.youtube.com##.c4-tabbed-header-page-header-banner
 ! home page links
 youtube.com###channel-header > #links-holder
