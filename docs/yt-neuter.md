@@ -50,6 +50,8 @@
 * youtube movies
   * free movies (targets movies channelid)
   * Free movies with ads
+### badges on thumbnails
+  * "New" badge (subscriptions feed)
 * youtube
   * mixes
   * breaking news shelf
