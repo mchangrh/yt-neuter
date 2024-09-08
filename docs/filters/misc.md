@@ -26,6 +26,7 @@
   * make thumbnails square again
 * badges
   * closed captioning badge
+  * "New" badge (subscriptions feed)
 ## /video
 ### in-player
 * paused/ stopped overlay
