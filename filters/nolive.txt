@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - nolive
-! Last modified: 2024/04/27
+! Last modified: 2024/09/10
 ! Expires: 2 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -16,6 +16,12 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Live)
 !! channels
 ! channel is live indicator
 www.youtube.com##.ytd-guide-entry-renderer>tp-yt-paper-item>yt-icon.guide-entry-badge:has(svg)
+
+!!!! homepage
+!! video
+! channel live badge
+www.youtube.com##.yt-spec-avatar-shape__live-badge
+www.youtube.com##.yt-spec-avatar-shape--live-ring:remove-class(yt-spec-avatar-shape--live-ring)
 
 !!!! /channel page
 !! tabs

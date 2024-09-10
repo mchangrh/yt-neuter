@@ -7,6 +7,9 @@
   * live tab
 * channels
   * channel is live indicator
+## homepage
+* video
+  * channel live badge
 ## /channel page
 * tabs
   * live tab
