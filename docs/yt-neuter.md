@@ -141,10 +141,12 @@
   * featured places
   * large channel infocard ([#35](https://github.com/mchangrh/yt-neuter/issues/35))
 ### comments
-  * channel member comment badge
+  * translate button
+* paid comments
   * paid (thanks) comment badge
   * paid (thanks) comment highlight
-  * translate button
+* channel member comments
+  * channel member comment badge
 ### recommendations sidebar
   * watch on youtube
   * nudges (recommendation/ turn on watch history)

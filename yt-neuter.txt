@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2024/09/08
+! Last modified: 2024/10/01
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -301,14 +301,16 @@ www.youtube.com##ytd-video-description-infocards-section-renderer>a#header[href^
 www.youtube.com##ytd-video-description-infocards-section-renderer>#action-buttons
 
 !!! comments
-! channel member comment badge
-youtube.com##span#sponsor-comment-badge
-! paid (thanks) comment badge
-youtube.com###paid-comment-chip
-! paid (thanks) comment highlight
-www.youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
 ! translate button
 youtube.com##.translate-button[state="untoggled"]
+!! paid comments
+! paid (thanks) comment badge
+youtube.com###paid-comment-chip[role=button]
+! paid (thanks) comment highlight
+www.youtube.com##ytd-comment-view-model>#paid-comment-background
+!! channel member comments
+! channel member comment badge
+youtube.com##span#sponsor-comment-badge
 
 !!! recommendations sidebar
 ! watch on youtube
@@ -317,7 +319,7 @@ www.youtube.com##ytd-tvfilm-offer-module-renderer
 www.youtube.com##ytd-feed-nudge-renderer
 !! video-specific sidebar
 ! fundraiser
-www.youtube.com###donation-shelf
+www.youtube.com###donation-shelf  
 m.youtube.com##ytm-donation-shelf-renderer
 ! other sponsored videos (#1)
 www.youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]

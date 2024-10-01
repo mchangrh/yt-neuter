@@ -1,0 +1,33 @@
+[uBlock Origin]
+! Title: YouTube Neuter - hyper aggressive
+! Last modified: 2024/10/01
+! Expires: 10 days
+! Homepage: https://github.com/mchangrh/yt-neuter
+! Licence: Unlicense
+!
+
+!!!! This is a hyper-aggressive block list, use very sparingly. This is more aggressive than the misc list
+!!!! This list is not for ANYONE. It will break a lot of things, sometimes intentionally.
+
+!!!! network requests
+!! images
+! remove banner, channel emojis, uploader profile in comments (https://github.com/iv-org/invidious/issues/3796)
+||yt3.googleusercontent.com$image,domain=youtube.com
+! remove user profile images
+||yt3.ggpht.com$image,domain=youtube.com
+!! lottie
+! remove lottie renderer
+||www.gstatic.com/external_hosted/lottie/lottie_light.js$script,domain=youtube.com
+! remove lottie animations
+||www.gstatic.com/youtube/img/lottie/*$domain=youtube.com
+
+!!!! /video
+!!! comments
+! remove comment author images
+www.youtube.com###author-thumbnail
+!! paid comments
+! remove all paid comments
+www.youtube.com##ytd-comment-thread-renderer:has(#paid-comment-chip[role=button])
+!! channel member comments
+! remove all member comments
+www.youtube.com##ytd-comment-thread-renderer:has(>ytd-comment-view-model[has-sponsor-badge])

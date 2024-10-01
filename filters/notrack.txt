@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - notrack
-! Last modified: 2024/08/09
+! Last modified: 2024/10/01
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -24,6 +24,7 @@
 ||www.youtube.com/youtubei/v1/log_event?$empty
 ! ? generic stats ping
 ||www.youtube.com/generate_204
+||youtube.com/generate_204$image
 ||www.youtube.com/error_204
 ||m.youtube.com/generate_204
 ||m.youtube.com/error_204

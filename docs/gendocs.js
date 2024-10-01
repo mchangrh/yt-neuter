@@ -34,6 +34,7 @@ function syncReadFile(filter) {
 
 const filters = [
   "yt-neuter",
+  "filters/hyper",
   "filters/misc",
   "filters/nolive",
   "filters/nomusic",

@@ -36,6 +36,8 @@
 * settings
   * make quality selector superscript red again
 ### comments
+* channel member comments
+  * channel member emoji
   * remove emoji
 * comment creation
   * remove emoji shortcuts for comments
