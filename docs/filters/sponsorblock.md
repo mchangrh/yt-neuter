@@ -36,7 +36,6 @@
 ### comments
   * paid (thanks) comment highlight
 ### recommendations sidebar
-* recommendations
   * watch on youtube
   * nudges (recommendation/ turn on watch history)
 ## /channel page
