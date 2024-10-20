@@ -92,6 +92,9 @@
   * recommendation pause overlay (seen in /embed/)
   * mixes
 ### controls
+* progress bar
+  * pink gradient [#72](https://github.com/mchangrh/yt-neuter/issues/72)
+* options buttons
   * autoplay button
 * settings
   * enhanced bitrate selector

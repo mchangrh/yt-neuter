@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2024/10/08
+! Last modified: 2024/10/19
 ! Expires: 1 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -68,7 +68,10 @@ www.youtube.com##.ytd-brand-video-shelf-renderer
 !! chips/ badges
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
-
+!!! controls
+!! progress bar
+! pink gradient #72
+www.youtube.com##.ytp-cairo-refresh-signature-moments div.ytp-play-progress:style(background: var(--yt-spec-static-brand-red,#f03) !important)
 !!! description box
 !! under-description shelves
 ! merch shelf

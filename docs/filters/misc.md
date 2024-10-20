@@ -57,6 +57,8 @@
   * remove store links in description
   * remove description video link highlights
   * remove external link highlights (comments, descriptions)
+* youtube injected
+  * live chat replay prompt [#72](https://github.com/mchangrh/yt-neuter/issues/72)
 * under-description shelves
   * remove chapter infocard previews
   * remove infocards section

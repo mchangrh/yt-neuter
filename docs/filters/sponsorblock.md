@@ -29,6 +29,9 @@
 ### under-player
 * chips/ badges
   * buy product badge
+### controls
+* progress bar
+  * pink gradient [#72](https://github.com/mchangrh/yt-neuter/issues/72)
 ### description box
 * under-description shelves
   * merch shelf

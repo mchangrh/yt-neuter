@@ -20,5 +20,6 @@
 * header
   * live chips
 ## /video
+* live chat replay prompt
 * paused/ stopped overlay
   * video endscreen

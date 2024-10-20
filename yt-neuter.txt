@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2024/10/01
+! Last modified: 2024/10/19
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -33,6 +33,7 @@ www.youtube.com###voice-search-button
 !! action buttons
 ! create button
 www.youtube.com##ytd-topbar-menu-button-renderer:has(button[aria-label=Create])
+www.youtube.com##ytd-button-renderer:has(button[aria-label=Create])
 
 !!! popups
 !! generic surveys (#24)
@@ -193,6 +194,11 @@ youtube.com##.ytp-pause-overlay
 ! mixes
 youtube.com##.ytp-videowall-still[data-is-mix=true]
 !!! controls
+!! progress bar
+! pink gradient #72
+www.youtube.com##.ytp-cairo-refresh-signature-moments div.ytp-play-progress:style(background: var(--yt-spec-static-brand-red,#f03) !important)
+
+!! options buttons
 ! autoplay button
 youtube.com##button.ytp-button[data-tooltip-target-id=ytp-autonav-toggle-button]
 !! settings
