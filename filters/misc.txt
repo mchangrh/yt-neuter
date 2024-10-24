@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2024/10/19
+! Last modified: 2024/10/24
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -123,6 +123,8 @@ www.youtube.com###teaser-carousel
 www.youtube.com##ytd-horizontal-card-list-renderer[modern-chapters]>#shelf-container
 ! remove infocards section
 www.youtube.com##ytd-video-description-infocards-section-renderer>#infocards-section
+! people box
+www.youtube.com##yt-video-attributes-section-view-model:has(.yt-video-attributes-section-view-model__title:has-text(People))
 
 !!! recommendations sidebar
 !! video-specific sidebar

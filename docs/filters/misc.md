@@ -62,6 +62,7 @@
 * under-description shelves
   * remove chapter infocard previews
   * remove infocards section
+  * people box
 ### recommendations sidebar
 * video-specific sidebar
   * remove all offers
