@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2024/10/24
+! Last modified: 2024/11/07
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -119,6 +119,8 @@ youtube.com##a[target=_blank]:not([has-link-only_]):style(color: var(--yt-spec-t
 www.youtube.com###teaser-carousel
 
 !! under-description shelves
+! licenced doctor box
+www.youtube.com##ytd-info-panel-content-renderer:has(a[href="https://support.google.com/youtube/answer/9795167"])
 ! remove chapter infocard previews
 www.youtube.com##ytd-horizontal-card-list-renderer[modern-chapters]>#shelf-container
 ! remove infocards section
