@@ -60,6 +60,7 @@
 * youtube injected
   * live chat replay prompt [#72](https://github.com/mchangrh/yt-neuter/issues/72)
 * under-description shelves
+  * licenced doctor box
   * remove chapter infocard previews
   * remove infocards section
   * people box
