@@ -418,7 +418,7 @@ youtube.com##yt-live-chat-membership-item-renderer
 www.youtube.com##:matches-path(/results) ytd-shelf-renderer
 ! People also search for
 www.youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
-! Featured channels
+! Featured channels and TV shows
 www.youtube.com##:matches-path(/results) ytd-universal-watch-card-renderer
 ! channel mix
 www.youtube.com##ytd-radio-renderer

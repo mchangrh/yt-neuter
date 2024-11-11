@@ -199,7 +199,7 @@
 * shelves
   * people also watched, latest from channel, for you, previously watched, channels new to you
   * People also search for
-  * Featured channels
+  * Featured channels and TV shows
   * channel mix
 * channel results
   * channel description
