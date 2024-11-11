@@ -323,6 +323,7 @@ youtube.com##span#sponsor-comment-badge
 !!! recommendations sidebar
 ! watch on youtube
 www.youtube.com##ytd-tvfilm-offer-module-renderer
+youtube.com###secondary > .ytd-secondary-search-container-renderer.style-scope
 ! nudges (recommendation/ turn on watch history)
 www.youtube.com##ytd-feed-nudge-renderer
 !! video-specific sidebar
