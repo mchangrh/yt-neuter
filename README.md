@@ -16,6 +16,12 @@ Serverless Redirect: `https://neuter.mchang.xyz/filter`
 
 ### SponsorBlock sub-list
 Less aggressive in elements to block
+ - product shopping/ merch (Creator)
+ - paid comments (Creator)
+ - membership (Creator)
+ - tickets (YT + Creator)
+ - generic popup (YT)
+ - brand features (YT)
 
 [add to uBo](https://subscribe.adblockplus.org/?location=https://neuter.mchang.xyz/filter/sponsorblock&title=yt-neuter%20sponsorblock)  
 

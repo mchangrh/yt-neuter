@@ -1,15 +1,20 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2024/10/24
+! Last modified: 2024/11/13
 ! Expires: 1 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
 !
 
 !!! Subset of yt-neuter for sponsorblock
+! product shopping/ merch (Creator)
+! paid comments (Creator)
+! membership (Creator)
+! tickets (YT + Creator)
+! generic popup (YT)
+! brand features (YT)
 
 ! install link
-
 
 !!!! global elements
 !!! popups
@@ -40,14 +45,13 @@ www.youtube.com##ytd-red-cancel-survey-renderer
 ! "how are your recommendations" survey
 www.youtube.com##ytd-single-option-survey-renderer
 www.youtube.com##.ytd-single-option-survey-renderer
-www.youtube.com##.ytd-single-option-survey-renderer
 !! targeted/ specific popups
 ! "feedback shared" / "experiencing interruptions" toasts
-youtube.com##tp-yt-paper-toast#toast
+www.youtube.com##tp-yt-paper-toast#toast
 ! "change your subtitle settings" popup
 www.youtube.com##.ytp-promotooltip-wrapper
 ! popup z-index fix
-youtube.com##tp-yt-iron-overlay-backdrop.opened
+www.youtube.com##tp-yt-iron-overlay-backdrop.opened
 !! payment nags
 ! premium enhanced bitrate nag (#49)
 www.youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
@@ -63,20 +67,37 @@ www.youtube.com##ytd-brand-video-singleton-renderer
 www.youtube.com##ytd-brand-video-shelf-renderer
 www.youtube.com##.ytd-brand-video-shelf-renderer
 
+!!!! video browsing
+! members-only videos
+youtube.com###dismissible:has(.badge.badge-style-type-members-only):not(.ytd-shelf-renderer):upward(1)
+
 !!!! /video
-!!! under-player
-!! chips/ badges
-! buy product badge
-youtube.com##.ytp-suggested-action-badge
 !!! controls
 !! progress bar
 ! pink gradient #72
 www.youtube.com##.ytp-cairo-refresh-signature-moments div.ytp-play-progress:style(background: var(--yt-spec-static-brand-red,#f03) !important)
 www.youtube.com##.ytd-thumbnail-overlay-resume-playback-renderer:style(background: var(--yt-spec-static-brand-red,#f03) !important)
+
+!!! under-player
+!! chips/ badges
+! buy product badge
+youtube.com##.ytp-suggested-action-badge
+!! title
+! product count
+youtube.com##yt-formatted-string>span:has-text(product)
+!! owner/ channel
+! member/ join button
+youtube.com###sponsor-button
+youtube.com##button[aria-label="Join this channel"]
+! free trial/ tv subscription
+youtube.com###purchase-button
+
 !!! description box
 !! under-description shelves
 ! merch shelf
 www.youtube.com##ytd-merch-shelf-renderer
+! ticket shelf
+youtube.com###ticket-shelf
 ! products in current video
 www.youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
 
@@ -89,8 +110,20 @@ www.youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-backgroun
 youtube.com##.ytd-tvfilm-offer-module-renderer
 ! nudges (recommendation/ turn on watch history)
 www.youtube.com##ytd-feed-nudge-renderer
+!! video-specific sidebar
+! ads
+www.youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]
+! shop products in this video
+www.youtube.com##ytd-engagement-panel-section-list-renderer[target-id^="shopping_panel_for_entry_point"]
 
 !!!! /channel page
+!! tabs
+! channel store tab
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
+youtube.com##yt-tab-shape[tab-title="Store"]
 !! shelves
 ! recognized channel member
 www.youtube.com##.ytd-recognition-shelf-renderer
+! members only videos
+www.youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
+m.youtube.com##ytm-shelf-renderer:has(ytm-badge[data-type="BADGE_STYLE_TYPE_MEMBERS_ONLY"])
