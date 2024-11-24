@@ -308,6 +308,8 @@ www.youtube.com##ytd-horizontal-card-list-renderer:has(#navigation-button)
 www.youtube.com##ytd-video-description-infocards-section-renderer
 www.youtube.com##ytd-video-description-infocards-section-renderer>a#header[href^="/@"]
 www.youtube.com##ytd-video-description-infocards-section-renderer>#action-buttons
+! ai summary
+www.youtube.com###expandable-metadata:has(video-summary-content-view-model)
 
 !!! comments
 ! translate button
