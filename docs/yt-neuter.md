@@ -143,6 +143,7 @@
   * age restricted notice
   * featured places
   * large channel infocard ([#35](https://github.com/mchangrh/yt-neuter/issues/35))
+  * ai summary
 ### comments
   * translate button
 * paid comments
