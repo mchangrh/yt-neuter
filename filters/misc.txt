@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - misc
-! Last modified: 2024/11/07
+! Last modified: 2024/11/29
 ! Expires: 10 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -29,6 +29,7 @@
 !!!! generics
 ! remove verified badges
 www.youtube.com##.badge-style-type-verified
+www.youtube.com##a.yt-core-attributed-string__link--call-to-action-color span[style="color: rgb(170, 170, 170);"]
 m.youtube.com##ytm-metadata-badge-renderer ytm-badge[data-type="BADGE_STYLE_TYPE_VERIFIED"]
 ! learning playlists (#25)
 www.youtube.com##ytd-grid-playlist-renderer:has(.ytd-badge-supported-renderer:has(>span:has-text("Learning playlist")))
