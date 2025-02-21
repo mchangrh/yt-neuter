@@ -73,6 +73,8 @@ www.youtube.com##tp-yt-iron-overlay-backdrop.opened
 !! payment nags
 ! premium enhanced bitrate nag (#49)
 www.youtube.com##ytd-popup-container:has(>tp-yt-paper-dialog>ytd-offline-promo-renderer)
+! 2025 bitate nag (#79)
+www.youtube.com##ytd-popup-container > tp-yt-paper-dialog:has(upsell-view-model)
 ! become a member of this channel
 www.youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 www.youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
