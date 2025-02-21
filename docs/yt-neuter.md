@@ -35,6 +35,7 @@
   * popup z-index fix
 * payment nags
   * premium enhanced bitrate nag ([#49](https://github.com/mchangrh/yt-neuter/issues/49))
+  * 2025 bitate nag ([#79](https://github.com/mchangrh/yt-neuter/issues/79))
   * become a member of this channel
 ### sidebar navigation
 * "you" section
