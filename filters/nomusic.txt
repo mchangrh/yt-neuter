@@ -19,5 +19,6 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
 m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
 !! badgess
 ! videos by verified artists
-www.youtube.com###ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
-www.youtube.com###ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
+www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
+www.youtube.com##ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
+www.youtube.com##ytd-video-renderer:has(.badge-style-type-verified-artist)

@@ -69,8 +69,9 @@ www.youtube.com##.ytd-brand-video-shelf-renderer
 
 !!!! video browsing
 ! members-only videos
-www.youtube.com###ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
-www.youtube.com###ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
+www.youtube.com##ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
+www.youtube.com##ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
+www.youtube.com##ytd-video-renderer:has(.badge.badge-style-type-members-only)
 
 !!!! /video
 !!! controls

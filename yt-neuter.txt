@@ -133,8 +133,9 @@ www.youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
 
 !!!! video browsing
 ! members-only videos
-www.youtube.com###ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
-www.youtube.com###ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
+www.youtube.com##ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
+www.youtube.com##ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
+www.youtube.com##ytd-video-renderer:has(.badge.badge-style-type-members-only)
 ! video-attached survey
 youtube.com###attached-survey
 !! header
