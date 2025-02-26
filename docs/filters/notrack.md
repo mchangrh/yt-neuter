@@ -4,9 +4,6 @@
 
 ## network requests
   * quality of experience
-* playback/ watch
-  * playback ping
-  * watch % and time
 * stats
   * periodic stat pings
   * ? generic stats ping

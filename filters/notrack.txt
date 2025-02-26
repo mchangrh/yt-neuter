@@ -13,12 +13,6 @@
 # already included in easyprivacy, repeated to suppress errors
 ||www.youtube.com/api/stats/qoe?$empty
 
-!! playback/ watch
-! playback ping
-||www.youtube.com/api/stats/playback?$empty
-! watch % and time
-||www.youtube.com/api/stats/watchtime?$empty
-
 !! stats
 ! periodic stat pings
 ||www.youtube.com/youtubei/v1/log_event?$empty
