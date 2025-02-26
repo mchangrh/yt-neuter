@@ -7,5 +7,5 @@
 ## video browsing
 * header
   * recommendations chip
-* badges
+* badgess
   * videos by verified artists
