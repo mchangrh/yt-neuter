@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - nolive
-! Last modified: 2024/10/19
+! Last modified: 2025/02/25
 ! Expires: 2 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -31,13 +31,16 @@ www.youtube.com##yt-tab-shape[tab-title="Live"]
 
 !!!! video browsing
 ! remove live videos
-www.youtube.com###dismissible:has(.badge-style-type-live-now-alternate):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
+www.youtube.com###ytd-grid-video-renderer:has(.badge-style-type-live-now-alternate)
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"])
 ! remove streamed videos
-www.youtube.com###dismissible:has(#metadata-line>span:has-text(Streamed)):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###ytd-rich-item-renderer:has(#metadata-line>span:has-text(Streamed))
+www.youtube.com###ytd-grid-video-renderer:has(#metadata-line>span:has-text(Streamed))
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer>span:has-text(Streamed))
 ! remove upcoming videos
-www.youtube.com###dismissible>ytd-thumbnail:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]):not(.ytd-shelf-renderer):upward(1)
+www.youtube.com###ytd-rich-item-renderer>ytd-thumbnail:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com###ytd-grid-video-renderer>ytd-thumbnail:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 !! header
 ! live chips
 m.youtube.com##ytm-chip-cloud-chip-renderer[ellipsis-truncate-styling="Live"]
