@@ -63,4 +63,4 @@
   * channel store tab
 * shelves
   * recognized channel member
-  * members only videos
+  * members only videos - disabled ([#85](https://github.com/mchangrh/yt-neuter/issues/85))
