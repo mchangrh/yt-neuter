@@ -39,16 +39,16 @@ GitHub: `https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/novie
 Serverless Redirect: `https://neuter.mchang.xyz/filter/noview`  
 
 ## Userscripts
- - Disable recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay.user.js)
- - Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe.user.js)
- - Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality.user.js)
+ - Disable recommended and playlist AutoPlay [Install](https://neuter.mchang.xyz/script/yt-no-autoplay)
+ - Change "Subscribe" background to blend in with the rest of the theme [Install](https://neuter.mchang.xyz/script/mute-subscribe)
+ - Make YT Quality icons red again [Install](https://neuter.mchang.xyz/script/old-red-quality)
  - Remove everything from description links but hostname [Install](https://neuter.mchang.xyz/script/no-link-path)
  - Remove Emojis in Titles [Install](https://neuter.mchang.xyz/script/no-emoji)
  - Remove channel trailers [Install](https://neuter.mchang.xyz/script/no-trailer)
  - Remove Experiment Flags [Install](https://neuter.mchang.xyz/script/flag-remover)
  - Persist YT Controls [Install](https://uscript.mchang.xyz/yt/yt-persist-ctrl.user.js)
- - Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date.user.js)
- - ~~Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow.user.js)~~
+ - Replaces YouTube rounded views and relative date with absolute values [Install](https://uscript.mchang.xyz/yt/yt-absview-date)
+ - ~~Force YouTube grid to fit more elements per row [Install](https://neuter.mchang.xyz/script/reflow)~~
    - broken due to YouTube changes with static values
    - Replacment script: [Roki100/YouTube-rows-fix](https://github.com/Roki100/YouTube-rows-fix)  
 
