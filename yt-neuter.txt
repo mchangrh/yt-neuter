@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2025/02/25
+! Last modified: 2025/03/16
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -132,10 +132,11 @@ www.youtube.com##ytd-masthead[frosted-glass="with-chipbar"]:remove-attr(frosted-
 www.youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
 
 !!!! video browsing
-! members-only videos
-www.youtube.com##ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
-www.youtube.com##ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
-www.youtube.com##ytd-video-renderer:has(.badge.badge-style-type-members-only)
+! members-only videos - disabled (#85)
+# www.youtube.com##ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
+# www.youtube.com##ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
+# www.youtube.com##ytd-video-renderer:has(.badge.badge-style-type-members-only)
+
 ! video-attached survey
 youtube.com###attached-survey
 !! header
@@ -377,12 +378,12 @@ youtube.com##.meta-item:has(>#channel-handle)
 !! shelves
 ! recognized channel member
 www.youtube.com##.ytd-recognition-shelf-renderer
-! members only videos
-www.youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
-m.youtube.com##ytm-shelf-renderer:has(ytm-badge[data-type="BADGE_STYLE_TYPE_MEMBERS_ONLY"])
-! featured channels
-www.youtube.com##ytd-shelf-renderer:has(ytd-channel-renderer):has(.grid-subheader:not(:has(>#title-container[hidden])))
-m.youtube.com##ytm-shelf-renderer:has(ytm-compact-channel-renderer)
+! members only videos - disabled (#85)
+# www.youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
+# m.youtube.com##ytm-shelf-renderer:has(ytm-badge[data-type="BADGE_STYLE_TYPE_MEMBERS_ONLY"])
+# ! featured channels - disabled (#85)
+# www.youtube.com##ytd-shelf-renderer:has(ytd-channel-renderer):has(.grid-subheader:not(:has(>#title-container[hidden])))
+# m.youtube.com##ytm-shelf-renderer:has(ytm-compact-channel-renderer)
 ! channel scroller
 www.youtube.com##ytd-shelf-renderer:has(ytd-grid-channel-renderer)
 !! about
@@ -422,12 +423,14 @@ youtube.com##yt-live-chat-membership-item-renderer
 
 !!!! /results - search
 !! shelves
-! people also watched, latest from channel, for you, previously watched, channels new to you
-www.youtube.com##:matches-path(/results) ytd-shelf-renderer
-! People also search for
-www.youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
-! Featured channels and TV shows
-www.youtube.com##:matches-path(/results) ytd-universal-watch-card-renderer
+# - disabled (#85)
+# ! people also watched, latest from channel, for you, previously watched, channels new to you
+# www.youtube.com##:matches-path(/results) ytd-shelf-renderer
+# ! People also search for
+# www.youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
+# ! Featured channels and TV shows
+# www.youtube.com##:matches-path(/results) ytd-universal-watch-card-renderer
+
 ! channel mix
 www.youtube.com##ytd-radio-renderer
 !! channel results
