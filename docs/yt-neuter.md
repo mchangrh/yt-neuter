@@ -60,7 +60,7 @@
 * creator
   * community posts
 ## video browsing
-  * members-only videos
+  * members-only videos - disabled ([#85](https://github.com/mchangrh/yt-neuter/issues/85))
   * video-attached survey
 * header
   * recommendations categories
@@ -174,8 +174,7 @@
   * channel handle
 * shelves
   * recognized channel member
-  * members only videos
-  * featured channels
+  * members only videos - disabled ([#85](https://github.com/mchangrh/yt-neuter/issues/85))
   * channel scroller
 * about
   * about > links
@@ -199,9 +198,6 @@
   * memberships
 ## /results - search
 * shelves
-  * people also watched, latest from channel, for you, previously watched, channels new to you
-  * People also search for
-  * Featured channels and TV shows
   * channel mix
 * channel results
   * channel description
