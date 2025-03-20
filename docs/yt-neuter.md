@@ -161,6 +161,7 @@
   * ads
   * shelves in watch-next recommendations (shorts shelf)
   * shop products in this video
+  * channel
 ## /shorts player
   * share button ([#38](https://github.com/mchangrh/yt-neuter/issues/38))
 ## /channel page
