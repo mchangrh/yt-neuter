@@ -18,6 +18,7 @@
 !! lottie
 ! remove lottie renderer
 ||www.gstatic.com/external_hosted/lottie/lottie_light.js$script,domain=youtube.com
+||www.youtube.com/s/desktop/*/jsbin/lottie-light.vflset/lottie-light.js$script,domain=youtube.com
 ! remove lottie animations
 ||www.gstatic.com/youtube/img/lottie/*$domain=youtube.com
 
