@@ -32,7 +32,7 @@
 * youtube
   * brand featured banner/ shelf ([#40](https://github.com/mchangrh/yt-neuter/issues/40))
 ## video browsing
-  * members-only videos
+  * members-only videos - disabled ([#85](https://github.com/mchangrh/yt-neuter/issues/85))
 ## /video
 ### controls
 * progress bar
