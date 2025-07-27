@@ -109,7 +109,7 @@ www.youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-backgroun
 
 !!! recommendations sidebar
 ! watch on youtube
-youtube.com##ytd-tvfilm-offer-module-renderer
+www.youtube.com##ytd-tvfilm-offer-module-renderer
 ! nudges (recommendation/ turn on watch history)
 www.youtube.com##ytd-feed-nudge-renderer
 !! video-specific sidebar
