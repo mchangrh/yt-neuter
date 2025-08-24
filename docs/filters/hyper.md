@@ -10,7 +10,7 @@
 ## /video
 ### comments
   * remove comment author images
-* paid comments
+* remove comments
+  * paid comments
   * remove all paid comments
-* channel member comments
-  * remove all member comments
+  * channel member comments
