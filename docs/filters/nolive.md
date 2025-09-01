@@ -8,9 +8,15 @@
 * channels
   * channel is live indicator
 ## homepage
-* video
+* shelves
+  * live now
+  * upcoming live streams
+* videos
   * channel live badge
 ## /channel page
+* shelves
+  * upcoming live streams
+  * past live streams
 * tabs
   * live tab
 ## video browsing
@@ -20,6 +26,10 @@
 * header
   * live chips
 ## /video
-* live chat replay prompt
-* paused/ stopped overlay
-  * video endscreen
+  * live chat replay prompt
+  * chat window
+## custom
+### /live channel
+  * @live channel page
+* shelves
+  * recent live streams
