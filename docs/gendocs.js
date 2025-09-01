@@ -40,7 +40,6 @@ const filters = [
   "filters/nomusic",
   "filters/noshorts",
   "filters/notrack",
-  "filters/noview",
   "filters/premium",
   "filters/requests",
   "filters/sponsorblock",
