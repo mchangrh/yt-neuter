@@ -39,7 +39,6 @@ const filters = [
   "filters/nolive",
   "filters/nomusic",
   "filters/noshorts",
-  "filters/notrack",
   "filters/premium",
   "filters/requests",
   "filters/sponsorblock",
