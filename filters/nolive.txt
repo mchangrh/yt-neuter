@@ -49,6 +49,7 @@ www.youtube.com##.badge-style-type-live-now-alternate:upward(ytd-video-renderer)
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"])
 ! remove streamed videos
 www.youtube.com##ytd-rich-item-renderer:has(yt-content-metadata-view-model>div>span:has-text(Streamed))
+www.youtube.com##ytd-grid-video-renderer:has(#metadata-line>span:has-text(Streamed))
 www.youtube.com##ytd-video-renderer:has(#metadata-line>.inline-metadata-item:has-text(Streamed))
 www.youtube.com##yt-lockup-view-model:has(.yt-content-metadata-view-model__metadata-text:has-text(Streamed))
 # www.youtube.com##div.ytp-endscreen-content > a.ytp-videowall-still
