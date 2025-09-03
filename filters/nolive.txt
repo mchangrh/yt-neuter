@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - nolive
-! Last modified: 2025/08/31
+! Last modified: 2025/09/02
 ! Expires: 2 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -31,7 +31,6 @@ www.youtube.com##.yt-spec-avatar-shape--live-ring:remove-class(yt-spec-avatar-sh
 !! shelves
 ! upcoming live streams
 www.youtube.com##ytd-item-section-renderer:has(.ytd-shelf-renderer[title="Upcoming live streams"])
-www.youtube.com##ytd-item-section-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 ! past live streams
 www.youtube.com##ytd-item-section-renderer:has(.ytd-shelf-renderer[title="Past live streams"])
 
@@ -41,15 +40,16 @@ www.youtube.com##yt-tab-shape[tab-title="Live"]
 
 !!!! video browsing
 ! remove live videos
-www.youtube.com##ytd-rich-item-renderer:has(.badge[aria-label="LIVE"])
+www.youtube.com##.yt-badge-shape--thumbnail-live:upward(ytd-rich-item-renderer)
+www.youtube.com##.yt-badge-shape--thumbnail-live:upward(yt-lockup-view-model)
+www.youtube.com##.badge-style-type-live-now-alternate:upward(ytd-video-renderer)
 # channel page has tab
 # www.youtube.com##yt-lockup-view-model
 # www.youtube.com##div.ytp-endscreen-content > a.ytp-videowall-still
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"])
 ! remove streamed videos
 www.youtube.com##ytd-rich-item-renderer:has(yt-content-metadata-view-model>div>span:has-text(Streamed))
-www.youtube.com##ytd-grid-video-renderer:has(#metadata-line>span:has-text(Streamed))
-www.youtube.com##ytd-video-renderer:has(.yt-content-metadata-view-model__metadata-text:has-text(Streamed))
+www.youtube.com##ytd-video-renderer:has(#metadata-line>.inline-metadata-item:has-text(Streamed))
 www.youtube.com##yt-lockup-view-model:has(.yt-content-metadata-view-model__metadata-text:has-text(Streamed))
 # www.youtube.com##div.ytp-endscreen-content > a.ytp-videowall-still
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer>span:has-text(Streamed))

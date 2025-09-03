@@ -1,7 +1,5 @@
-# homepage / subscription page
+# homepage / subscription page / channel view
 ytd-rich-item-renderer
-# channel page
-ytd-grid-video-renderer
 # search
 ytd-video-renderer
 # sidebar
