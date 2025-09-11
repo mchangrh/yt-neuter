@@ -127,6 +127,9 @@ www.youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-render
 m.youtube.com##ytm-feed-filter-chip-bar-renderer:has(ytm-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 www.youtube.com##ytd-masthead[frosted-glass="with-chipbar"]:remove-attr(frosted-glass)
 www.youtube.com###frosted-glass
+! ai surveys
+www.youtube.com##.ytdTalkToRecsFlowRendererFlowContent
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
 
 
 !! creator
