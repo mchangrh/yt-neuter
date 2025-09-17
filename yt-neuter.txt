@@ -168,8 +168,10 @@ m.youtube.com##ytm-badge:has-text(Related)
 !! 3-dot dropdown (#38)
 ! download button
 www.youtube.com##ytd-menu-service-item-download-renderer
+www.youtube.com##.ytDownloadListItemViewModelHost
 ! share button
 www.youtube.com##ytd-menu-service-item-renderer:has(>tp-yt-paper-item:has(>yt-formatted-string:has-text(Share)))
+www.youtube.com##yt-list-item-view-model.yt-list-item-view-model:has-text(Share)
 
 !!!! /video
 !!! multi-purpose
