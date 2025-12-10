@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - sponsorblock
-! Last modified: 2025/07/26
+! Last modified: 2025/12/06
 ! Expires: 1 days
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -84,6 +84,9 @@ www.youtube.com##.ytd-thumbnail-overlay-resume-playback-renderer:style(backgroun
 !! chips/ badges
 ! buy product badge
 youtube.com##.ytp-suggested-action-badge
+!! shelves
+! buy product that's currently being shown
+www.youtube.com###shopping-timely-shelf
 !! title
 ! product count
 youtube.com##yt-formatted-string>span:has-text(product)
