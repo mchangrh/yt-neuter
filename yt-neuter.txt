@@ -132,6 +132,7 @@ www.youtube.com###frosted-glass
 !! creator
 ! community posts
 www.youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
+www.youtube.com##ytd-item-section-renderer:has(a[href$="/posts"])
 
 !!!! video browsing
 ! members-only videos
@@ -316,6 +317,7 @@ www.youtube.com##ytd-video-description-infocards-section-renderer>#action-button
 www.youtube.com##ytd-video-description-infocards-section-renderer
 ! ai summary
 www.youtube.com###expandable-metadata:has(video-summary-content-view-model)
+www.youtube.com###video-summary
 
 !!! comments
 ! translate button
@@ -359,8 +361,7 @@ youtube.com###share-button.ytd-reel-player-overlay-renderer
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 youtube.com##yt-tab-shape[tab-title="Store"]
 ! community tab
-youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
-youtube.com##yt-tab-shape[tab-title="Community"]
+youtube.com####yt-tab-shape[tab-title="Posts"]
 ! channels
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Channels))
 youtube.com##yt-tab-shape[tab-title="Channels"]
