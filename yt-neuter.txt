@@ -125,8 +125,7 @@ www.youtube.com##.ytd-rich-item-renderer:has(>.ytd-feed-nudge-renderer)
 ! explore categories
 www.youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 m.youtube.com##ytm-feed-filter-chip-bar-renderer:has(ytm-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
-www.youtube.com##ytd-masthead[frosted-glass="with-chipbar"]:remove-attr(frosted-glass)
-www.youtube.com###frosted-glass
+www.youtube.com###frosted-glass.with-chipbar.ytd-app:style(height:56px !important)
 
 
 !! creator
