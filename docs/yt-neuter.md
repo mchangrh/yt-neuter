@@ -60,7 +60,7 @@
 * creator
   * community posts
 ## video browsing
-  * members-only videos - disabled ([#85](https://github.com/mchangrh/yt-neuter/issues/85))
+  * members-only videos
   * video-attached survey
 * header
   * recommendations categories
