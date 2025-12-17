@@ -4,8 +4,13 @@
 
 ## global elements
 ### sidebar navigation
+  * youtube music and music chips
 ## video browsing
 * header
   * recommendations chip
-* badgess
+## /results - search
+  * channels with artist badge
   * videos by verified artists
+## custom
+### /music channel
+  * @music channel page

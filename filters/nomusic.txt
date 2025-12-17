@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter - nomusic
-! Last modified: 2025/02/25
+! Last modified: 2025/09/02
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -10,6 +10,7 @@
 
 !!!! global elements
 !!! sidebar navigation
+! youtube music and music chips
 www.youtube.com##ytd-guide-entry-renderer:has-text(Music)
 www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
 
@@ -17,8 +18,16 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
 !! header
 ! recommendations chip
 m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
-!! badgess
+
+!!!! /results - search
+! channels with artist badge
+www.youtube.com##.badge.badge-style-type-verified-artist:upward(ytd-channel-renderer)
 ! videos by verified artists
-www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
-www.youtube.com##ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
-www.youtube.com##ytd-video-renderer:has(.badge-style-type-verified-artist)
+www.youtube.com##.badge.badge-style-type-verified-artist:upward(ytd-video-renderer)
+
+!!!! custom
+!!! /music channel
+! @music channel page
+||youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ$document
+# no @music badge
+||https://www.youtube.com/music$document
