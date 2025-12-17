@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2025/03/20
+! Last modified: 2025/12/17
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -134,10 +134,8 @@ www.youtube.com###frosted-glass
 www.youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
 
 !!!! video browsing
-! members-only videos - disabled (#85)
-# www.youtube.com##ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
-# www.youtube.com##ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
-# www.youtube.com##ytd-video-renderer:has(.badge.badge-style-type-members-only)
+! members-only videos
+www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--membership)
 
 ! video-attached survey
 youtube.com###attached-survey
