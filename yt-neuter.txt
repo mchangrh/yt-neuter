@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: YouTube Neuter
-! Last modified: 2025/03/20
+! Last modified: 2025/12/17
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/yt-neuter
 ! Licence: Unlicense
@@ -107,8 +107,8 @@ www.youtube.com##ytd-rich-shelf-renderer:has(a[href="/channel/UClgRkhTL3_hImCAmd
 www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-ypc> span:has-text(Free with Ads))
 
 !! youtube
-! mixes
-www.youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-renderer)
+# ! mixes (disabled #102)
+# www.youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-bottom-panel-renderer)
 ! breaking news shelf
 www.youtube.com##ytd-rich-shelf-renderer:has(#title:has-text(Breaking news))
 m.youtube.com##ytm-rich-section-renderer:has(.rich-shelf-title:has-text(Breaking news))
@@ -125,19 +125,17 @@ www.youtube.com##.ytd-rich-item-renderer:has(>.ytd-feed-nudge-renderer)
 ! explore categories
 www.youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 m.youtube.com##ytm-feed-filter-chip-bar-renderer:has(ytm-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
-www.youtube.com##ytd-masthead[frosted-glass="with-chipbar"]:remove-attr(frosted-glass)
-www.youtube.com###frosted-glass
+www.youtube.com###frosted-glass.with-chipbar.ytd-app:style(height:56px !important)
 
 
 !! creator
 ! community posts
 www.youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
+www.youtube.com##ytd-item-section-renderer:has(a[href$="/posts"])
 
 !!!! video browsing
-! members-only videos - disabled (#85)
-# www.youtube.com##ytd-rich-item-renderer:has(.badge.badge-style-type-members-only)
-# www.youtube.com##ytd-grid-video-renderer:has(.badge.badge-style-type-members-only)
-# www.youtube.com##ytd-video-renderer:has(.badge.badge-style-type-members-only)
+! members-only videos
+www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--membership)
 
 ! video-attached survey
 youtube.com###attached-survey
@@ -318,6 +316,7 @@ www.youtube.com##ytd-video-description-infocards-section-renderer>#action-button
 www.youtube.com##ytd-video-description-infocards-section-renderer
 ! ai summary
 www.youtube.com###expandable-metadata:has(video-summary-content-view-model)
+www.youtube.com###video-summary
 
 !!! comments
 ! translate button
@@ -361,8 +360,7 @@ youtube.com###share-button.ytd-reel-player-overlay-renderer
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 youtube.com##yt-tab-shape[tab-title="Store"]
 ! community tab
-youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
-youtube.com##yt-tab-shape[tab-title="Community"]
+youtube.com####yt-tab-shape[tab-title="Posts"]
 ! channels
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Channels))
 youtube.com##yt-tab-shape[tab-title="Channels"]

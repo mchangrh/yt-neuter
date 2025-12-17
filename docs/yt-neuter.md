@@ -52,7 +52,6 @@
   * free movies (targets movies channelid)
   * Free movies with ads
 * youtube
-  * mixes
   * breaking news shelf
   * brand featured banner/ shelf ([#40](https://github.com/mchangrh/yt-neuter/issues/40))
   * new to you ([#2](https://github.com/mchangrh/yt-neuter/issues/2))
@@ -60,7 +59,7 @@
 * creator
   * community posts
 ## video browsing
-  * members-only videos - disabled ([#85](https://github.com/mchangrh/yt-neuter/issues/85))
+  * members-only videos
   * video-attached survey
 * header
   * recommendations categories
