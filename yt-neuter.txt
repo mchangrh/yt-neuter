@@ -272,6 +272,8 @@ www.youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label=
 m.youtube.com##button-view-model:has(button[aria-label="Save to playlist"])
 ! hide disabled buttons (download for non-premium, save for yt kids), exclude comment save/submit (#36)
 www.youtube.com##ytd-button-renderer:has(>yt-button-shape:has(>button.yt-spec-button-shape-next--disabled)):not(.ytd-commentbox)
+! remove ai "Ask" button
+www.youtube.com##yt-button-view-model:has(>button-view-model> button[aria-label="Ask"])
 
 !!! description box
 ! stop scrolling on "show less" (ubo only)
