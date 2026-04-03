@@ -360,7 +360,7 @@ youtube.com###share-button.ytd-reel-player-overlay-renderer
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 youtube.com##yt-tab-shape[tab-title="Store"]
 ! community tab
-youtube.com####yt-tab-shape[tab-title="Posts"]
+youtube.com##yt-tab-shape[tab-title="Posts"]
 ! channels
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Channels))
 youtube.com##yt-tab-shape[tab-title="Channels"]
